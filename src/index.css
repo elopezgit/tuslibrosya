@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #D32F2F; /* Rojo intenso */
+  --color-primary-hover: #B71C1C;
+  --color-secondary: #FFC107; /* Amarillo/Dorado para detalles */
+  --color-surface: #FFFFFF; /* Blanco para tarjetas */
+  --color-background: #F8F9FA; /* Fondo moderno y limpio */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-800 font-sans antialiased selection:bg-primary/20 selection:text-slate-900;
+    font-family: 'Outfit', sans-serif;
+    overscroll-behavior-y: none; /* Prevents pull-to-refresh bounce on mobile apps */
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

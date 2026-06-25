@@ -1,0 +1,50 @@
+-- ⚠️ Este script limpiará el catálogo actual de TopeDeBar y cargará el menú real completo.
+-- También creará el restaurante si no existe.
+
+DELETE FROM products WHERE empresa_id = '11111111-1111-1111-1111-111111111111';
+DELETE FROM categories WHERE empresa_id = '11111111-1111-1111-1111-111111111111';
+DELETE FROM empresas WHERE id = '11111111-1111-1111-1111-111111111111';
+
+-- 0. Insertar Empresa Principal
+INSERT INTO empresas (id, slug, name, phone, instagram_url, maps_url, is_active) VALUES 
+('11111111-1111-1111-1111-111111111111', 'topedebar', 'TopeDeBar', '3815418571', 'https://www.instagram.com/topedebar', 'https://maps.app.goo.gl/ibArFjkEmtEhc14N7', true);
+
+-- 1. Insertar Categorías ordenadas
+INSERT INTO categories (id, empresa_id, name, icon) VALUES 
+('c1000000-0000-0000-0000-000000000001', '11111111-1111-1111-1111-111111111111', 'Entradas y Guarniciones', '🍟'),
+('c2000000-0000-0000-0000-000000000002', '11111111-1111-1111-1111-111111111111', 'Hamburguesas y Sándwiches', '🍔'),
+('c3000000-0000-0000-0000-000000000003', '11111111-1111-1111-1111-111111111111', 'Nuestras Pizzas', '🍕'),
+('c4000000-0000-0000-0000-000000000004', '11111111-1111-1111-1111-111111111111', 'Bebidas', '🥤');
+
+-- 2. Insertar Productos con sus precios y descripciones
+INSERT INTO products (empresa_id, category_id, name, description, price) VALUES 
+-- Entradas
+('11111111-1111-1111-1111-111111111111', 'c1000000-0000-0000-0000-000000000001', 'Papas Fritas', '', 6000),
+('11111111-1111-1111-1111-111111111111', 'c1000000-0000-0000-0000-000000000001', 'Papas Fly', 'Cheddar y cebolla verde', 8000),
+
+-- Hamburguesas y Sándwiches
+('11111111-1111-1111-1111-111111111111', 'c2000000-0000-0000-0000-000000000002', 'Hamburguesa simple', '', 12000),
+('11111111-1111-1111-1111-111111111111', 'c2000000-0000-0000-0000-000000000002', 'Tope de Hamburguesa', 'Doble hamburguesa, doble queso cheddar, Papas', 16000),
+('11111111-1111-1111-1111-111111111111', 'c2000000-0000-0000-0000-000000000002', 'Hamburguesa Scaloneta', 'Pan celeste, doble hamburguesa, doble queso cheddar + papas', 16000),
+('11111111-1111-1111-1111-111111111111', 'c2000000-0000-0000-0000-000000000002', 'Sánguche de Bondiola', '', 12000),
+('11111111-1111-1111-1111-111111111111', 'c2000000-0000-0000-0000-000000000002', 'Milanesa hard', 'Sándwich milanesa, Papas', 16000),
+
+-- Nuestras Pizzas
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Tope de Pizza', '', 18000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza Especial', '', 15000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza común', '', 12000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza Napolitana', '', 15000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza de Cebolla dulce', '', 16000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza Calabresa', '', 16000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza de Albahaca y Tomates cherris', '', 16000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza de Hongos y Tomate cherris', '', 16000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizza de Humita', '', 18000),
+('11111111-1111-1111-1111-111111111111', 'c3000000-0000-0000-0000-000000000003', 'Pizzanesa', 'Milanesa, jamón, tomate Cherry y albahaca con papas grande', 30000),
+
+-- Bebidas
+('11111111-1111-1111-1111-111111111111', 'c4000000-0000-0000-0000-000000000004', 'Gaseosa Línea Coca-Cola 1.5L', 'Coca Cola, Coca Zero, Fanta naranja', 6000),
+('11111111-1111-1111-1111-111111111111', 'c4000000-0000-0000-0000-000000000004', 'Gaseosa Línea Coca-Cola 500ml', 'Coca, Coca Zero, Fanta naranja', 3000),
+('11111111-1111-1111-1111-111111111111', 'c4000000-0000-0000-0000-000000000004', 'Agua', '', 3000),
+('11111111-1111-1111-1111-111111111111', 'c4000000-0000-0000-0000-000000000004', 'Agua saborizada Aquarius', '', 3000),
+('11111111-1111-1111-1111-111111111111', 'c4000000-0000-0000-0000-000000000004', 'Cerveza Norte lata 473 cm³', '', 5000),
+('11111111-1111-1111-1111-111111111111', 'c4000000-0000-0000-0000-000000000004', 'Cerveza Salta negra lata 473 cm³', '', 5000);

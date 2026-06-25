@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="theme-color" content="#FF007F">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="La plataforma que convierte consultas en ventas. Catálogo digital + pedidos directos a WhatsApp. Sin comisiones.">
+  <meta property="og:title" content="TuPedido — Plataforma de gestión de pedidos">
+  <meta property="og:description" content="Organizá consultas, pedidos y presupuestos en un solo lugar. Sin comisiones.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tupedidoapp.netlify.app/">
+  <title>TuPedido — Convertí cada consulta en una venta</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>📦</text></svg>">
+  <link rel="icon" type="image/png" href="img/logo/logo.png">
+  <link rel="apple-touch-icon" href="img/logo/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=8.0">
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Ir al contenido principal</a>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SPLASH (cinematic)                                            -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="splash">
+    <div class="splash-vignette"></div>
+    <div class="splash-logo-wrap">
+      <img id="splashLogo" src="img/logo/logo.png" alt="TuPedido" class="splash-logo">
+    </div>
+    <div class="splash-title-wrap">
+      <h1 class="splash-title" id="splashBrandName">TuPedido</h1>
+      <div class="splash-title-bar"></div>
+    </div>
+    <div class="splash-taglines">
+      <span class="st-tagline st-1">Sin comisiones por venta</span>
+      <span class="st-tagline st-2">Listo en 24 horas</span>
+    </div>
+    <div class="splash-loader">
+      <div class="splash-loader-track"></div>
+      <div class="splash-loader-fill"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- LANDING PAGE (B2B - vista por defecto)                        -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="landingView" style="display:none">
+
+    <!-- HEADER LANDING -->
+    <nav class="lp-nav">
+      <div class="lp-nav-inner">
+        <a href="#" class="lp-nav-brand" onclick="goToLanding(); return false;">
+          <img src="img/logo/logo.png" alt="TuPedido" class="lp-nav-logo">
+          <span class="lp-nav-name">TuPedido</span>
+        </a>
+        <div class="lp-nav-links">
+          <a href="#features" class="lp-nav-link">Funcionalidades</a>
+          <a href="#pricing" class="lp-nav-link">Precios</a>
+          <a href="#faq" class="lp-nav-link">FAQ</a>
+          <a href="#" class="lp-nav-link lp-nav-cta" onclick="goToStorefront(); return false;">Ver demo</a>
+        </div>
+        <button class="lp-nav-mobile-toggle" onclick="toggleLpMobileMenu()" aria-label="Menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="lp-nav-mobile" id="lpMobileMenu">
+        <a href="#features" onclick="closeLpMobileMenu()">Funcionalidades</a>
+        <a href="#pricing" onclick="closeLpMobileMenu()">Precios</a>
+        <a href="#faq" onclick="closeLpMobileMenu()">FAQ</a>
+        <a href="#" class="lp-nav-cta" onclick="goToStorefront(); closeLpMobileMenu(); return false;">Ver demo</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="lp-hero">
+      <div class="lp-hero-bg"></div>
+      <div class="lp-hero-content">
+        <div class="lp-hero-tag" id="lpHeroTag"></div>
+        <h1 class="lp-hero-title" id="lpHeroTitle"></h1>
+        <p class="lp-hero-desc" id="lpHeroDesc"></p>
+        <div class="lp-hero-ctas">
+          <a href="#" class="lp-btn lp-btn-primary" onclick="goToStorefront(); return false;" id="lpHeroCtaPrimary"></a>
+          <a href="#how" class="lp-btn lp-btn-secondary" id="lpHeroCtaSecondary"></a>
+        </div>
+        <div class="lp-hero-usps" id="lpHeroUsps"></div>
+      </div>
+      <div class="lp-hero-preview">
+        <div class="lp-hero-preview-frame">
+          <div class="lp-hero-preview-notch"></div>
+          <div class="lp-hero-preview-screen" id="lpHeroPreview">
+            <div class="lp-preview-placeholder">
+              <div class="lp-preview-header-bar">
+                <div class="lp-preview-logo-dot"></div>
+                <div class="lp-preview-text-line w60"></div>
+              </div>
+              <div class="lp-preview-card-row">
+                <div class="lp-preview-card"></div>
+                <div class="lp-preview-card"></div>
+              </div>
+              <div class="lp-preview-card-row">
+                <div class="lp-preview-card tall"></div>
+                <div class="lp-preview-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAIN POINTS -->
+    <section class="lp-section lp-pain" id="pain">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpPainTitle"></h2>
+        <div class="lp-pain-grid" id="lpPainGrid"></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="lp-section lp-how" id="how">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpHowTitle"></h2>
+        <p class="lp-section-subtitle" id="lpHowSubtitle"></p>
+        <div class="lp-how-steps" id="lpHowSteps"></div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="lp-section lp-features" id="features">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpFeaturesTitle"></h2>
+        <div class="lp-features-grid" id="lpFeaturesGrid"></div>
+      </div>
+    </section>
+
+    <!-- VERTICALS -->
+    <section class="lp-section lp-verticals" id="verticals">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpVerticalsTitle"></h2>
+        <div class="lp-verticals-grid" id="lpVerticalsGrid"></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="lp-section lp-testimonials">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpTestimonialsTitle"></h2>
+        <div class="lp-testimonials-grid" id="lpTestimonialsGrid"></div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="lp-section lp-pricing" id="pricing">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpPricingTitle"></h2>
+        <p class="lp-section-subtitle" id="lpPricingSubtitle"></p>
+        <div class="lp-pricing-grid" id="lpPricingGrid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="lp-section lp-faq" id="faq">
+      <div class="lp-section-inner">
+        <h2 class="lp-section-title" id="lpFaqTitle"></h2>
+        <div class="lp-faq-list" id="lpFaqList"></div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="lp-section lp-final-cta">
+      <div class="lp-section-inner">
+        <h2 class="lp-final-cta-title" id="lpFinalCtaTitle"></h2>
+        <p class="lp-final-cta-desc" id="lpFinalCtaDesc"></p>
+        <a href="#" class="lp-btn lp-btn-primary lp-btn-lg" onclick="goToStorefront(); return false;" id="lpFinalCtaButton"></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="lp-footer">
+      <div class="lp-footer-inner">
+        <div class="lp-footer-brand">
+          <img src="img/logo/logo.png" alt="TuPedido" class="lp-footer-logo">
+          <span class="lp-footer-name">TuPedido</span>
+          <p class="lp-footer-about" id="lpFooterAbout"></p>
+        </div>
+        <div class="lp-footer-links">
+          <div class="lp-footer-col">
+            <h4 id="lpFooterProductTitle"></h4>
+            <ul id="lpFooterProductLinks"></ul>
+          </div>
+          <div class="lp-footer-col">
+            <h4 id="lpFooterLegalTitle"></h4>
+            <ul id="lpFooterLegalLinks"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="lp-footer-bottom">
+        <p>&copy; 2026 TuPedido. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- STOREFRONT (B2C - vista del cliente final)                    -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="storefrontView">
+
+    <!-- HEADER STOREFRONT -->
+    <div class="header">
+      <div class="header-inner">
+        <div class="brand-block">
+          <div class="brand-name">
+            <img id="headerBrandLogo" src="img/logo/logo.png" alt="TuPedido Logo" class="header-logo">
+            <span id="headerBrandName" class="brand-logo-text">TuPedido</span>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="cart-fab" onclick="openCart()" id="cartFab" aria-label="Abrir carrito" aria-expanded="false">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            <div class="cart-count" id="cartCount" aria-live="polite" aria-atomic="true">0</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUSINESS INFO BAR -->
+    <div class="business-bar" id="businessBar">
+      <div class="business-bar-inner">
+        <div class="business-info-row" id="businessInfoRow">
+          <span class="biz-placeholder">Acá van los datos y logo de tu negocio — dirección, redes, horarios</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO BANNER (dinámico) -->
+    <div class="hero-banner" id="main-content">
+      <div class="hero-banner-bg"></div>
+      <div class="hero-banner-content">
+        <div class="hero-banner-tag" id="sfHeroTag">Pedí online</div>
+        <h2 class="hero-banner-title" id="sfHeroTitle">¿Qué se te antoja hoy?</h2>
+        <p class="hero-banner-desc" id="sfHeroDesc">Elegí del catálogo y recibilo en casa o retiralo por el local.</p>
+        <div class="search-bar hero-search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" placeholder="Buscá un producto..." id="searchInput" oninput="filterMenu()" aria-label="Buscar productos">
+        </div>
+      </div>
+    </div>
+
+    <!-- REPEAT LAST ORDER BANNER -->
+    <div id="repeatOrderBanner" style="display:none"></div>
+
+    <!-- PROMOS -->
+    <div class="promo-section">
+      <div class="promo-section-header">
+        <h3 class="promo-section-title" id="sfPromoLabel">Promociones</h3>
+        <span class="promo-section-count">4 banners</span>
+      </div>
+      <div class="promo-scroll" id="promoScroll">
+        <div class="promo-card premium-ad" id="customPromoCard" onclick="handlePromoClick('web')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')handlePromoClick('web')">
+          <div class="promo-badge">Banner</div>
+          <div class="promo-card-content">
+            <h4 class="promo-card-title"><span id="adBrandName">TuPedido</span></h4>
+            <p class="promo-card-desc">Promocioná combos, envíos gratis o lanzamientos. Este espacio es tuyo.</p>
+          </div>
+          <div class="promo-card-icon">📢</div>
+        </div>
+        <div class="promo-card p1" onclick="handlePromoClick('ig')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')handlePromoClick('ig')">
+          <div class="promo-badge">Oferta</div>
+          <div class="promo-card-content">
+            <h4 class="promo-card-title">2x1 en Productos</h4>
+            <p class="promo-card-desc">Todos los lunes. Hasta 22hs.</p>
+          </div>
+          <div class="promo-card-icon">🎉</div>
+        </div>
+        <div class="promo-card p2" onclick="handlePromoClick('web')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')handlePromoClick('web')">
+          <div class="promo-badge">Combo</div>
+          <div class="promo-card-content">
+            <h4 class="promo-card-title">Pack Especial</h4>
+            <p class="promo-card-desc">Ahorrá con el combo completo.</p>
+          </div>
+          <div class="promo-card-icon">📦</div>
+        </div>
+        <div class="promo-card p3" onclick="handlePromoClick('wa')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')handlePromoClick('wa')">
+          <div class="promo-badge">Envío</div>
+          <div class="promo-card-content">
+            <h4 class="promo-card-title">Envío gratis</h4>
+            <p class="promo-card-desc">En pedidos mayores a $4.000.</p>
+          </div>
+          <div class="promo-card-icon">🚚</div>
+        </div>
+      </div>
+      <div class="promo-dots" id="promoDots"></div>
+    </div>
+
+    <!-- BENTO CATEGORIES (dinámico) -->
+    <div class="cats-bento-wrap fade-section" id="fsCats">
+      <div class="cats-header">
+        <h3 class="cats-title" id="sfCategoriesLabel">Categorías</h3>
+        <span class="cats-count" id="sfCategoriesCount">5 secciones</span>
+      </div>
+      <div class="cats-bento-grid" id="catsBentoGrid"></div>
+    </div>
+
+    <!-- FEATURED -->
+    <div class="featured-wrap fade-section" id="fsFeat" style="display:none">
+      <div class="featured-header">
+        <h3 class="featured-title" id="sfFeaturedLabel">Los más pedidos</h3>
+      </div>
+      <div class="featured-scroll" id="featScroll"></div>
+    </div>
+
+    <!-- MENU (dinámico) -->
+    <div class="menu-wrap fade-section" id="fsMenu">
+      <div class="menu-header">
+        <h3 class="menu-title" id="menuTitle">Menú</h3>
+      </div>
+      <div class="menu-list" id="menuList"></div>
+    </div>
+
+    <!-- FOOTER INFO CARD -->
+    <div class="footer-card">
+      <div class="footer-card-content">
+        <h4 class="footer-card-title">¿Tu sucursal virtual para tu negocio?</h4>
+        <p class="footer-card-desc">Sin comisiones. Sin apps externas. Directo a tu WhatsApp.</p>
+        <button class="footer-card-btn" onclick="openInfoModal()">Ver cómo funciona</button>
+      </div>
+    </div>
+
+    <div style="height:20px"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SHARED COMPONENTS                                              -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" id="scrollTopBtn" onclick="scrollToTop()" aria-label="Volver arriba">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- BOTTOM BAR (storefront) -->
+  <div class="bottom-bar" id="bottomBar">
+    <button class="order-btn" id="orderBtn" onclick="openCart()" aria-label="Ver mi pedido">
+      <div class="order-btn-left">
+        <div class="order-btn-count" id="btnCount" aria-hidden="true">0</div>
+        <span id="orderBtnLabel">Ver mi pedido</span>
+      </div>
+      <div class="order-btn-total" id="btnTotal">$0</div>
+    </button>
+  </div>
+
+  <!-- CART PANEL -->
+  <div class="panel-overlay" id="panelOverlay" onclick="closeCart()" onkeydown="if(event.key==='Escape')closeCart()" role="presentation"></div>
+  <div class="panel" id="cartPanel" role="dialog" aria-modal="true" aria-label="Carrito de compras">
+    <div class="panel-handle"></div>
+    <div class="panel-title">
+      <span id="cartPanelTitle">Tu pedido</span>
+      <button class="panel-close" onclick="closeCart()" aria-label="Cerrar carrito">✕</button>
+    </div>
+
+    <div class="delivery-toggle" id="deliveryToggleSection" role="radiogroup" aria-label="Modo de entrega">
+      <button class="dtoggle-btn active" id="dBtn1" onclick="setDelivery('delivery')" role="radio" aria-checked="true">🛵 Delivery</button>
+      <button class="dtoggle-btn" id="dBtn2" onclick="setDelivery('takeaway')" role="radio" aria-checked="false">🏃 Retiro</button>
+    </div>
+
+    <div id="cartContent"></div>
+
+    <div id="cartForm" style="display:none">
+      <div class="security-badge-card">
+        <span class="security-badge-icon">🔒</span>
+        <div class="security-badge-content">
+          <h5 class="security-badge-title">Conexión Directa y Segura</h5>
+          <p class="security-badge-text">Tus datos no se guardan en servidores externos. El pedido va de tu celular a la tienda de forma 100% privada.</p>
+        </div>
+      </div>
+      <div class="form-section">
+        <label class="form-label">Tu nombre</label>
+        <input class="form-input" type="text" id="fNombre" placeholder="Juan García" oninput="validateName(this.value)">
+      </div>
+      <div class="form-section">
+        <label class="form-label">Teléfono</label>
+        <div class="form-input-wrapper">
+          <input class="form-input" type="tel" id="fTel" placeholder="351 123-4567" oninput="validatePhone(this.value)">
+          <span class="validation-status" id="phoneValidationStatus"></span>
+        </div>
+      </div>
+      <div class="form-section" id="addressSection">
+        <label class="form-label">Dirección de entrega</label>
+        <input class="form-input" type="text" id="fDir" placeholder="Av. Siempre Viva 742, piso 3" oninput="validateDir(this.value)">
+      </div>
+      <div class="form-section">
+        <label class="form-label">Notas (opcional)</label>
+        <textarea class="notes-input" id="fNota" placeholder="Detalles adicionales de tu pedido..."></textarea>
+      </div>
+
+      <div class="form-section">
+        <label class="form-label">Método de pago</label>
+        <div class="payment-selector" role="radiogroup" aria-label="Método de pago">
+          <button type="button" class="pay-pill active" id="payCash" onclick="setPaymentMethod('cash')" role="radio" aria-checked="true">💵 Efectivo</button>
+          <button type="button" class="pay-pill" id="payTransfer" onclick="setPaymentMethod('transfer')" role="radio" aria-checked="false">📱 Transferencia</button>
+        </div>
+      </div>
+
+      <div class="form-section" id="cashChangeSection">
+        <label class="form-label">¿Con cuánto vas a pagar? (Llevamos cambio)</label>
+        <input class="form-input" type="number" id="fCashChange" placeholder="Ej: 10000" oninput="updateCashChange(this.value)">
+      </div>
+
+      <div class="form-section" id="transferInfoSection" style="display:none">
+        <div class="transfer-card">
+          <div class="transfer-warning">⚠️ Antes de realizar la transferencia esperá la confirmación de stock.</div>
+          <div class="transfer-field">
+            <label class="transfer-field-label">Alias</label>
+            <div class="transfer-field-row">
+              <input class="form-input transfer-input" type="text" id="bankAlias" value="TUPEDIDO.MP" readonly>
+              <button class="copy-btn" onclick="copyToClipboard('bankAlias')" title="Copiar alias">📋</button>
+            </div>
+          </div>
+          <div class="transfer-field">
+            <label class="transfer-field-label">CBU</label>
+            <div class="transfer-field-row">
+              <input class="form-input transfer-input" type="text" id="bankCbu" value="0000003100054321987654" readonly>
+              <button class="copy-btn" onclick="copyToClipboard('bankCbu')" title="Copiar CBU">📋</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="wa-btn" onclick="sendWhatsApp()">
+        <span class="wa-icon">📲</span>
+        <span id="waBtnLabel">Enviar pedido por WhatsApp</span>
+      </button>
+      <p class="wa-disclaimer">💬 Se abrirá tu aplicación de WhatsApp con el borrador del pedido listo para enviar. No se realizará ningún cobro automático.</p>
+    </div>
+  </div>
+
+  <!-- INFO POPOVER -->
+  <div class="info-popover-overlay" id="infoPopoverOverlay" onclick="closeInfoPopover()" role="presentation"></div>
+  <div class="info-popover" id="infoPopover">
+    <div class="info-popover-content" id="infoPopoverContent"></div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <!-- INFO MODAL -->
+  <div class="panel-overlay" id="infoOverlay" onclick="closeInfoModal()" onkeydown="if(event.key==='Escape')closeInfoModal()" role="presentation"></div>
+  <div class="panel" id="infoPanel" role="dialog" aria-modal="true" aria-label="Información de TuPedido">
+    <div class="panel-handle"></div>
+    <div class="panel-title" style="margin-bottom: 16px;">
+      <span>🚀 TuPedido!</span>
+      <button class="panel-close" onclick="closeInfoModal()" aria-label="Cerrar información">✕</button>
+    </div>
+    <div class="info-content">
+      <p class="info-subtitle">Tu sucursal virtual. Sin comisiones. Lista en 24hs.</p>
+      <p>¿Te gustaría tener tu propia plataforma de pedidos online para tu negocio, sin pagar comisiones por cada venta?</p>
+      <p>Con <strong>TuPedido!</strong> creamos una <strong>sucursal virtual</strong> personalizada para tu rubro —gastronomía, indumentaria, ferretería, farmacia, lo que sea— similar a las apps más conocidas, pero totalmente tuya.</p>
+      <h3>📋 ¿Cómo funciona?</h3>
+      <ul class="info-list">
+        <li><span>1️⃣</span> Nos enviás tu catálogo con productos, precios y fotos.</li>
+        <li><span>2️⃣</span><div>Configuramos tu sucursal virtual con logo, categorías, productos, fotos, precios, cantidades y formas de pago.</div></li>
+        <li><span>3️⃣</span> Tu cliente entra, elige y arma su pedido desde el celular.</li>
+        <li><span>4️⃣</span><div>El pedido llega directo a tu WhatsApp con todo detallado: productos, cantidades, observaciones, datos del cliente y forma de pago.</div></li>
+      </ul>
+      <p class="info-msg-label">El negocio recibe el pedido formateado y organizado, listo para procesar.</p>
+      <div class="info-box">
+        <h4>💰 Sin comisiones por venta</h4>
+        <p>Cada pedido es tuyo. No dependés de apps externas ni pagás porcentajes sobre tus ingresos.</p>
+      </div>
+    </div>
+    <div class="info-actions">
+      <button class="info-btn-secondary" onclick="closeInfoModal()">Seguir probando Demo</button>
+      <a href="https://wa.me/5493814767643?text=Hola!%20Me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20TuPedido!" target="_blank" class="info-btn-primary">Más info por WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- CELEBRATION MODAL -->
+  <div class="celebration-overlay" id="celebrationOverlay">
+    <div class="celebration-card">
+      <div class="celebration-icon">
+        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+          <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none" />
+          <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+        </svg>
+      </div>
+      <h2 class="celebration-title">Solicitud enviada</h2>
+      <p class="celebration-subtitle">Tu pedido ha sido procesado con éxito</p>
+      <div class="order-id-badge">
+        <span class="order-id-label">ID DE PEDIDO</span>
+        <strong id="celebrationOrderID" class="order-id-val">TP-XXXXX</strong>
+      </div>
+      <div class="redirect-info">
+        <p class="redirect-text">Ahora te redirigimos a WhatsApp...</p>
+        <div class="redirect-progress-bar">
+          <div class="redirect-progress" id="redirectProgress"></div>
+        </div>
+      </div>
+      <button class="celebration-btn" id="manualRedirectBtn">
+        <span class="wa-icon">📲</span> Abrir WhatsApp ahora
+      </button>
+    </div>
+  </div>
+
+  <!-- EMPANADAS SELECTION MODAL -->
+  <div class="panel-overlay" id="empanadasModalOverlay" onclick="closeEmpanadasSelector()" onkeydown="if(event.key==='Escape')closeEmpanadasSelector()" role="presentation"></div>
+  <div class="panel" id="empanadasModal" role="dialog" aria-modal="true" aria-label="Selector de packs">
+    <div class="panel-handle"></div>
+    <div class="panel-title">
+      <span id="empanadasModalTitle">Armá tu pack</span>
+      <button class="panel-close" onclick="closeEmpanadasSelector()" aria-label="Cerrar selector">✕</button>
+    </div>
+    <div class="empanadas-modal-progress">
+      <div class="empanadas-progress-header">
+        <span id="empanadasProgressText">Llevás 0 de 12 unidades</span>
+        <span id="empanadasProgressPct">0%</span>
+      </div>
+      <div class="empanadas-progress-bar-bg">
+        <div class="empanadas-progress-bar-fill" id="empanadasProgressBar"></div>
+      </div>
+    </div>
+    <div class="empanadas-modal-list" id="empanadasModalList"></div>
+    <div class="empanadas-modal-footer">
+      <button class="empanadas-confirm-btn" id="empanadasConfirmBtn" disabled onclick="confirmEmpanadasPack()">Confirmar y Agregar</button>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAIL MODAL -->
+  <div class="panel-overlay" id="productDetailOverlay" onclick="closeProductDetail()" onkeydown="if(event.key==='Escape')closeProductDetail()" role="presentation"></div>
+  <div class="panel" id="productDetailPanel" role="dialog" aria-modal="true" aria-label="Detalle del producto">
+    <div class="panel-handle"></div>
+    <button class="panel-close floating" onclick="closeProductDetail()" aria-label="Cerrar detalle">✕</button>
+    <div class="detail-header-img-wrap">
+      <div id="detailProductImageContainer" class="detail-header-img-container"></div>
+      <div class="detail-header-badge" id="detailProductBadge">⭐ RECOMENDADO</div>
+    </div>
+    <div class="detail-body">
+      <div class="detail-meta">
+        <span class="detail-rating" id="detailProductRating">⭐ 4.9</span>
+        <span class="detail-tag" id="detailProductTag">PRODUCTO</span>
+      </div>
+      <h2 class="detail-title" id="detailProductTitle">Producto</h2>
+      <p class="detail-desc" id="detailProductDesc">Descripción del producto.</p>
+      <div class="detail-pack-notice" id="detailProductPackNotice" style="display:none">Configurarás los sabores al presionar el botón inferior.</div>
+      <div class="detail-price-card">
+        <span class="detail-price-label">Precio Unitario</span>
+        <span class="detail-price-val" id="detailProductPrice">$0</span>
+      </div>
+      <div class="detail-note-section" id="detailNoteSection">
+        <label class="form-label" for="detailProductNote" style="margin-top:16px">Nota para este producto</label>
+        <input class="form-input" type="text" id="detailProductNote" placeholder="Ej: Sin cebolla, bien cocido..." maxlength="100">
+      </div>
+    </div>
+    <div class="detail-footer">
+      <div class="detail-counter-wrap" id="detailCounterWrapper">
+        <button class="detail-counter-btn" onclick="adjustDetailQty(-1)">−</button>
+        <span class="detail-counter-num" id="detailQtyVal">1</span>
+        <button class="detail-counter-btn" onclick="adjustDetailQty(1)">+</button>
+      </div>
+      <button class="detail-action-btn" id="detailConfirmBtn" onclick="confirmProductDetail()">
+        <span class="detail-action-label" id="detailActionLabel">Agregar al pedido</span>
+        <span class="detail-action-total" id="detailActionTotal">$0</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="data.js?v=3.0"></script>
+  <script src="js/helpers.js?v=3.0"></script>
+  <script src="js/validation.js?v=3.0"></script>
+  <script src="app.js?v=3.0"></script>
+
+</body>
+
+</html>
