@@ -212,8 +212,14 @@ export default function ClientHome() {
     );
   }
 
+  const normalizeText = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  
   const filteredProducts = products.filter(p => {
-    const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || p.description.toLowerCase().includes(searchQuery.toLowerCase());
+    const normSearch = normalizeText(searchQuery);
+    const normName = normalizeText(p.name);
+    const normDesc = normalizeText(p.description);
+    
+    const matchesSearch = normName.includes(normSearch) || normDesc.includes(normSearch);
     const matchesCategory = activeCategory === 'todas' || p.category_id === activeCategory;
     return matchesSearch && matchesCategory;
   });
