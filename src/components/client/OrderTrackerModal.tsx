@@ -19,10 +19,12 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
     if (!isOpen || !orderId) return;
 
     const fetchStatus = async () => {
-      const { data } = await supabase.from('orders').select('status, total').eq('id', orderId).single();
-      if (data) {
-        setStatus(data.status);
-        setTotal(data.total);
+      // Usar RPC segura para saltar el RLS que bloquea la lectura pública de ordenes
+      const { data, error } = await supabase.rpc('get_order_status', { p_order_id: orderId }).single();
+      if (data && !error) {
+        const result = data as { status: string, total: number };
+        setStatus(result.status);
+        setTotal(result.total);
       }
       setIsLoading(false);
     };

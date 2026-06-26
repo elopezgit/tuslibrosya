@@ -7,6 +7,7 @@ import AnalyticsDashboard from '../components/admin/AnalyticsDashboard';
 import POSHome from './POSHome';
 import ErrorBoundary from '../components/ErrorBoundary';
 import { LayoutDashboard, ShoppingBag, Image as ImageIcon, Settings, LockKeyhole, LogOut, BarChart3, Store } from 'lucide-react';
+import { supabase } from '../lib/supabase';
 
 export default function AdminDashboard() {
   const { empresaSlug } = useParams<{ empresaSlug: string }>();
@@ -19,6 +20,7 @@ export default function AdminDashboard() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loginError, setLoginError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const savedRole = localStorage.getItem(`admin_role_${empresaSlug}`);
@@ -35,23 +37,49 @@ export default function AdminDashboard() {
     else if (userRole === 'operador') setActiveTab('pos');
   };
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    let assignedRole: 'admin' | 'cocina' | 'operador' | null = null;
+    setIsLoading(true);
+    setLoginError(false);
     
-    if (username === 'admin' && password === '123456') assignedRole = 'admin';
-    else if (username === 'cocina' && password === 'cocina') assignedRole = 'cocina';
-    else if (username === 'operador' && password === 'operador') assignedRole = 'operador';
-
-    if (assignedRole) {
+    // Bypass para roles internos (sin usuario real)
+    if ((username === 'cocina' && password === 'cocina') || (username === 'operador' && password === 'operador')) {
+      const assignedRole = username as 'cocina' | 'operador';
       setIsAuthenticated(true);
       setRole(assignedRole);
       localStorage.setItem(`admin_role_${empresaSlug}`, assignedRole);
       setDefaultTab(assignedRole);
-      setLoginError(false);
-    } else {
+      setIsLoading(false);
+      return;
+    }
+
+    // Login real por supabase multi-tenant (Aislamiento de empresas)
+    // Cada empresa tendrá su propio usuario admin aislado basado en su slug
+    let loginEmail = username;
+    if (username === 'admin') {
+      loginEmail = `${empresaSlug}@gmail.com`;
+    }
+
+    try {
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email: loginEmail,
+        password: password,
+      });
+
+      if (error || !data.user) {
+        setLoginError(true);
+      } else {
+        const assignedRole = 'admin';
+        setIsAuthenticated(true);
+        setRole(assignedRole);
+        localStorage.setItem(`admin_role_${empresaSlug}`, assignedRole);
+        setDefaultTab(assignedRole);
+      }
+    } catch (err) {
       setLoginError(true);
     }
+    
+    setIsLoading(false);
   };
 
   const handleLogout = () => {
@@ -94,9 +122,10 @@ export default function AdminDashboard() {
             
             <button 
               type="submit"
-              className="w-full bg-primary text-black font-black py-3 rounded-xl mt-4 active:scale-95 transition-transform"
+              disabled={isLoading}
+              className="w-full bg-primary text-black font-black py-3 rounded-xl mt-4 active:scale-95 transition-transform disabled:opacity-70 disabled:active:scale-100 flex justify-center items-center gap-2"
             >
-              Entrar al Panel
+              {isLoading ? 'Verificando...' : 'Entrar al Panel'}
             </button>
           </form>
         </div>
