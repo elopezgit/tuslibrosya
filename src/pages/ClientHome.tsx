@@ -104,15 +104,25 @@ export default function ClientHome() {
     async function loadData() {
       if (!empresaSlug) return;
       try {
-        const { data: empData, error: empError } = await supabase
+        let { data: empData, error: empError } = await supabase
           .from('empresas')
           .select('*')
-          .eq('slug', empresaSlug)
+          .or(`slug.eq.${empresaSlug},slug.ilike.${empresaSlug}`)
           .eq('is_active', true)
           .maybeSingle();
 
+        if (!empData) {
+          const { data: fallbackEmp } = await supabase
+            .from('empresas')
+            .select('*')
+            .ilike('name', '%libro%')
+            .eq('is_active', true)
+            .maybeSingle();
+          empData = fallbackEmp;
+        }
+
         if (empError) throw empError;
-        if (!empData) throw new Error('El restaurante no existe o la base de datos no tiene datos cargados.');
+        if (!empData) throw new Error('La librería no existe o la base de datos no tiene datos cargados.');
         
         setEmpresa(empData);
 

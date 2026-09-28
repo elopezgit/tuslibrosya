@@ -30,7 +30,11 @@ export default function KanbanBoard({ empresaSlug, role }: { empresaSlug: string
 
   useEffect(() => {
     async function init() {
-      const { data: empData } = await supabase.from('empresas').select('id').eq('slug', empresaSlug).maybeSingle();
+      const { data: empData } = await supabase
+        .from('empresas')
+        .select('id')
+        .or(`slug.eq.${empresaSlug},slug.ilike.${empresaSlug}`)
+        .maybeSingle();
       if (empData) {
         setEmpresaId(empData.id);
         fetchOrders(empData.id);

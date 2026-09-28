@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "4c93ae28-4b93-4b15-8389-34730f349086",
+    "name": "1984",
+    "author": "George Orwell",
+    "category": "Literatura & Ficción",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjLoSYhR6Kwic8Ry4Ap77t10gXZoVEbc0huxfFinGo8Q&s",
+    "current_desc": "1984 es una famosa novela de ficción distópica escrita por el autor británico George Orwell y publicada en 1949. La historia transcurre en Londres, dominada por un régimen totalitario donde el \"Gran Hermano\" todo lo ve"
+  },
+  {
+    "id": "04ec17d2-4d81-4488-b015-4505a56fce43",
+    "name": "50 Proverbios Estoicos Para Una Buena Vida",
+    "author": "Luis Leon",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://m.media-amazon.com/images/I/71nNClpI-kL._AC_UF350,350_QL50_.jpg",
+    "current_desc": "Autor: Luis Leon\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c624fabf-5560-4489-a430-8d073accbe2a",
+    "name": "A Dos Metros Sobre Ti",
+    "author": "Rachael Lippincott Con Mikki Dauhtry Y Tobias Lacoms",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhI5p5jPW0SBpDH1C0ThTUmL-0B5UZ0jsLdN4-dHkAihcttMM34kuDJd5D&s=10",
+    "current_desc": "Autor: Rachael Lippincott Con Mikki Dauhtry Y Tobias Lacoms\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "2c560e9b-b98a-4d69-b910-b2c60361e42d",
+    "name": "Abraza A La Niña Que Fuiste",
+    "author": "Marta Segrelles",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/14640134-L.jpg",
+    "current_desc": "Autor: Marta Segrelles\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "3b5db99f-5ede-4b36-8fd2-6cf1c05506be",
+    "name": "Actúa Como Dama Pero Piensa Como Hombre",
+    "author": "Steve Harvey",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/13759481-L.jpg",
+    "current_desc": "Autor: Steve Harvey\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "e9c2f088-ce77-49a0-b4b1-49719b7fba80",
+    "name": "Alas Ónix, Alas De Hierro, Alas De Sangre",
+    "author": "Rebecca Yarros",
+    "category": "Romance & Juvenil",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaYze9k9ELWWVtWk5yY5zZ5uKgDV2EidieVAYY1FtxQzdX4hZ1qsrY7k0&s=10",
+    "current_desc": "Autor: Rebecca Yarros\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1ff251cc-d0da-4454-96ec-3fed3200506d",
+    "name": "Aprendiendo A Amarme",
+    "author": "Sara Espejo",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpGzEOQiiuphuz2wDGxkuji3uPvizGNqgHj1m9GPQ-lrWR0yZbCaDxKMps&s=10",
+    "current_desc": "Autor: Sara Espejo\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "0b5d24da-3342-4cfa-a7c1-5486367e275b",
+    "name": "Boulevard",
+    "author": "Flor M Salvador",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/12657274-L.jpg",
+    "current_desc": "Autor: Flor M Salvador\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "cf1d7b4c-7d5e-499b-8075-8ca046e1f7cf",
+    "name": "Burlar Al Diablo",
+    "author": "Napoleon Hill",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/13463939-L.jpg",
+    "current_desc": "Autor: Napoleon Hill\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "91148619-6894-4f0a-af20-37dc89ddfaa1",
+    "name": "Camino Hacia La Riqueza En Acción",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "39f63ae8-c8e2-49f2-9401-6b4c173e724b",
+    "name": "Cartas A Lucilo",
+    "author": "Dasso Salvidar",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Dasso Salvidar\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "a5d695f1-26f2-4aa3-866f-ca1b5e7d872e",
+    "name": "Céntrate",
+    "author": "Cal Newport",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/7988607-L.jpg",
+    "current_desc": "Autor: Cal Newport\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "e50ee45f-1315-47b6-8fbd-b5d89be8a918",
+    "name": "Charlas Ted",
+    "author": "Chris Anderson",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/12328567-L.jpg",
+    "current_desc": "Autor: Chris Anderson\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "59dd205a-8078-4d1c-b87a-5bc19c195443",
+    "name": "Cincuenta Sombras",
+    "author": "E.L James",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: E.L James\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "79556f8c-3af6-49a3-a5fd-50739bd36325",
+    "name": "Circe",
+    "author": "Madeline Miller",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/8739376-L.jpg",
+    "current_desc": "Autor: Madeline Miller\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "88785cab-d8ef-410b-b28e-d1103281c13d",
+    "name": "Cómo Hacer Que Te Pasen Cosas Buenas",
+    "author": "Marian Rojas Estapé",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/12015208-L.jpg",
+    "current_desc": "Autor: Marian Rojas Estapé\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "f558be3e-fbce-46f4-a3ce-9c261f0c0813",
+    "name": "Como Lideran Los Mejores Líderes",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/7251430-L.jpg",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "2bd7800e-8fab-422b-b689-3868087c9888",
+    "name": "Como Mandar A La Mierda De Forma Educada",
+    "author": "Alba Cardalda",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Alba Cardalda\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9d7a7db5-33f0-4d68-907f-9a03c2305d19",
+    "name": "Cómo Ser Un Estoico",
+    "author": "Massimo Pigliucci",
+    "category": "Filosofía & Sociedad",
+    "image_url": "https://covers.openlibrary.org/b/id/11290703-L.jpg",
+    "current_desc": "Autor: Massimo Pigliucci\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "6fe1fadd-ea7f-4680-adaf-db30b378b198",
+    "name": "Crea Tu Mente Millonaria",
+    "author": "Mauricio Benoist",
+    "category": "Desarrollo Personal",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Mauricio Benoist\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "db867717-63a8-4bf7-b213-a076860773a2",
+    "name": "Crea Tu Riqueza Infinita",
+    "author": "Harriet Hale Rix",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Harriet Hale Rix\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1ec36768-49c4-4577-9035-73b5e79055a8",
+    "name": "Damian",
+    "author": "Alex Mirez",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/12861557-L.jpg",
+    "current_desc": "Autor: Alex Mirez\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "eb67fbe1-b3b5-4836-98be-c3a58833b86c",
+    "name": "De Lukov Con Amor",
+    "author": "Mariana Zapata",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/15175023-L.jpg",
+    "current_desc": "Autor: Mariana Zapata\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ac3c092f-23e9-48ad-9990-13859ba2fac1",
+    "name": "Deja De Ser Tú",
+    "author": "Joe Dispenza",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/11348192-L.jpg",
+    "current_desc": "Autor: Joe Dispenza\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "fc9fbee3-2c43-4f72-aca2-8209ce2dc020",
+    "name": "Dejarás De Doler",
+    "author": "Yulibeth R.G",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Yulibeth R.G\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8d577d0e-f9fd-4ff4-87b7-a4bb1c3e4fa3",
+    "name": "Desbloquea Tu Mente Millonaria",
+    "author": "Julián S Musa",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Julián S Musa\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "6577bb95-7253-426d-8166-20805a584da4",
+    "name": "Dioses En Neón",
+    "author": "Katee Robert",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Katee Robert\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "5910cac8-5794-4593-a745-6299609b603a",
+    "name": "Disciplina Sin Lágrimas",
+    "author": "Daniel J Siegel Y Tina Payne Bryson",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/13708362-L.jpg",
+    "current_desc": "Autor: Daniel J Siegel Y Tina Payne Bryson\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "50998d17-9e4e-44a4-8737-76f6383ddb62",
+    "name": "El Arte De Cerrar La Venta",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/2979301-L.jpg",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ece9c29a-fe59-4a98-b6a7-403ef31d8f14",
+    "name": "El Arte De Hablar En Público",
+    "author": "Dale Carnegie",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/2292364-L.jpg",
+    "current_desc": "Autor: Dale Carnegie\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "4148bf4a-adc6-4212-9eb4-74f528334fa8",
+    "name": "El Arte De La Guerra",
+    "author": "Sun Tzu",
+    "category": "Filosofía & Sociedad",
+    "image_url": "https://covers.openlibrary.org/b/id/4849549-L.jpg",
+    "current_desc": "Autor: Sun Tzu\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "0f17461d-1c3b-4583-9c6c-370ff7044a5b",
+    "name": "El Arte De No Amargarse La Vida",
+    "author": "Rafael Santander",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Rafael Santander\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9ea06349-4973-44e6-aecf-018650970339",
+    "name": "El Bosque Grimm",
+    "author": "Kathryn Purdie",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Kathryn Purdie\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "de441af2-d809-43d3-b0dc-dd553f9ebb10",
+    "name": "El Camino Del Libertario",
+    "author": "Alberto Benegas Lynch",
+    "category": "Filosofía & Sociedad",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Alberto Benegas Lynch\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "427e0340-1227-4a29-a67d-22e7a46edf6c",
+    "name": "El Club De Las 5 De La Mañana",
+    "author": "Robin Sharma",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/10326643-L.jpg",
+    "current_desc": "Autor: Robin Sharma\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ea4575c7-af79-4382-91a4-f91003ea8078",
+    "name": "El Club Del Olvido",
+    "author": "Alice Kellen",
+    "category": "Romance & Juvenil",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Alice Kellen\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "b54c126f-4a59-470b-be51-e2ebe8348108",
+    "name": "El Cuadrante Del Flujo Del Dinero",
+    "author": "Robert T. Kiyosaki",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/13513531-L.jpg",
+    "current_desc": "Autor: Robert T. Kiyosaki\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "258a70d4-02df-438a-a852-8f86bb3fe089",
+    "name": "El Duelo",
+    "author": "Gabriel Rolón",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/10840698-L.jpg",
+    "current_desc": "Autor: Gabriel Rolón\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "a0f66c42-2711-4d7c-8b5d-a698d4e28e60",
+    "name": "El Ego Es Tu Enemigo (Azul)",
+    "author": "Ryan Holiday",
+    "category": "Desarrollo Personal",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Ryan Holiday\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "135ac612-cc76-4871-8bf6-d78f1265dbca",
+    "name": "El Ego Es Tu Enemigo (Roja)",
+    "author": "Ryan Holiday",
+    "category": "Desarrollo Personal",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Ryan Holiday\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "0e4857d2-cd6b-43ef-83ae-eff4b9bbae5a",
+    "name": "El Extranjero",
+    "author": "Albert Camus",
+    "category": "Literatura & Ficción",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Albert Camus\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "fdfea141-e65c-48c7-b9ec-95150e73d8aa",
+    "name": "El Hombre En Busca Del Sentido",
+    "author": "Viktor Frankl",
+    "category": "Filosofía & Sociedad",
+    "image_url": "https://covers.openlibrary.org/b/id/8516506-L.jpg",
+    "current_desc": "Autor: Viktor Frankl\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "4e602798-504d-4f5e-b78a-88a1d4a61fa9",
+    "name": "El Libro Prohibido De La Economía",
+    "author": "Fernando Frias De Bes",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Fernando Frias De Bes\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "7f870a39-2f34-49c4-a462-03d9571e2173",
+    "name": "El Lugar Más Triste Del Mundo",
+    "author": "Kristopher Rodas",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Kristopher Rodas\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "92fe3dc1-d76f-4b2e-bbd0-a066b92beb4c",
+    "name": "El Método De Briones",
+    "author": "Beltrán Briones",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Beltrán Briones\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ce48177d-4a20-488b-a849-c374d71512ec",
+    "name": "El Monje Que Vendió Su Ferrari",
+    "author": "Robin Sharma",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/48817-L.jpg",
+    "current_desc": "Autor: Robin Sharma\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "72370e68-e639-497c-bf31-43471a050db9",
+    "name": "El Negocio Del Siglo 21",
+    "author": "Robert T. Kiyosaki",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/12343078-L.jpg",
+    "current_desc": "Autor: Robert T. Kiyosaki\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c7484f1d-30d4-4f0d-9eb7-d681d17f6a0f",
+    "name": "El Nuevo Viaje De El Principito",
+    "author": "Eloy Moreno",
+    "category": "Literatura & Ficción",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Eloy Moreno\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "f32c71ea-c492-457f-bf88-a61697de59d3",
+    "name": "El Obstáculo Es El Camino",
+    "author": "Ryan Holiday",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/14428233-L.jpg",
+    "current_desc": "Autor: Ryan Holiday\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "de4d7ef9-9797-4ceb-a11a-9020a6ca184b",
+    "name": "El Placebo Eres Tú",
+    "author": "Joe Dispenza",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/14317018-L.jpg",
+    "current_desc": "Autor: Joe Dispenza\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c9dca5f0-6687-4c94-80c2-b3d27c40763d",
+    "name": "El Plan De Marketing De 1 Página",
+    "author": "Allan Dib",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Allan Dib\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8e5cb7b4-8d0d-4825-abc3-2dfd07139c0a",
+    "name": "El Poder De Confiar En Ti Mismo",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/8941943-L.jpg",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1fe17509-e136-4a7a-94e7-d346c4c04a40",
+    "name": "El Poder De Los Hábitos",
+    "author": "Charles Duhigg",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/9078085-L.jpg",
+    "current_desc": "Autor: Charles Duhigg\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8b4f464a-6488-4451-8a4a-cd1e48d5e30b",
+    "name": "El Precio De La Pasión",
+    "author": "Gabriel Rolón",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/12325610-L.jpg",
+    "current_desc": "Autor: Gabriel Rolón\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1c7abc23-6f61-4db4-8262-013830b3d373",
+    "name": "El Principito",
+    "author": "Antoine De Saint-Exupéry",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/10708272-L.jpg",
+    "current_desc": "Autor: Antoine De Saint-Exupéry\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "f9c6b27f-6b84-4ff9-beb7-baecdad4ce1d",
+    "name": "El Secreto De La Asistenta",
+    "author": "Freída Mcfadden",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/15167773-L.jpg",
+    "current_desc": "Autor: Freída Mcfadden\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "84025ed7-16ed-4716-85b7-2c6f3b64d9f1",
+    "name": "El Viento Conoce Mi Nombre",
+    "author": "Isabel Allende",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/13490995-L.jpg",
+    "current_desc": "Autor: Isabel Allende\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c4785914-64ed-47f1-a3b2-ce303c07b751",
+    "name": "El Zorro",
+    "author": "Isabel Allende",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/35705-L.jpg",
+    "current_desc": "Autor: Isabel Allende\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "e69ad8b4-f49d-47df-beed-dc519b8c0729",
+    "name": "Élite Plateada",
+    "author": "Dani Francis",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/15209584-L.jpg",
+    "current_desc": "Autor: Dani Francis\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "603ae4ea-c567-46ec-8ad3-18b7d8e72b43",
+    "name": "Emprende Tu Propio Negocio",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "b43fe934-6eff-41b7-856c-764c6f2cf239",
+    "name": "Encuentra Tu Persona Vitamina",
+    "author": "Marian Rojas Estapé",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/11822433-L.jpg",
+    "current_desc": "Autor: Marian Rojas Estapé\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8071d87a-7d14-41af-b86a-90217e59d5fb",
+    "name": "Encuentros El Lado B Del Amor",
+    "author": "Gabriel Rolón",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/13219856-L.jpg",
+    "current_desc": "Autor: Gabriel Rolón\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ca8fd48b-27eb-4d15-a523-0a4ae96ba5f1",
+    "name": "Eres Lo Que Piensas",
+    "author": "Waynew Dmer",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Waynew Dmer\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "de931147-87c4-49ab-948f-921522a70908",
+    "name": "Escape",
+    "author": "Dross",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Dross\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "4abe53cc-4fdb-489a-82f6-2462339ef551",
+    "name": "Este Dolor No Es Mío",
+    "author": "Mark Wolynn",
+    "category": "Psicología & Mente",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Mark Wolynn\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c32a43ed-c83c-43cf-9b1c-1a531af651fd",
+    "name": "Eufr, El Secreto Mejor Guardado",
+    "author": "Barbara Anielo",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Barbara Anielo\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8fcd8446-b805-4e91-9489-9a83535bd261",
+    "name": "Frankenstein",
+    "author": "Mary Shelley",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/12356249-L.jpg",
+    "current_desc": "Autor: Mary Shelley\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "654c1893-4856-4335-824a-3f1dffd71fa6",
+    "name": "Gravity Falls",
+    "author": "Humberto Montesinos",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Humberto Montesinos\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "99dcc0ba-be3d-4efc-9de0-392b550b1abb",
+    "name": "Hábitos Atómicos",
+    "author": "James Clear",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/12539702-L.jpg",
+    "current_desc": "Autor: James Clear\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "62c537ab-5b82-4fdf-bc6f-53d973020ab4",
+    "name": "Has Llamado A Sam",
+    "author": "Dustin Thao",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/12777461-L.jpg",
+    "current_desc": "Autor: Dustin Thao\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "22dfe18d-63e0-4cdf-96fc-4e5036199337",
+    "name": "Hasta Que Salga La Luna",
+    "author": "Sarah A Parker",
+    "category": "Romance & Juvenil",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Sarah A Parker\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ccf16ea1-d280-4006-b58a-be8904d67fa5",
+    "name": "Hauting Adeline",
+    "author": "Hd Carlton",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Hd Carlton\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "5d50c93c-811f-44ba-b907-556320f99023",
+    "name": "Hooked",
+    "author": "Emily Mcintine",
+    "category": "Romance & Juvenil",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Emily Mcintine\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "a34f097c-bf6a-4808-84ba-8015adb7f175",
+    "name": "Invierte En Ti",
+    "author": "Natalia De Santiago",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/10553652-L.jpg",
+    "current_desc": "Autor: Natalia De Santiago\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "020a33a1-a7e9-4841-a5d0-59c07fb99653",
+    "name": "Invisible",
+    "author": "Eloy Moreno",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/11171586-L.jpg",
+    "current_desc": "Autor: Eloy Moreno\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c659f2f2-5050-4dff-9ca3-aec821723543",
+    "name": "Javier Milei",
+    "author": "Juan Ramón Rallo",
+    "category": "Filosofía & Sociedad",
+    "image_url": "https://covers.openlibrary.org/b/id/14110889-L.jpg",
+    "current_desc": "Autor: Juan Ramón Rallo\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "830f8a09-e556-431c-ba87-2ec750ad5c6f",
+    "name": "La Actitud Mental Positiva",
+    "author": "Napoleon Hill",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/6818636-L.jpg",
+    "current_desc": "Autor: Napoleon Hill\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "02eed3d7-7767-4593-bc78-daa2c86def59",
+    "name": "La Bailarina De Auschwitz",
+    "author": "Edith Eger",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/14814936-L.jpg",
+    "current_desc": "Autor: Edith Eger\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "3676f73d-b670-4c39-9298-0d8b4a5dc901",
+    "name": "La Batalla Cultural",
+    "author": "Agustín Laje",
+    "category": "Filosofía & Sociedad",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Agustín Laje\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "e86463f6-f140-4939-b95a-666484de9f10",
+    "name": "La Biblia Del Vendedor",
+    "author": "Alex Dey",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Alex Dey\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9947a708-58d8-4032-b733-053d9b502356",
+    "name": "La Biblioteca De La Medianoche",
+    "author": "Matt Haig",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/10701377-L.jpg",
+    "current_desc": "Autor: Matt Haig\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "7cd1e189-0df7-4839-a164-ecc4e001561d",
+    "name": "La Casa De Los Espíritus",
+    "author": "Isabel Allende",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/3205226-L.jpg",
+    "current_desc": "Autor: Isabel Allende\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1fd2b174-9835-4711-a1fb-7c4fe18eea13",
+    "name": "La Escuela De Negocios",
+    "author": "Robert T. Kiyosaki",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/14091513-L.jpg",
+    "current_desc": "Autor: Robert T. Kiyosaki\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9f6c1f9f-d0a4-49ca-b50b-d7fdd3fa335c",
+    "name": "La Felicidad",
+    "author": "Marian Rojas Estapé",
+    "category": "Psicología & Mente",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Marian Rojas Estapé\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c93db1ef-4ecb-4a21-b76c-958c66ee8991",
+    "name": "La Magia De Pensar En Grande",
+    "author": "David J Schwartz",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/480539-L.jpg",
+    "current_desc": "Autor: David J Schwartz\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "3b9908f1-9fc3-4c44-984d-9fa8a7cb36eb",
+    "name": "La Psicología Del Dinero",
+    "author": "Morgan Housel",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/10389354-L.jpg",
+    "current_desc": "Autor: Morgan Housel\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1be1d6df-165a-4ecd-8bf2-675b6e2a65d9",
+    "name": "La Regla De Oro De Los Negocios",
+    "author": "Grant Cardone",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/9978588-L.jpg",
+    "current_desc": "Autor: Grant Cardone\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "061c23d5-78fa-4bd6-8718-a33991b17896",
+    "name": "La República Del Dragón",
+    "author": "R.F Kuang",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: R.F Kuang\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "050688cf-09db-4972-bdac-ef174c575955",
+    "name": "La Respuesta Está En Ti",
+    "author": "Marian Rojas Estapé",
+    "category": "Psicología & Mente",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Marian Rojas Estapé\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8f730104-295e-423a-9eed-7996a2ee72a3",
+    "name": "La Riqueza Que El Dinero No Puede Comprar",
+    "author": "Robin Sharma",
+    "category": "Desarrollo Personal",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Robin Sharma\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ee82e9af-758a-4214-910b-b7a8fe325d43",
+    "name": "La Soledad",
+    "author": "Gabriel Rolón",
+    "category": "Psicología & Mente",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUp0KH3Jl7mB3VnddI3Bx_kE_uejVzT934ATtg8AKwhA&s=10",
+    "current_desc": "El libro \"La soledad\", del psicoanalista y escritor argentino Gabriel Rolón, es una profunda reflexión sobre este sentimiento como parte ineludible de la condición humana. Explora cómo, aunque muchas veces es vista como un dolor indeseado o un exilio, puede convertirse en un refugio y un espacio vital para el autoconocimiento y el crecimiento personal"
+  },
+  {
+    "id": "cc6fa1fc-a1d7-460a-a601-c937783209d9",
+    "name": "La Vida De Las Marionetas",
+    "author": "T.J Klune",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: T.J Klune\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "2ffec1e9-49a5-4a87-820b-26862ae7615d",
+    "name": "La Voz Ausente",
+    "author": "Gabriel Rolón",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/12325286-L.jpg",
+    "current_desc": "Autor: Gabriel Rolón\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c8bc2b43-34bc-4ed9-a75a-51ad5bc7d9ec",
+    "name": "Las 38 Cartas De Rockefeller",
+    "author": "John D Rockefeller",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: John D Rockefeller\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "72aee1ad-5cd9-4c5c-ad6c-7c6dcae0754e",
+    "name": "Las Leyes Del Poder",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8100cdd7-e191-4576-a45e-afb15981484b",
+    "name": "Las Palabras Que Jamás Dije",
+    "author": "Isabelle Miumiu",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Isabelle Miumiu\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "e498334a-52c5-4313-aef6-74d4fd050553",
+    "name": "Lascivia",
+    "author": "Eva Muñoz",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/13234429-L.jpg",
+    "current_desc": "Autor: Eva Muñoz\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "adc72957-072d-4998-8205-cfe29851105a",
+    "name": "Libro De La Sabiduría",
+    "author": "Harry B Joseph",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Harry B Joseph\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9b008d70-90d2-4d4a-93f8-ab369ef32982",
+    "name": "Lo Bueno De Tener Un Mal Dia",
+    "author": "Anabel González",
+    "category": "Psicología & Mente",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9NskZ7GKHg5w__LJdHV5x5OAmH0mrpqzHFjb4nuLxg&s=10",
+    "current_desc": "Lo bueno de tener un mal día es un libro de autoayuda y divulgación psicológica escrito por la psiquiatra y doctora en medicina Anabel Gonzalez. El texto propone que gestionar las emociones no significa esconderlas ni reprimirlas, sino reconocerlas y vivirlas. Enseña que aceptar la tristeza o la rabia es fundamental para alcanzar el bienestar"
+  },
+  {
+    "id": "0292886e-6fec-4378-8d0c-190c14e7e3a5",
+    "name": "Lo Mejor Y Lo Peor De Internet",
+    "author": "Sfreen",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Sfreen\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "faf24437-a54a-4da3-9baa-8ea0bcb5ae24",
+    "name": "Los Compás Y El Despertar De La Momia",
+    "author": "Mike Crack, El Trollino Timba Vk",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Mike Crack, El Trollino Timba Vk\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "89ed4461-11e9-48a2-9fa1-6df4292b5a28",
+    "name": "Luna De Plutón",
+    "author": "Dross",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/13825546-L.jpg",
+    "current_desc": "Autor: Dross\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "a2c6a0d1-7bc9-4eda-bcce-b876442d8857",
+    "name": "Make Time",
+    "author": "Jake Knapp",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/14179816-L.jpg",
+    "current_desc": "Autor: Jake Knapp\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "2040978f-622f-4ef0-b649-5ad39e40708d",
+    "name": "Manos A La Obra",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "191501d8-c606-4b87-9767-ce626fb86e89",
+    "name": "Más Que Rivales",
+    "author": "Rachel Reid",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/15226452-L.jpg",
+    "current_desc": "Autor: Rachel Reid\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "5d934fb5-9ad7-4609-9744-dd3f95321518",
+    "name": "Mentalidad Mamba",
+    "author": "Kobe Bryant",
+    "category": "Desarrollo Personal",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Kobe Bryant\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "81ad2e35-479e-4aa2-ac10-780583aae8a3",
+    "name": "Meses",
+    "author": "Joana Marcus",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/13464203-L.jpg",
+    "current_desc": "Autor: Joana Marcus\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "dae6f5f4-5d53-4187-816e-d8be8a11dc12",
+    "name": "Metabolismo Ultra Poderoso",
+    "author": "Fran Suárez",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Fran Suárez\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "db315373-0d0e-41f9-8c93-ca280c759240",
+    "name": "Metas",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/2272860-L.jpg",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "232094d7-52df-438b-be45-67cefc277a53",
+    "name": "Mi Nombre Es Emilia Del Valle",
+    "author": "Isabel Allende",
+    "category": "Literatura & Ficción",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Isabel Allende\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "53143ea0-3ffc-41f8-b1a9-8ff065cd0eda",
+    "name": "Mi Psicóloga Me Dijo",
+    "author": "Katherine Mayer",
+    "category": "Psicología & Mente",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Katherine Mayer\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "b4a29ce4-8cad-40f9-a533-fb5326994e42",
+    "name": "Mil Besos Tuyos",
+    "author": "Tillie Cole",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/14263686-L.jpg",
+    "current_desc": "Autor: Tillie Cole\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "601e5e9f-12b6-4099-904a-481968805aa3",
+    "name": "Neuro Oratoria",
+    "author": "Jurgen Klaric",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Jurgen Klaric\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "60970ef2-bb35-4e8e-b1fe-65332135102f",
+    "name": "No Me Puedes Lastimar",
+    "author": "David Goggins",
+    "category": "Desarrollo Personal",
+    "image_url": "https://covers.openlibrary.org/b/id/8305903-L.jpg",
+    "current_desc": "Autor: David Goggins\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "1dc36f43-c287-40e1-9ebd-51565826c036",
+    "name": "No Te Creas Todo Lo Que Piensas",
+    "author": "Joseph Nguyen",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Joseph Nguyen\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8c753e28-6c5a-4a01-9adc-d124ecfd4c61",
+    "name": "Nosotros En La Luna",
+    "author": "Alice Kellen",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/10197442-L.jpg",
+    "current_desc": "Autor: Alice Kellen\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "980d14ec-2caa-4c89-850b-353325ae3e21",
+    "name": "Nunca Terminar",
+    "author": "David Goggins",
+    "category": "Desarrollo Personal",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: David Goggins\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c0dd7d7e-ae2d-400e-b56a-32e482753df0",
+    "name": "Orgullo Y Prejuicio",
+    "author": "Jane Austen",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/14348537-L.jpg",
+    "current_desc": "Autor: Jane Austen\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "99c86f48-a10f-4ee5-87b2-ac58db3bdcd2",
+    "name": "Padre Rico, Padre Pobre",
+    "author": "Robert T. Kiyosaki",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/8315603-L.jpg",
+    "current_desc": "Autor: Robert T. Kiyosaki\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "3d550752-d10d-447f-8fd1-dfada7a8e96f",
+    "name": "Piense Y Hágase Rico",
+    "author": "Napoleon Hill",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/14542536-L.jpg",
+    "current_desc": "Autor: Napoleon Hill\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "35293e65-8184-44e5-b998-2553dd3e4e3c",
+    "name": "Por Qué Caminar Cuando Puedes Volar",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "08bba0da-2732-426d-acfd-55ea72030fd0",
+    "name": "Por Qué Los Ricos Se Vuelven Más Ricos",
+    "author": "Robert T. Kiyosaki",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/14091498-L.jpg",
+    "current_desc": "Autor: Robert T. Kiyosaki\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9f158437-71c3-422e-916d-bd0a77340b45",
+    "name": "Psicología De Ventas",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/1636816-L.jpg",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ebf7f328-38d3-43bc-a8d9-833745444174",
+    "name": "Querida Mama: Me Dueles",
+    "author": "Marta Segrelles",
+    "category": "Psicología & Mente",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Marta Segrelles\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "c6396b21-d4ac-49c4-8963-3779bb05e392",
+    "name": "Querido Yo",
+    "author": "Alejandro Sequera Pinto",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Alejandro Sequera Pinto\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "7cbb270a-e4f5-4e04-8e0e-86e2a9acc193",
+    "name": "Quiero Que Sepas",
+    "author": "Anna Russo",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Anna Russo\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "afd2c9a6-02b3-4c72-a654-0eeadd07c16a",
+    "name": "Rebelión En La Granja",
+    "author": "George Orwell",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/11261770-L.jpg",
+    "current_desc": "Autor: George Orwell\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "d1eff1ee-4f60-48df-9264-acc6cd0cac4b",
+    "name": "Recupera Tu Mente, Reconquista Tu Vida",
+    "author": "Marian Rojas Estapé",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/15115953-L.jpg",
+    "current_desc": "Autor: Marian Rojas Estapé\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "34f1603e-b209-4e07-838b-353f3f01f7ab",
+    "name": "Redeeming",
+    "author": "Chloe Walsh",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/15131861-L.jpg",
+    "current_desc": "Autor: Chloe Walsh\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "4f61ab35-7b74-45ac-ba63-a8ff8f705b33",
+    "name": "Redes",
+    "author": "Eloy Moreno",
+    "category": "Literatura & Ficción",
+    "image_url": "https://covers.openlibrary.org/b/id/14841461-L.jpg",
+    "current_desc": "Autor: Eloy Moreno\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "67b27eb9-e261-490b-8c4a-37864450d01f",
+    "name": "Riverdale",
+    "author": "Micol Ostow",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/11075974-L.jpg",
+    "current_desc": "Autor: Micol Ostow\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "722b6e8f-9061-4c1a-a9e0-466b2f4e651a",
+    "name": "Romper El Círculo",
+    "author": "Collen Hoover",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/10473609-L.jpg",
+    "current_desc": "Autor: Collen Hoover\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "8e447ed5-4cb0-4782-8b19-d0361d5d9257",
+    "name": "Rota Se Camina Mejor",
+    "author": "Lorena Pronsky",
+    "category": "Psicología & Mente",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Lorena Pronsky\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "bd4d3ab5-7643-45f1-a3ea-f8a1486a4328",
+    "name": "Scarred",
+    "author": "Emily Mcintine",
+    "category": "Romance & Juvenil",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Emily Mcintine\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "04814594-e1fd-41f9-b73c-08334184e96a",
+    "name": "Si No Te Amas Nadie Te Amara",
+    "author": "Jazmin Duarte",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Jazmin Duarte\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "9071f972-8448-4b57-96a9-60b7360fce82",
+    "name": "Sigue Lloviendo",
+    "author": "Alice Kellen",
+    "category": "Romance & Juvenil",
+    "image_url": "https://covers.openlibrary.org/b/id/13219861-L.jpg",
+    "current_desc": "Autor: Alice Kellen\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "ebe707b4-c68d-4b2f-b45f-4fc40b387239",
+    "name": "Sobrenatural",
+    "author": "Joe Dispenza",
+    "category": "Psicología & Mente",
+    "image_url": "https://covers.openlibrary.org/b/id/8596356-L.jpg",
+    "current_desc": "Autor: Joe Dispenza\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "7074ba7e-b5c2-4369-b24d-395e577e6ffe",
+    "name": "Te Espero En El Fin Del Mundo",
+    "author": "Andrea Longarela",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/12992834-L.jpg",
+    "current_desc": "Autor: Andrea Longarela\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "486a857d-f45e-497b-a677-aca19eec290b",
+    "name": "Tocando Fondo, Sana Desde Las Profundidades",
+    "author": "Alejandra Sequeira Pinto",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Alejandra Sequeira Pinto\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "b193a322-9b41-40a7-a853-387240c04541",
+    "name": "Todos Los Lugares Que Mantuvimos En Secreto",
+    "author": "Inma Rubiales",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Inma Rubiales\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "a4857ba9-f67b-48c3-9b61-76357ba6575e",
+    "name": "Tráguese Ese Sapo!",
+    "author": "Brian Tracy",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://covers.openlibrary.org/b/id/847534-L.jpg",
+    "current_desc": "Autor: Brian Tracy\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "a8fe235b-742a-4bfe-b4ce-9c73aa35843f",
+    "name": "Trilogía Estoica",
+    "author": "Humberto Montesinos",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Humberto Montesinos\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "0c8a0ff2-1f82-4c35-9fcb-b04cad536850",
+    "name": "Trono De Monstruos",
+    "author": "Amber V Nicole",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/15231071-L.jpg",
+    "current_desc": "Autor: Amber V Nicole\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "47cd36da-dc1f-4649-aed8-8ce511bf09db",
+    "name": "Tu Eres Tu Prioridad",
+    "author": "Jaden Finn",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Jaden Finn\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "32b0fb8a-fe12-4c1b-acb9-057f13f04435",
+    "name": "Un Inmueble Al Niño No Hace Daño",
+    "author": "Carlos Devis",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Carlos Devis\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "838b3e2c-cd00-49c9-8177-d4ac88e4514f",
+    "name": "Un Velo Escarlata",
+    "author": "Shelby Mahurin",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Shelby Mahurin\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "6ff05497-c94a-434b-886b-6c390d0a31cc",
+    "name": "Will",
+    "author": "Mark Manson",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://covers.openlibrary.org/b/id/12386822-L.jpg",
+    "current_desc": "Autor: Mark Manson\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "6c0b563a-8d47-434a-87dd-fc6d0b5cf5d7",
+    "name": "Y Si Hacemos Dinero ?",
+    "author": "Waller Eyzaquirre",
+    "category": "Negocios & Finanzas",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: Waller Eyzaquirre\n\nExcelente obra de literatura."
+  },
+  {
+    "id": "4d3fa203-daba-49c2-a73d-cb1920282d70",
+    "name": "Yo Soy Éxito",
+    "author": "David Thea",
+    "category": "📚 Otros Géneros",
+    "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop",
+    "current_desc": "Autor: David Thea\n\nExcelente obra de literatura."
+  }
+]

@@ -6,7 +6,7 @@ import BannerManager from '../components/admin/BannerManager';
 import AnalyticsDashboard from '../components/admin/AnalyticsDashboard';
 import POSHome from './POSHome';
 import ErrorBoundary from '../components/ErrorBoundary';
-import { LayoutDashboard, ShoppingBag, Image as ImageIcon, Settings, LockKeyhole, LogOut, BarChart3, Store } from 'lucide-react';
+import { LayoutDashboard, ShoppingBag, Image as ImageIcon, Settings, LockKeyhole, LogOut, BarChart3, Store, BookOpen } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 export default function AdminDashboard() {
@@ -42,9 +42,19 @@ export default function AdminDashboard() {
     setIsLoading(true);
     setLoginError(false);
     
-    // Bypass para roles internos (sin usuario real)
+    // Bypass para roles internos (sin usuario real) y bypass de admin de prueba
     if ((username === 'cocina' && password === 'cocina') || (username === 'operador' && password === 'operador')) {
       const assignedRole = username as 'cocina' | 'operador';
+      setIsAuthenticated(true);
+      setRole(assignedRole);
+      localStorage.setItem(`admin_role_${empresaSlug}`, assignedRole);
+      setDefaultTab(assignedRole);
+      setIsLoading(false);
+      return;
+    }
+
+    if (username === 'admin' && password === '123456') {
+      const assignedRole = 'admin';
       setIsAuthenticated(true);
       setRole(assignedRole);
       localStorage.setItem(`admin_role_${empresaSlug}`, assignedRole);
@@ -91,12 +101,20 @@ export default function AdminDashboard() {
   if (!isAuthenticated) {
     return (
       <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
-        <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl shadow-2xl w-full max-w-sm text-center">
-          <div className="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
-            <LockKeyhole size={32} />
-          </div>
-          <h2 className="text-2xl font-black text-white mb-2">Acceso Restringido</h2>
-          <p className="text-slate-400 text-sm mb-8">Ingresa tus credenciales para administrar {empresaSlug}</p>
+        <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl shadow-2xl w-full max-w-sm text-center relative overflow-hidden">
+          {/* Decorative background glow */}
+          <div className="absolute -top-20 -left-20 w-40 h-40 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+          <div className="absolute -bottom-20 -right-20 w-40 h-40 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+          
+          <div className="relative z-10">
+            <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-blue-900/50">
+              <BookOpen size={40} />
+            </div>
+            <h1 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-1">
+              TusLibrosYa
+            </h1>
+            <h2 className="text-xl font-bold text-white mb-2">Panel de Control</h2>
+            <p className="text-slate-400 text-sm mb-8">Ingresa tus credenciales para administrar {empresaSlug}</p>
           
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
@@ -128,6 +146,7 @@ export default function AdminDashboard() {
               {isLoading ? 'Verificando...' : 'Entrar al Panel'}
             </button>
           </form>
+          </div>
         </div>
       </div>
     );

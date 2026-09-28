@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-09-28T18:19:53.684Z",
+  "empresa": {
+    "id": "39d1961a-2bfb-49b6-82b6-cfb193a0a9ae",
+    "name": "Tus Libros Ya",
+    "slug": "Tus Libros Ya"
+  },
+  "totalProducts": 149,
+  "validCovers": 149,
+  "validDescriptions": 149,
+  "sampleUpdated": [
+    {
+      "id": "2bd7800e-8fab-422b-b689-3868087c9888",
+      "name": "Como Mandar A La Mierda De Forma Educada",
+      "description": "👤 **Autor:** Alba Cardalda\n🏷️ **Género:** Psicología & Asertividad\n\n📖 **Sinopsis:**\nAlba Cardalda ofrece herramientas prácticas de comunicación asertiva y psicología conductual para aprender a decir 'no' sin culpa, marcar límites infranqueables y desactivar situaciones tóxicas en el entorno familiar, laboral y social.\n\n🎯 **Recomendado para:**\nPersonas complacientes que sufren por la dificultad de poner límites y buscan ganar respeto y tranquilidad mental.",
+      "image_url": "https://th.bing.com/th?q=Como%20Mandar%20A%20La%20Mierda%20De%20Forma%20Educada%20Alba%20Cardalda%20Portada%20Libro&w=300&h=300&c=7&rs=1&p=0",
+      "price": 15000,
+      "code": "LBR-64023",
+      "is_active": true
+    },
+    {
+      "id": "39f63ae8-c8e2-49f2-9401-6b4c173e724b",
+      "name": "Cartas A Lucilo",
+      "description": "👤 **Autor:** Dasso Salvidar\n🏷️ **Género:** Filosofía Clásica / Estoicismo\n\n📖 **Sinopsis:**\nLa correspondencia inmortal del filósofo romano Séneca a su discípulo Lucilio, donde aborda temas cruciales como la brevedad de la vida, el valor de la amistad, el control de las pasiones, el desapego material y la serenidad ante la muerte.\n\n🎯 **Recomendado para:**\nAmantes de la filosofía clásica, el pensamiento crítico y la búsqueda de una vida virtuosa y con propósito.",
+      "image_url": "https://th.bing.com/th?q=Cartas%20A%20Lucilo%20Dasso%20Salvidar%20Portada%20Libro&w=300&h=300&c=7&rs=1&p=0",
+      "price": 15000,
+      "code": "LBR-345261",
+      "is_active": true
+    },
+    {
+      "id": "de441af2-d809-43d3-b0dc-dd553f9ebb10",
+      "name": "El Camino Del Libertario",
+      "description": "👤 **Autor:** Alberto Benegas Lynch\n🏷️ **Género:** Política & Ensayo Económico\n\n📖 **Sinopsis:**\nAlberto Benegas Lynch expone los fundamentos éticos, económicos e institucionales del liberalismo clásico y el libre mercado, defendiendo la soberanía individual frente a la intervención estatal.\n\n🎯 **Recomendado para:**\nInteresados en las teorías económicas austriacas, la filosofía política de la libertad y el debate ideológico contemporáneo.",
+      "image_url": "https://th.bing.com/th?q=El%20Camino%20Del%20Libertario%20Alberto%20Benegas%20Lynch%20Portada%20Libro&w=300&h=300&c=7&rs=1&p=0",
+      "price": 15000,
+      "code": "LBR-906766",
+      "is_active": true
+    }
+  ]
+}

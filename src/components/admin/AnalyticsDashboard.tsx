@@ -37,7 +37,11 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
 
   useEffect(() => {
     async function init() {
-      const { data } = await supabase.from('empresas').select('id').eq('slug', empresaSlug).maybeSingle();
+      const { data } = await supabase
+        .from('empresas')
+        .select('id')
+        .or(`slug.eq.${empresaSlug},slug.ilike.${empresaSlug}`)
+        .maybeSingle();
       if (data) {
         setEmpresaId(data.id);
         fetchData(data.id, timeFilter);

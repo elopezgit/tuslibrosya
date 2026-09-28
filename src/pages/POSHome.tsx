@@ -45,7 +45,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
         const { data: empData, error: empError } = await supabase
           .from('empresas')
           .select('id')
-          .eq('slug', empresaSlug)
+          .or(`slug.eq.${empresaSlug},slug.ilike.${empresaSlug}`)
           .eq('is_active', true)
           .maybeSingle();
 
