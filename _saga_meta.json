@@ -1,0 +1,188 @@
+{
+  "Alas de estrella (cada tomo)": {
+    "autor": "Allison Saft",
+    "genero": "Fantasía romántica / Disney",
+    "tipo": "Saga (2 tomos)",
+    "titulos": "Alas de estrella 1 y 2"
+  },
+  "Ali Hazelwood (saga / títulos disponibles)": {
+    "autor": "Ali Hazelwood",
+    "genero": "Comedia romántica contemporánea",
+    "tipo": "Selección de títulos",
+    "titulos": "La hipótesis del amor, La ecuación del amor y otras novelas"
+  },
+  "Alice Oseman (títulos disponibles)": {
+    "autor": "Alice Oseman",
+    "genero": "Novela juvenil / Novela gráfica",
+    "tipo": "Selección de títulos",
+    "titulos": "Heartstopper, Solitario, Loveless, Radio Silence"
+  },
+  "Ana Huang (títulos disponibles)": {
+    "autor": "Ana Huang",
+    "genero": "Romance contemporáneo",
+    "tipo": "Selección de títulos",
+    "titulos": "Twisted, Kings of Sin"
+  },
+  "Asesino de brujas (saga)": {
+    "autor": "Shelby Mahurin",
+    "genero": "Fantasía oscura / Romance",
+    "tipo": "Trilogía",
+    "titulos": "Asesino de brujas (trilogía completa)"
+  },
+  "Blue Lock (tomos disponibles)": {
+    "autor": "Muneyuki Kaneshiro (guion) y Yusuke Nomura (dibujo)",
+    "genero": "Manga / Deportes",
+    "tipo": "Serie",
+    "titulos": "Blue Lock, tomos disponibles"
+  },
+  "Caraval (saga)": {
+    "autor": "Stephanie Garber",
+    "genero": "Fantasía / Romance",
+    "tipo": "Trilogía",
+    "titulos": "Caraval, Legendary, Finale"
+  },
+  "Carlos Ruiz Zafón (títulos disponibles)": {
+    "autor": "Carlos Ruiz Zafón",
+    "genero": "Misterio / Ficción contemporánea",
+    "tipo": "Selección de títulos",
+    "titulos": "La sombra del viento, El juego del ángel, El prisionero del cielo, El laberinto de los espíritus"
+  },
+  "Chloe Walsh (saga / títulos disponibles)": {
+    "autor": "Chloe Walsh",
+    "genero": "Romance juvenil / New Adult",
+    "tipo": "Saga",
+    "titulos": "Chicos de Tommen (Boys of Tommen)"
+  },
+  "Colleen Hoover (títulos disponibles)": {
+    "autor": "Colleen Hoover",
+    "genero": "Romance / Drama",
+    "tipo": "Selección de títulos",
+    "titulos": "Romper el círculo, Ugly Love, Verity y otras novelas"
+  },
+  "Crepúsculo (saga)": {
+    "autor": "Stephenie Meyer",
+    "genero": "Fantasía romántica / Juvenil",
+    "tipo": "Saga (4 tomos)",
+    "titulos": "Crepúsculo, Luna nueva, Eclipse, Amanecer"
+  },
+  "El perfume del rey (saga)": {
+    "autor": "Karine Bernal Lobo",
+    "genero": "Romance / Fantasía",
+    "tipo": "Saga",
+    "titulos": "El perfume del rey, El corazón del rey, Las cadenas del rey"
+  },
+  "El señor de los anillos (saga)": {
+    "autor": "J. R. R. Tolkien",
+    "genero": "Fantasía épica",
+    "tipo": "Trilogía + precuela",
+    "titulos": "La Comunidad del Anillo, Las dos torres, El retorno del rey, El hobbit"
+  },
+  "Elise Kova (saga / títulos disponibles)": {
+    "autor": "Elise Kova",
+    "genero": "Fantasía romántica",
+    "tipo": "Selección de títulos",
+    "titulos": "Air Awakens, Married to Magic"
+  },
+  "Elle Kennedy (títulos disponibles)": {
+    "autor": "Elle Kennedy",
+    "genero": "Romance contemporáneo / New Adult",
+    "tipo": "Selección de títulos",
+    "titulos": "Off-Campus, Briar U"
+  },
+  "Harry Potter (saga)": {
+    "autor": "J. K. Rowling",
+    "genero": "Fantasía / Juvenil",
+    "tipo": "Saga (7 tomos)",
+    "titulos": "Harry Potter y la piedra filosofal, ... y la cámara secreta, ... y el prisionero de Azkaban, ... y el cáliz de fuego, ... y la Orden del Fénix, ... y el misterio del príncipe, ... y las Reliquias de la Muerte"
+  },
+  "Holly Jackson (títulos disponibles)": {
+    "autor": "Holly Jackson",
+    "genero": "Thriller juvenil",
+    "tipo": "Selección de títulos",
+    "titulos": "Asesinato para principiantes, Desaparición para expertos, Venganza para víctimas"
+  },
+  "Inquebrantable (saga)": {
+    "autor": "",
+    "genero": "Romance / Superación",
+    "tipo": "Saga",
+    "titulos": "Tomos de la saga Inquebrantable"
+  },
+  "Isabel Allende - todos los disponibles": {
+    "autor": "Isabel Allende",
+    "genero": "Ficción / Realismo mágico",
+    "tipo": "Selección de títulos",
+    "titulos": "La casa de los espíritus, Eva Luna, Paula, El amante japonés"
+  },
+  "Isabella Miller (títulos disponibles)": {
+    "autor": "Isabella Miller",
+    "genero": "Romance contemporáneo",
+    "tipo": "Selección de títulos",
+    "titulos": "Novelas de Isabella Miller"
+  },
+  "Joana Marcús - trilogía Fuego": {
+    "autor": "Joana Marcús",
+    "genero": "Fantasía / Romance juvenil",
+    "tipo": "Trilogía",
+    "titulos": "Trilogía Fuego"
+  },
+  "Juego de tronos (saga)": {
+    "autor": "George R. R. Martin",
+    "genero": "Fantasía épica",
+    "tipo": "Saga",
+    "titulos": "Juego de tronos, Choque de reyes, Tormenta de espadas, Festín de cuervos, Danza de dragones"
+  },
+  "Las crónicas de Narnia (saga)": {
+    "autor": "C. S. Lewis",
+    "genero": "Fantasía / Juvenil",
+    "tipo": "Saga (7 libros)",
+    "titulos": "El león, la bruja y el armario; El príncipe Caspian; La travesía del Viajero del Alba; La silla de plata; El caballo y el muchacho; El mago; La última batalla"
+  },
+  "Los gatos guerreros (saga)": {
+    "autor": "Erin Hunter",
+    "genero": "Fantasía / Juvenil",
+    "tipo": "Saga",
+    "titulos": "Los cuatro clanes, Fuego y hielo, El bosque de los secretos y siguientes arcos"
+  },
+  "Los gatos guerreros: Los cuatro clanes (colección)": {
+    "autor": "Erin Hunter",
+    "genero": "Fantasía / Juvenil",
+    "tipo": "Colección (primer arco)",
+    "titulos": "Los cuatro clanes, Fuego y hielo, El bosque de los secretos, La tempestad, Un camino peligroso, La hora más oscura"
+  },
+  "Los juegos del hambre (saga)": {
+    "autor": "Suzanne Collins",
+    "genero": "Distopía / Juvenil",
+    "tipo": "Saga",
+    "titulos": "Los juegos del hambre, En llamas, Sinsajo, Balada de pájaros cantores y serpientes, Amanecer en la cosecha"
+  },
+  "Los villanos de Disney (saga)": {
+    "autor": "Serena Valentino",
+    "genero": "Fantasía / Reinterpretación",
+    "tipo": "Saga",
+    "titulos": "Maléfica, La Reina Malvada, Úrsula, El Capitán Garfio y otros villanos"
+  },
+  "Pilar Sordo - todos los disponibles": {
+    "autor": "Pilar Sordo",
+    "genero": "Desarrollo personal / Psicología",
+    "tipo": "Selección de títulos",
+    "titulos": "Viva la diferencia, No quiero crecer, Bienvenido dolor"
+  },
+  "Powerless tomos 1 y 2": {
+    "autor": "Lauren Roberts",
+    "genero": "Fantasía romántica",
+    "tipo": "Saga (tomos 1 y 2)",
+    "titulos": "Powerless, Powerful"
+  },
+  "Stephanie Garber (títulos disponibles)": {
+    "autor": "Stephanie Garber",
+    "genero": "Fantasía romántica",
+    "tipo": "Selección de títulos",
+    "titulos": "Caraval, Legendary, Finale, Érase una vez un corazón roto"
+  },
+  "Zodiac Academy": {
+    "autor": "Caroline Peckham y Susanne Valenti",
+    "genero": "Fantasía romántica / Academia",
+    "tipo": "Saga",
+    "titulos": "Zodiac Academy, tomos 1 a 9"
+  }
+}

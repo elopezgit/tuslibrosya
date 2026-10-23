@@ -130,12 +130,12 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
   if (error) return <div className="h-full flex items-center justify-center text-red-500">{error}</div>;
 
   return (
-    <div className="flex h-screen bg-slate-100 overflow-hidden text-slate-800">
+    <div className="flex h-screen bg-primary-soft overflow-hidden text-slate-800">
       
       {/* LEFT PANE: Menu & Grid (70%) */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Header & Filters */}
-        <div className="bg-white p-4 shadow-sm z-10">
+        <div className="glass p-4 shadow-sm z-10">
           <div className="flex gap-2 mb-4">
             <div className="relative flex-1">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
@@ -144,7 +144,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
                 placeholder="Buscar producto..." 
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-slate-50 border border-slate-200 text-slate-800 rounded-xl py-3 pl-10 pr-4 outline-none focus:border-primary transition-colors"
+                className="w-full bg-white/40 border border-white/50 text-slate-800 rounded-xl py-3 pl-10 pr-4 outline-none focus:border-primary transition-colors"
               />
             </div>
             <div className="relative w-48">
@@ -154,7 +154,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
                 value={fastCode}
                 onChange={(e) => setFastCode(e.target.value)}
                 onKeyDown={handleFastCodeSubmit}
-                className="w-full bg-slate-50 border border-slate-200 text-slate-800 rounded-xl py-3 px-4 outline-none focus:border-primary transition-colors font-bold"
+                className="w-full bg-white/40 border border-white/50 text-slate-800 rounded-xl py-3 px-4 outline-none focus:border-primary transition-colors font-bold"
               />
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
           <div className="flex overflow-x-auto hide-scrollbar gap-2 pb-1">
             <button
               onClick={() => setActiveCategory('todas')}
-              className={`px-4 py-2 rounded-lg font-bold text-sm whitespace-nowrap transition-colors ${activeCategory === 'todas' ? 'bg-slate-800 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}`}
+              className={`px-4 py-2 rounded-lg font-bold text-sm whitespace-nowrap transition-colors ${activeCategory === 'todas' ? 'bg-slate-800 text-white' : 'bg-primary-soft text-slate-600 hover:bg-slate-200'}`}
             >
               Todas
             </button>
@@ -171,7 +171,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
-                className={`px-4 py-2 rounded-lg font-bold text-sm whitespace-nowrap transition-colors flex items-center gap-2 ${activeCategory === cat.id ? 'bg-slate-800 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}`}
+                className={`px-4 py-2 rounded-lg font-bold text-sm whitespace-nowrap transition-colors flex items-center gap-2 ${activeCategory === cat.id ? 'bg-slate-800 text-white' : 'bg-primary-soft text-slate-600 hover:bg-slate-200'}`}
               >
                 <span>{cat.icon}</span> {cat.name}
               </button>
@@ -180,7 +180,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
         </div>
 
         {/* Products Grid */}
-        <div className="flex-1 overflow-y-auto p-4 bg-slate-100">
+        <div className="flex-1 overflow-y-auto p-4 bg-primary-soft">
           <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {filteredProducts.map(product => {
               const qty = getProductQuantity(product.id);
@@ -188,16 +188,16 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
                 <div 
                   key={product.id} 
                   onClick={() => addToCart(product, 1)}
-                  className="bg-white rounded-xl shadow-sm border border-slate-200 p-3 flex flex-col cursor-pointer hover:border-primary hover:shadow-md transition-all active:scale-95 group relative"
+                  className="glass rounded-xl shadow-sm border border-white/50 p-3 flex flex-col cursor-pointer hover:border-primary hover:shadow-md transition-all active:scale-95 group relative"
                 >
                   {qty > 0 && (
                     <div className="absolute -top-2 -right-2 bg-primary text-black font-black w-6 h-6 rounded-full flex items-center justify-center text-xs shadow-lg border border-primary/50">
                       {qty}
                     </div>
                   )}
-                  <div className="w-full h-24 bg-slate-100 rounded-lg mb-3 overflow-hidden flex items-center justify-center">
+                  <div className="w-full h-24 bg-primary-soft rounded-lg mb-3 overflow-hidden flex items-center justify-center">
                     {product.image_url ? (
-                      <img src={product.image_url} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                      <img loading="lazy" decoding="async" src={product.image_url} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                     ) : (
                       <Utensils className="text-slate-300" size={32} />
                     )}
@@ -217,8 +217,8 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
       </div>
 
       {/* RIGHT PANE: Cart (30%) */}
-      <div className="w-[350px] shrink-0 bg-white border-l border-slate-200 flex flex-col shadow-xl z-20">
-        <div className="p-4 border-b border-slate-100 bg-slate-50 flex items-center justify-between">
+      <div className="w-[350px] shrink-0 glass border-l border-white/50 flex flex-col shadow-xl z-20">
+        <div className="p-4 border-b border-slate-100 bg-white/40 flex items-center justify-between">
           <h2 className="font-black text-slate-800 text-lg flex items-center gap-2">
             Comanda en Vivo
           </h2>
@@ -236,7 +236,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
           ) : (
             <div className="space-y-3">
               {items.map(item => (
-                <div key={item.id} className="bg-slate-50 rounded-lg p-3 border border-slate-100 group">
+                <div key={item.id} className="bg-white/40 rounded-lg p-3 border border-slate-100 group">
                   <div className="flex justify-between items-start mb-1">
                     <h4 className="font-bold text-sm text-slate-800 flex-1 pr-2">{item.name}</h4>
                     <span className="font-black text-sm text-slate-800">${(item.price * item.quantity).toLocaleString('es-AR')}</span>
@@ -247,16 +247,16 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
                     placeholder="Ej: Sin sal, extra mayo..."
                     value={item.notes || ''}
                     onChange={(e) => updateItemNotes(item.id, item.notes, e.target.value)}
-                    className="w-full bg-white border border-slate-200 text-slate-600 rounded px-2 py-1 text-xs outline-none focus:border-primary mb-2 shadow-inner"
+                    className="w-full glass border border-white/50 text-slate-600 rounded px-2 py-1 text-xs outline-none focus:border-primary mb-2 shadow-inner"
                   />
                   
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-lg overflow-hidden shadow-sm">
-                      <button onClick={() => updateQuantity(item.id, item.quantity - 1, item.notes)} className="p-1.5 hover:bg-slate-100 text-slate-600 transition-colors">
+                    <div className="flex items-center gap-1 glass border border-white/50 rounded-lg overflow-hidden shadow-sm">
+                      <button onClick={() => updateQuantity(item.id, item.quantity - 1, item.notes)} className="p-1.5 hover:bg-primary-soft text-slate-600 transition-colors">
                         <Minus size={14} />
                       </button>
                       <span className="w-6 text-center font-bold text-sm text-slate-800">{item.quantity}</span>
-                      <button onClick={() => updateQuantity(item.id, item.quantity + 1, item.notes)} className="p-1.5 hover:bg-slate-100 text-slate-600 transition-colors">
+                      <button onClick={() => updateQuantity(item.id, item.quantity + 1, item.notes)} className="p-1.5 hover:bg-primary-soft text-slate-600 transition-colors">
                         <Plus size={14} />
                       </button>
                     </div>
@@ -272,7 +272,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
         </div>
 
         {/* Footer Checkout */}
-        <div className="p-4 bg-slate-50 border-t border-slate-200">
+        <div className="p-4 bg-white/40 border-t border-white/50">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm font-bold text-slate-500 uppercase">Total Final</span>
             <span className="text-3xl font-black text-slate-800 tracking-tight">${total.toLocaleString('es-AR')}</span>
@@ -284,20 +284,20 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
               placeholder="Notas generales (ej: sin sal)" 
               value={globalComment}
               onChange={(e) => setGlobalComment(e.target.value)}
-              className="w-full bg-white border border-slate-200 text-slate-800 rounded-lg p-3 outline-none focus:border-primary text-sm shadow-sm"
+              className="w-full glass border border-white/50 text-slate-800 rounded-lg p-3 outline-none focus:border-primary text-sm shadow-sm"
             />
           </div>
 
           <div className="grid grid-cols-2 gap-2 mb-4">
             <button 
               onClick={() => setPaymentMethod('efectivo')}
-              className={`flex items-center justify-center gap-1 p-2.5 rounded-lg font-bold text-xs transition-all border ${paymentMethod === 'efectivo' ? 'bg-green-100 border-green-400 text-green-800' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-100'}`}
+              className={`flex items-center justify-center gap-1 p-2.5 rounded-lg font-bold text-xs transition-all border ${paymentMethod === 'efectivo' ? 'bg-green-100 border-green-400 text-green-800' : 'glass border-white/50 text-slate-500 hover:bg-primary-soft'}`}
             >
               <Wallet size={16} /> Efectivo
             </button>
             <button 
               onClick={() => setPaymentMethod('transferencia')}
-              className={`flex items-center justify-center gap-1 p-2.5 rounded-lg font-bold text-xs transition-all border ${paymentMethod === 'transferencia' ? 'bg-blue-100 border-blue-400 text-blue-800' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-100'}`}
+              className={`flex items-center justify-center gap-1 p-2.5 rounded-lg font-bold text-xs transition-all border ${paymentMethod === 'transferencia' ? 'bg-blue-100 border-blue-400 text-blue-800' : 'glass border-white/50 text-slate-500 hover:bg-primary-soft'}`}
             >
               <CreditCard size={16} /> Transf.
             </button>
@@ -316,7 +316,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
       {/* SUMMARY MODAL */}
       {showSummaryModal && (
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-[100]">
-          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-lg overflow-hidden flex flex-col">
+          <div className="glass rounded-2xl shadow-2xl w-full max-w-lg overflow-hidden flex flex-col">
             <div className="bg-slate-900 p-4 text-white flex justify-between items-center">
               <h2 className="text-xl font-bold">Verificar Pedido</h2>
               <button onClick={() => setShowSummaryModal(false)} className="text-slate-400 hover:text-white">
@@ -325,10 +325,10 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
               </button>
             </div>
             
-            <div className="p-6 overflow-y-auto max-h-[60vh] bg-slate-50">
+            <div className="p-6 overflow-y-auto max-h-[60vh] bg-white/40">
               <ul className="space-y-4">
                 {items.map((item, idx) => (
-                  <li key={`${item.id}-${idx}`} className="flex justify-between items-start border-b border-slate-200 pb-3">
+                  <li key={`${item.id}-${idx}`} className="flex justify-between items-start border-b border-white/50 pb-3">
                     <div>
                       <div className="font-bold text-slate-800">
                         {item.quantity}x {item.name}
@@ -354,10 +354,10 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
               )}
             </div>
 
-            <div className="p-6 bg-white border-t border-slate-200">
+            <div className="p-6 glass border-t border-white/50">
               <div className="flex justify-between items-center mb-2">
                 <span className="text-slate-500 font-bold">Método de Pago:</span>
-                <span className="text-slate-800 font-black uppercase bg-slate-100 px-3 py-1 rounded-lg">
+                <span className="text-slate-800 font-black uppercase bg-primary-soft px-3 py-1 rounded-lg">
                   {paymentMethod}
                 </span>
               </div>
@@ -369,7 +369,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
               <div className="grid grid-cols-2 gap-3">
                 <button 
                   onClick={() => setShowSummaryModal(false)}
-                  className="py-3 rounded-xl font-bold text-slate-600 bg-slate-100 hover:bg-slate-200 transition-colors"
+                  className="py-3 rounded-xl font-bold text-slate-600 bg-primary-soft hover:bg-slate-200 transition-colors"
                 >
                   Volver a Editar
                 </button>

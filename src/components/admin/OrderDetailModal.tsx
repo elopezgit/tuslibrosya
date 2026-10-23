@@ -146,7 +146,7 @@ export default function OrderDetailModal({ order, onClose, onStatusChange, onDel
 
   return (
     <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 z-[200]">
-      <div className="bg-white rounded-3xl shadow-2xl w-full max-w-2xl overflow-hidden flex flex-col max-h-[90vh]">
+      <div className="glass rounded-3xl shadow-2xl w-full max-w-2xl overflow-hidden flex flex-col max-h-[90vh]">
         {/* Header */}
         <div className="bg-slate-900 p-6 flex justify-between items-start text-white">
           <div>
@@ -182,10 +182,10 @@ export default function OrderDetailModal({ order, onClose, onStatusChange, onDel
         </div>
 
         {/* Content */}
-        <div className="p-6 overflow-y-auto bg-slate-50 flex-1">
+        <div className="p-6 overflow-y-auto bg-white/40 flex-1">
           {/* Customer Info (only if not POS) */}
           {!isPOS && (
-            <div className="bg-white rounded-xl p-4 shadow-sm border border-slate-200 mb-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="glass rounded-xl p-4 shadow-sm border border-white/50 mb-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Cliente</span>
                 {isEditing ? (
@@ -218,7 +218,7 @@ export default function OrderDetailModal({ order, onClose, onStatusChange, onDel
             <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4 mb-6 shadow-sm">
               <h3 className="font-black text-yellow-800 mb-2 flex items-center gap-2"><MessageSquare size={18} /> Aclaraciones Generales</h3>
               {isEditing ? (
-                <textarea value={editedData.comment || ''} onChange={e => setEditedData({...editedData, comment: e.target.value})} className="w-full border border-yellow-300 bg-white rounded p-2 text-yellow-900 outline-none focus:border-yellow-500" rows={2} />
+                <textarea value={editedData.comment || ''} onChange={e => setEditedData({...editedData, comment: e.target.value})} className="w-full border border-yellow-300 glass rounded p-2 text-yellow-900 outline-none focus:border-yellow-500" rows={2} />
               ) : (
                 <p className="text-yellow-900 font-bold text-lg leading-relaxed">{order.comment}</p>
               )}
@@ -226,14 +226,14 @@ export default function OrderDetailModal({ order, onClose, onStatusChange, onDel
           )}
 
           {/* Items */}
-          <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
-            <div className="bg-slate-100 p-3 border-b border-slate-200 flex items-center justify-between">
+          <div className="glass rounded-xl shadow-sm border border-white/50 overflow-hidden">
+            <div className="bg-slate-100 p-3 border-b border-white/50 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Utensils size={18} className="text-slate-500" />
                 <h3 className="font-black text-slate-800 uppercase tracking-wide">Productos a Preparar</h3>
               </div>
               {isEditing && products.length > 0 && (
-                <select onChange={handleAddItem} className="border border-slate-300 rounded px-2 py-1 text-sm bg-white outline-none focus:border-primary font-bold text-slate-700">
+                <select onChange={handleAddItem} className="border border-slate-300 rounded px-2 py-1 text-sm glass outline-none focus:border-primary font-bold text-slate-700">
                   <option value="">+ Añadir producto</option>
                   {products.map(p => (
                     <option key={p.id} value={p.id}>{p.name} (${p.price})</option>
@@ -243,10 +243,10 @@ export default function OrderDetailModal({ order, onClose, onStatusChange, onDel
             </div>
             <ul className="divide-y divide-slate-100">
               {(isEditing ? editedItems : order.items).map((item: any, idx: number) => (
-                <li key={idx} className="p-4 hover:bg-slate-50 transition-colors">
+                <li key={idx} className="p-4 hover:bg-white/40 transition-colors">
                   <div className="flex items-start gap-4">
                     {isEditing ? (
-                      <div className="flex flex-col items-center gap-1 bg-slate-100 rounded-lg p-1 border border-slate-200 shadow-inner">
+                      <div className="flex flex-col items-center gap-1 bg-slate-100 rounded-lg p-1 border border-white/50 shadow-inner">
                         <button onClick={() => handleUpdateItemQty(idx, 1)} className="p-1 hover:bg-slate-200 rounded text-slate-600"><Plus size={16} /></button>
                         <span className="font-black text-lg w-6 text-center">{item.quantity}</span>
                         <button onClick={() => handleUpdateItemQty(idx, -1)} className="p-1 hover:bg-slate-200 rounded text-slate-600"><Minus size={16} /></button>
@@ -299,7 +299,7 @@ export default function OrderDetailModal({ order, onClose, onStatusChange, onDel
         </div>
 
         {/* Footer Actions */}
-        <div className="p-6 bg-white border-t border-slate-200">
+        <div className="p-6 glass border-t border-white/50">
           {isEditing ? (
             <div className="flex gap-3">
               <button onClick={() => setIsEditing(false)} className="flex-1 bg-slate-200 hover:bg-slate-300 text-slate-800 font-black py-4 rounded-xl text-lg transition-colors">Cancelar</button>

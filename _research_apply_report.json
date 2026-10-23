@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Afirmaciones positivas",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.buscalibre.com.ar/libro-365-afirmaciones-positivas/9798365907904/p/69072991",
+    "issues": [],
+    "len": 710
+  },
+  {
+    "name": "El árbol del dinero",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.casadellibro.com/libro-el-arbol-del-dinero/9788412357011/12288685",
+    "issues": [],
+    "len": 614
+  },
+  {
+    "name": "El método",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.abebooks.co.uk/9788408067191/m%C3%A9todo-game-Neil-Strauss-8408067192/plp",
+    "issues": [],
+    "len": 634
+  },
+  {
+    "name": "El silencio",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.casadellibro.com/libro-silencio-el-poder-de-la-quietud-en-un-mundo-ruidoso/9788479539375/2786481",
+    "issues": [],
+    "len": 631
+  },
+  {
+    "name": "Inteligencia artificial",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://editorialelateneo.com.ar/libros/inteligencia-artificial",
+    "issues": [],
+    "len": 695
+  },
+  {
+    "name": "Perreo",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.buscalibre.com.ar/libro-cazzu-perreo/9786316553201/p/64219156",
+    "issues": [],
+    "len": 641
+  },
+  {
+    "name": "Redes",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.casadellibro.com/libro-redes-invisible-2/9788418050350/16089623",
+    "issues": [],
+    "len": 641
+  },
+  {
+    "name": "Gravity Falls: Diario 1",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.buscalibre.com.ar/libro-gravity-falls-comic-1/9789504961963/p/50027048",
+    "issues": [],
+    "len": 605
+  },
+  {
+    "name": "Manual de funcionamiento ejecutivo para niños con TDAH",
+    "applied": true,
+    "confianza": "media",
+    "fuente": "https://www.amazon.com/dp/B0FC6J4XYF",
+    "issues": [],
+    "len": 631
+  },
+  {
+    "name": "Mi psicóloga y yo",
+    "applied": true,
+    "confianza": "media",
+    "fuente": "https://www.amazon.com/dp/B0H38P2Y7L",
+    "issues": [],
+    "len": 615
+  },
+  {
+    "name": "Psicología maquiavélica",
+    "applied": true,
+    "confianza": "alta",
+    "fuente": "https://www.amazon.com/dp/B095NHZ2SK",
+    "issues": [],
+    "len": 677
+  },
+  {
+    "name": "Yo después de mí",
+    "applied": true,
+    "confianza": "media",
+    "fuente": "https://www.amazon.com/dp/B0FJ2LKDRV",
+    "issues": [],
+    "len": 665
+  }
+]

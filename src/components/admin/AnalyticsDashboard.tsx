@@ -204,7 +204,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
         </div>
         
         <div className="flex flex-col gap-2 items-end">
-          <div className="flex items-center gap-2 bg-white p-1 rounded-xl shadow-sm border border-slate-200">
+          <div className="flex items-center gap-2 glass p-1 rounded-xl shadow-sm border border-white/50">
             <Calendar size={18} className="text-slate-400 ml-3" />
             <select 
               value={timeFilter} 
@@ -220,7 +220,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
           </div>
           
           {timeFilter === 'custom' && (
-            <div className="flex items-center gap-2 bg-white p-2 rounded-xl shadow-sm border border-slate-200 text-sm">
+            <div className="flex items-center gap-2 glass p-2 rounded-xl shadow-sm border border-white/50 text-sm">
               <input 
                 type="date" 
                 value={customStartDate} 
@@ -241,7 +241,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
 
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div className="glass p-5 rounded-2xl shadow-sm border border-white/50 flex flex-col justify-between">
           <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-xl bg-green-100 text-green-600 flex items-center justify-center shrink-0">
               <TrendingUp size={20} />
@@ -254,7 +254,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
           <GrowthBadge value={revenueGrowth} />
         </div>
 
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div className="glass p-5 rounded-2xl shadow-sm border border-white/50 flex flex-col justify-between">
           <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center shrink-0">
               <Receipt size={20} />
@@ -267,7 +267,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
           <div className="text-xs text-slate-400 mt-2 font-medium">Gasto promedio por cliente</div>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div className="glass p-5 rounded-2xl shadow-sm border border-white/50 flex flex-col justify-between">
           <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-xl bg-red-100 text-red-600 flex items-center justify-center shrink-0">
               <AlertCircle size={20} />
@@ -279,7 +279,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
           </div>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div className="glass p-5 rounded-2xl shadow-sm border border-white/50 flex flex-col justify-between">
           <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">
               <Clock size={20} />
@@ -291,7 +291,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
           </div>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div className="glass p-5 rounded-2xl shadow-sm border border-white/50 flex flex-col justify-between">
           <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center shrink-0">
               <CheckCircle2 size={20} />
@@ -308,8 +308,8 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
       {/* Rankings Grid (Clients, Top Products, Bottom Products) */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
         {/* Top Clients */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-          <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+        <div className="glass rounded-2xl shadow-sm border border-white/50 overflow-hidden flex flex-col">
+          <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-white/40">
             <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
               <Users size={16} className="text-primary" /> Mejores Clientes
             </h3>
@@ -319,7 +319,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
               <table className="w-full text-left text-sm">
                 <tbody className="divide-y divide-slate-100">
                   {topClients.map((client, idx) => (
-                    <tr key={client.phone} className="hover:bg-slate-50 transition-colors">
+                    <tr key={client.phone} className="hover:bg-primary/5 transition-colors">
                       <td className="p-3">
                         <p className="font-bold text-slate-800 flex items-center gap-2">
                           <span className="text-xs text-slate-400 font-mono w-4">{idx+1}.</span>
@@ -341,8 +341,8 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
         </div>
 
         {/* Top Products */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-          <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+        <div className="glass rounded-2xl shadow-sm border border-white/50 overflow-hidden flex flex-col">
+          <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-white/40">
             <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
               <Trophy size={16} className="text-yellow-500" /> Más Vendidos
             </h3>
@@ -352,7 +352,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
               <table className="w-full text-left text-sm">
                 <tbody className="divide-y divide-slate-100">
                   {topProducts.map((prod, idx) => (
-                    <tr key={prod.name} className="hover:bg-slate-50 transition-colors">
+                    <tr key={prod.name} className="hover:bg-primary/5 transition-colors">
                       <td className="p-3">
                         <p className="font-bold text-slate-800 flex items-center gap-2">
                           <span className="text-xs text-slate-400 font-mono w-4">{idx+1}.</span>
@@ -374,8 +374,8 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
         </div>
 
         {/* Least Sold Products */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-          <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+        <div className="glass rounded-2xl shadow-sm border border-white/50 overflow-hidden flex flex-col">
+          <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-white/40">
             <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2">
               <ArrowDownToLine size={16} className="text-red-500" /> Menos Vendidos
             </h3>
@@ -385,7 +385,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
               <table className="w-full text-left text-sm">
                 <tbody className="divide-y divide-slate-100">
                   {bottomProducts.map((prod, idx) => (
-                    <tr key={prod.name} className="hover:bg-slate-50 transition-colors">
+                    <tr key={prod.name} className="hover:bg-primary/5 transition-colors">
                       <td className="p-3">
                         <p className="font-bold text-slate-800 flex items-center gap-2">
                           <span className="text-xs text-slate-400 font-mono w-4">{allProducts.length - idx}.</span>
@@ -408,8 +408,8 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
       </div>
 
       {/* DETAILED MOVEMENTS GRID */}
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-        <div className="p-6 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+      <div className="glass rounded-2xl shadow-sm border border-white/50 overflow-hidden">
+        <div className="p-6 border-b border-slate-100 flex items-center justify-between bg-white/40">
           <h3 className="text-lg font-bold text-slate-800 flex items-center gap-2">
             <LayoutList size={20} className="text-primary" /> Grilla Detallada de Movimientos
           </h3>
@@ -423,7 +423,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
         ) : orders.length > 0 ? (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm whitespace-nowrap">
-              <thead className="bg-white text-slate-500 border-b border-slate-200 uppercase text-[10px] tracking-wider">
+              <thead className="glass text-slate-500 border-b border-white/50 uppercase text-[10px] tracking-wider">
                 <tr>
                   <th className="p-4 font-bold w-32">Fecha y Hora</th>
                   <th className="p-4 font-bold w-48">Cliente</th>
@@ -434,7 +434,7 @@ export default function AnalyticsDashboard({ empresaSlug }: { empresaSlug: strin
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {orders.map(order => (
-                  <tr key={order.id} className="hover:bg-slate-50 transition-colors group">
+                  <tr key={order.id} className="hover:bg-primary/5 transition-colors group">
                     <td className="p-4 text-xs text-slate-500 font-mono">
                       {new Date(order.created_at).toLocaleDateString('es-AR')} <br/>
                       <span className="font-bold text-slate-700">{new Date(order.created_at).toLocaleTimeString('es-AR', {hour: '2-digit', minute:'2-digit'})}</span>

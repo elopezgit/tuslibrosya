@@ -52,7 +52,7 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={handleClose}
-            className="fixed inset-0 bg-white/80 z-[100] backdrop-blur-sm"
+            className="fixed inset-0 bg-slate-900/30 z-[100] backdrop-blur-md"
           />
 
           <motion.div
@@ -60,15 +60,15 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-            className="fixed bottom-0 left-0 right-0 md:left-1/2 md:-translate-x-1/2 md:max-w-md bg-surface z-[101] rounded-t-3xl shadow-2xl flex flex-col border border-amber-200"
+            className="fixed bottom-0 left-0 right-0 md:left-1/2 md:-translate-x-1/2 md:max-w-md glass-strong z-[101] rounded-t-3xl shadow-2xl flex flex-col border border-white/50"
           >
-            <div className="p-5 border-b border-amber-200 flex items-center justify-between">
+            <div className="p-5 border-b border-white/50 flex items-center justify-between">
               <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
                 <BellRing size={22} className="text-primary" /> Tu Pedido
               </h2>
               <button 
                 onClick={handleClose}
-                className="p-2 bg-amber-100 text-slate-700 rounded-full hover:bg-slate-700 transition-colors"
+                className="p-2 bg-primary-soft text-slate-700 rounded-full hover:bg-slate-700 transition-colors"
               >
                 <X size={20} />
               </button>
@@ -86,7 +86,7 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
               ) : (
                 <div className="relative">
                   {/* Timeline Bar Background */}
-                  <div className="absolute left-6 top-6 bottom-6 w-1 bg-amber-100 rounded-full z-0"></div>
+                  <div className="absolute left-6 top-6 bottom-6 w-1 bg-primary-soft rounded-full z-0"></div>
                   
                   {/* Timeline Progress */}
                   <div 
@@ -98,7 +98,7 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
 
                   {/* Step 1: Pendiente */}
                   <div className="relative z-10 flex items-start gap-6 mb-12">
-                    <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-colors duration-500 ${status === 'pendiente' || status === 'en_preparacion' || status === 'entregado' ? 'bg-primary text-black' : 'bg-amber-100 text-slate-500'}`}>
+                    <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-colors duration-500 ${status === 'pendiente' || status === 'en_preparacion' || status === 'entregado' ? 'bg-primary text-black' : 'bg-primary-soft text-slate-500'}`}>
                       <Clock size={24} />
                     </div>
                     <div className="pt-2">
@@ -109,7 +109,7 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
 
                   {/* Step 2: En Preparación */}
                   <div className="relative z-10 flex items-start gap-6 mb-12">
-                    <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-colors duration-500 ${status === 'en_preparacion' || status === 'entregado' ? 'bg-primary text-black' : 'bg-amber-100 text-slate-500'}`}>
+                    <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-colors duration-500 ${status === 'en_preparacion' || status === 'entregado' ? 'bg-primary text-black' : 'bg-primary-soft text-slate-500'}`}>
                       <ChefHat size={24} />
                     </div>
                     <div className="pt-2">
@@ -120,7 +120,7 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
 
                   {/* Step 3: Entregado */}
                   <div className="relative z-10 flex items-start gap-6">
-                    <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-colors duration-500 ${status === 'entregado' ? 'bg-primary text-black' : 'bg-amber-100 text-slate-500'}`}>
+                    <div className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-colors duration-500 ${status === 'entregado' ? 'bg-primary text-black' : 'bg-primary-soft text-slate-500'}`}>
                       <CheckCircle2 size={24} />
                     </div>
                     <div className="pt-2">
@@ -133,7 +133,7 @@ export default function OrderTrackerModal({ orderId, isOpen, onClose, onClearAct
               )}
             </div>
 
-            <div className="p-5 border-t border-amber-200 bg-white/50 text-center">
+            <div className="p-5 border-t border-white/50 bg-white/50 text-center">
               <p className="text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Orden #{orderId?.split('-')[0].toUpperCase()}</p>
               <p className="text-sm font-medium text-slate-700">Total del pedido: <span className="font-bold text-slate-900">${total.toLocaleString('es-AR')}</span></p>
             </div>

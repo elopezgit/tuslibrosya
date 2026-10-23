@@ -1,0 +1,1696 @@
+[
+  {
+    "id": "bb1d1f7d-9d6e-4db3-a668-82a605f376f0",
+    "name": "Afirmaciones positivas",
+    "matched": "Coleccion Completa de Florence Scovel Shinn el Poder de las Afirmaciones Positivas",
+    "extras": [
+      "completa",
+      "florence",
+      "scovel",
+      "shinn",
+      "poder"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-coleccion-completa-de-florence-scovel-shinn-el-poder-de-las-afirmaciones-positivas/9789878380179/p/55562775",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/54/22/54224ea37c175f4eeed42daf9f7b7906.jpg"
+  },
+  {
+    "id": "3b26151a-dbf2-4abb-8d54-6eb24516c90e",
+    "name": "Ama tu destino",
+    "matched": "Amor Fati: Ama tu Destino",
+    "extras": [
+      "amor",
+      "fati"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-amor-fati-ama-tu-destino/9798291466155/p/64597447",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/20/9b/209bc841a34ecf27b63c47b98f36e8ef.jpg"
+  },
+  {
+    "id": "9ea52ecc-877e-43d7-b3d8-90e603d511ad",
+    "name": "Amanecer en la cosecha",
+    "matched": "Amanecer en la Cosecha (Juegos Hambre 5)",
+    "extras": [
+      "juego",
+      "hambre",
+      "5"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-amanecer-en-la-cosecha-juegos-hambre-5/9789878121383/p/63730827",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/57/27/5727124fcbfe113b3bc9ce5a395f2bb0.jpg"
+  },
+  {
+    "id": "ce141d09-f60b-4b6d-a718-7d19bd2a238a",
+    "name": "Amor fati",
+    "matched": "Amor Fati: Ama tu Destino",
+    "extras": [
+      "ama",
+      "destino"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-amor-fati-ama-tu-destino/9798291466155/p/64597447",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/be/a2/bea28c9b26f63856dfa9bf9390cb757e.jpg"
+  },
+  {
+    "id": "2e71e278-7a74-4c5c-b2e2-8f0e3ceb5c9e",
+    "name": "Antes de ella",
+    "matched": "Ellas lo Pensaron Antes",
+    "extras": [
+      "pensaron"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-ellas-lo-pensaron-antes/9789877186437/p/52168876",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/03/04/03049728905d4235243dd398a4d4f09d.jpg"
+  },
+  {
+    "id": "cd284a13-a6dd-4ac4-9316-0373901e5fb4",
+    "name": "Apocalipsis",
+    "matched": "Apocalipsis Island Origenes",
+    "extras": [
+      "island",
+      "origen"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-apocalipsis-island-origenes/9788416961016/p/47968346",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/5c/20/5c202dfac6e74a808d096a1dd7aecb8d.jpg"
+  },
+  {
+    "id": "0ba1af11-5068-402a-b558-b93778ac9521",
+    "name": "Aquiles",
+    "matched": "Aquiles, el anquilosaurio celoso",
+    "extras": [
+      "anquilosaurio",
+      "celoso"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-aquiles-el-anquilosaurio-celoso/9789974886353/p/62817855",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/0f/81/0f8117c5a532d98cf114d2d4baec051b.jpg"
+  },
+  {
+    "id": "66826968-cdc4-404b-a5ca-e1aca0d45967",
+    "name": "Asesinato para principiantes",
+    "matched": "Asesinato para principiantes. Tapa flexible",
+    "extras": [
+      "tapa",
+      "flexible"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-asesinato-para-principiantes-tapa-flexible/9789878224275/p/67597552",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/b4/64/b464348c99748d2fd1441256b1f13cee.jpg"
+  },
+  {
+    "id": "e414869c-5436-42c2-bff4-74fd0f169b70",
+    "name": "Asesino de brujas (saga)",
+    "matched": "Asesino de brujas: La bruja blanca",
+    "extras": [
+      "blanca"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-asesino-de-brujas-la-bruja-blanca/9789874132390/p/53177020",
+    "image_url": null
+  },
+  {
+    "id": "7c075d3f-b944-471a-a0ab-d4911a5b4528",
+    "name": "Batalla cultural",
+    "matched": "La batalla cultural (Edición ampliada y actualizada)",
+    "extras": [
+      "ampliada",
+      "actualizada"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-la-batalla-cultural-edicion-ampliada-y-actualizada/9781400352524/p/65769055",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/4c/6b/4c6b7b340d1af0a773b2c0900a0b78cc.jpg"
+  },
+  {
+    "id": "b189f3d9-0059-4ac1-a105-8ac053f40de9",
+    "name": "Boulevard",
+    "matched": "Boulevard  (Después de él - Libro 2)",
+    "extras": [
+      "despu",
+      "2"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-boulevard-despues-de-el-libro-2/9789878940069/p/54238124",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/9f/d9/9fd9742a90efae4d6a647af7cf5bb458.jpg"
+  },
+  {
+    "id": "6f8d38ab-b014-4297-9f0a-8e220958ac63",
+    "name": "Cae la noche",
+    "matched": "Cae la Noche Tropical",
+    "extras": [
+      "tropical"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-cae-la-noche-tropical/9789875805378/p/18437979",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/87/3e/873e715b1b5f02c04ee2ebb4bf8f5189.jpg"
+  },
+  {
+    "id": "0850b354-9018-429f-9711-d49802f0b22d",
+    "name": "Cara a cara",
+    "matched": "Numerologia Humanista - Cara a Cara Contigo Misma",
+    "extras": [
+      "numerologia",
+      "humanista",
+      "contigo",
+      "misma"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-numerologia-humanista-cara-a-cara-contigo-misma/9789507540868/p/1063850",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/4e/1a/4e1a288f044fff1756b7cffa74099f85.jpg"
+  },
+  {
+    "id": "09c07bbe-a756-4c97-bd4e-e1f04434e065",
+    "name": "Carpe diem",
+    "matched": "Carpe Diem. Aprovecha el presente (Memento mori 2)",
+    "extras": [
+      "aprovecha",
+      "presente",
+      "memento",
+      "mori",
+      "2"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-carpe-diem-aprovecha-el-presente-memento-mori-2/9786129907185/p/64737453",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/88/49/8849c9130bed494346d7b969bbe3c6fa.jpg"
+  },
+  {
+    "id": "a79a024c-1987-4ab8-bb97-4c54cfaad5ed",
+    "name": "Céntrate Work",
+    "matched": "Céntrate (Deep Work): Las Cuatro Reglas Para el Éxito en la era de la Distracción (Peninsula)",
+    "extras": [
+      "deep",
+      "cuatro",
+      "regla",
+      "exito",
+      "era",
+      "distraccion",
+      "peninsula"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-centrate-deep-work-las-cuatro-reglas-para-el-exito-en-la-era-de-la-distraccion-peninsula/9788411000512/p/53911849",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/9a/db/9adb59c1a296f15579defd9ad6c1160d.jpg"
+  },
+  {
+    "id": "6d6faafe-b397-4313-a3d7-58419005309c",
+    "name": "Código de guerrero",
+    "matched": "Codigo del Samuray el Espiritu del Budismo Japones y la via del Guerrero",
+    "extras": [
+      "samuray",
+      "espiritu",
+      "budismo",
+      "japon",
+      "via"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-codigo-del-samuray-el-espiritu-del-budismo-japones-y-la-via-del-guerrero/9788441402942/p/1021313",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/bc/5f/bc5f04f2e6cfd40cc0f5c0ff35d758e2.jpg"
+  },
+  {
+    "id": "00ede0a5-a019-4732-a85a-187c7a2a279e",
+    "name": "Corazón de piedra",
+    "matched": "Villanos. Corazón de piedra",
+    "extras": [
+      "villano"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-villanos-corazon-de-piedra/9786070788253/p/54241608",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/6e/48/6e486ec6cbb91a8e73dcb619627f04af.jpg"
+  },
+  {
+    "id": "31c7e125-aae4-4839-9b01-b155009f3faf",
+    "name": "Crepúsculo (saga)",
+    "matched": "Amanecer (Saga Crepúsculo 4)",
+    "extras": [
+      "amanecer",
+      "4"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-amanecer-saga-crepusculo-4/9789870416401/p/4102837",
+    "image_url": null
+  },
+  {
+    "id": "e93dca65-5196-423a-bd95-41d080b1fa65",
+    "name": "Creyendo y creando",
+    "matched": "Creyendo y Creando: Es Momento de Crear tu Vida De-Liberada-Mente",
+    "extras": [
+      "es",
+      "momento",
+      "crear",
+      "vida",
+      "liberada",
+      "mente"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-creyendo-y-creando-es-momento-de-crear-tu-vida-de-liberada-mente/9789804371318/p/63303028",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/76/4d/764d6bf3dc55f99730720b0c0f2397b5.jpg"
+  },
+  {
+    "id": "e50fcbee-2ece-4a83-baa8-f4b847019908",
+    "name": "Culpa mía",
+    "matched": "Culpa mía 1",
+    "extras": [
+      "1"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-culpa-mia-1/9789873820816/p/49035004",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/a9/d8/a9d8e4f7a0aef4feb0116f793716144a.jpg"
+  },
+  {
+    "id": "a2093ea2-3408-4e53-985c-fc8de93a451a",
+    "name": "Culpa tuya",
+    "matched": "Culpa tuya (Culpables 2)",
+    "extras": [
+      "culpabl",
+      "2"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-culpa-tuya-culpables-2/9789873820908/p/49831534",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/77/00/7700389dc4657c715aa35f91712d0bc2.jpg"
+  },
+  {
+    "id": "175e3b92-8570-4a0b-b218-b50ddfb0645a",
+    "name": "De cero a uno",
+    "matched": "De cero a uno: cémo inventar el futuro",
+    "extras": [
+      "cemo",
+      "inventar",
+      "futuro"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-de-cero-a-uno-cemo-inventar-el-futuro/9789507434150/p/49883900",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/c8/94/c894c93be0a80f096f0a77c880c773ff.jpg"
+  },
+  {
+    "id": "b895cefd-1a00-4da5-8294-5b83ddc71e21",
+    "name": "De Dios para mí",
+    "matched": "Mi Tiempo con Dios Para Mujeres: 365 Días Devocionario",
+    "extras": [
+      "tiempo",
+      "mujer",
+      "365",
+      "dia",
+      "devocionario"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-mi-tiempo-con-dios-para-mujeres-365-dias-devocionario/9781424559831/p/52693167",
+    "image_url": null
+  },
+  {
+    "id": "6d7c8992-8d8f-4e24-83b2-aea04220913d",
+    "name": "Después de él",
+    "matched": "Despues del Bosque",
+    "extras": [
+      "bosque"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-despues-del-bosque/9788416387335/p/47272680",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/4b/db/4bdbc4a003244d90a21b0e3237a8d53b.jpg"
+  },
+  {
+    "id": "204498f4-cb6e-4ec7-bf0a-69381a7d2f68",
+    "name": "Diálogos de medianoche",
+    "matched": "De Dialogo Nocturno a Medianoche",
+    "extras": [
+      "nocturno"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-de-dialogo-nocturno-a-medianoche/9789561427471/p/53146492",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/6f/b7/6fb756f0c15a0adbd7ac8f8f5288434c.jpg"
+  },
+  {
+    "id": "15f40331-85c5-4750-b0c8-42ce666c0f71",
+    "name": "Diario para estoicos",
+    "matched": "Diario Para Padres Estoicos",
+    "extras": [
+      "padr"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-diario-para-padres-estoicos/9788417963903/p/55945170",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/7d/06/7d065375784b48015a1c2ac0416aaa5d.jpg"
+  },
+  {
+    "id": "51c40a06-bf9c-42d1-b522-572ce9d53c81",
+    "name": "Dientes de madera",
+    "matched": "Dientes de madera (Spanish Edition)",
+    "extras": [
+      "spanish",
+      "edition"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-dientes-de-madera-spanish-edition/9798324364717/p/68904588",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/cc/23/cc23b6d2905623a068399034af582184.jpg"
+  },
+  {
+    "id": "43d58308-b33b-4284-9dff-07adf6c3c4fb",
+    "name": "Dímelo bajito",
+    "matched": "Dímelo bajito (Dímelo 1)",
+    "extras": [
+      "1"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-dimelo-bajito-dimelo-1/9789874924650/p/53164245",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/a3/1c/a31c60558fe7959470310330fa33e9c6.jpg"
+  },
+  {
+    "id": "3207b296-4739-4be4-bc82-bfd7d691fe57",
+    "name": "Dioses de neón",
+    "matched": "Dioses de Neon (Neon Gods - Dark Olympus 1)",
+    "extras": [
+      "god",
+      "dark",
+      "olympu",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-dioses-de-neon-neon-gods-dark-olympus-1/9788427051652/p/54944387",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/c1/13/c113b0a8fe0e45e19a5ff17231b2c865.jpg"
+  },
+  {
+    "id": "e61109fd-70d7-4dfb-9311-d1854a0f9fb9",
+    "name": "Dopamina",
+    "matched": "Generacion Dopamina",
+    "extras": [
+      "generacion"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-generacion-dopamina/9789507883880/p/54496582",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/41/00/4100bc7841e3e38bcaab3fbecd0883d3.jpg"
+  },
+  {
+    "id": "93242b2d-666e-4d47-b9c1-ef242800bc6f",
+    "name": "El camino de las lágrimas",
+    "matched": "Camino de las Lagrimas, el - Jorge Bucay",
+    "extras": [
+      "jorge",
+      "bucay"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-camino-de-las-lagrimas-el-jorge-bucay/9789876092227/p/3381331",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/d2/f4/d2f402433cb2a9e2b10781e9acffc187.jpg"
+  },
+  {
+    "id": "015dcba7-e0ed-48aa-a567-e812d7c00359",
+    "name": "El corazón del rey",
+    "matched": "El corazón del rey (Saga Rey III)",
+    "extras": [
+      "iii"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-corazon-del-rey-saga-rey-iii/9789504995012/p/64646400",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/5b/0b/5b0bb29440ad3ce318655b4c8e97bc47.jpg"
+  },
+  {
+    "id": "a360a6c4-3624-4f14-9335-2876805e064d",
+    "name": "El día de la trilla",
+    "matched": "El día de la Trilla (Empíreo 4)",
+    "extras": [
+      "empireo",
+      "4"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-dia-de-la-trilla-empireo-4/9789504999027/p/68253996",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/58/32/5832f4a82ac24e9f91a749ef52d652d1.jpg"
+  },
+  {
+    "id": "a3e41149-e46c-4278-8fcb-2896ee985480",
+    "name": "El enojo",
+    "matched": "Ponle ojo a tu Enojo. Como Manejar el Enojo sin Enojo",
+    "extras": [
+      "ponle",
+      "ojo",
+      "como",
+      "manejar",
+      "sin"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-ponle-ojo-a-tu-enojo-como-manejar-el-enojo-sin-enojo/9789701514009/p/2519699",
+    "image_url": "https://covers.openlibrary.org/b/id/11488564-L.jpg"
+  },
+  {
+    "id": "80956aeb-c505-4bf4-b100-44222b71edd8",
+    "name": "El mapa de los anhelos",
+    "matched": "El mapa de los anhelos. Tie in",
+    "extras": [
+      "tie"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-mapa-de-los-anhelos-tie-in/9789878224428/p/67597561",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/87/4a/874a3c578b663026544f6d3f8ba8d8cd.jpg"
+  },
+  {
+    "id": "0866d663-76ee-4abb-872d-cb1e139fd2c7",
+    "name": "El método",
+    "matched": "EL METODO BRIONES",
+    "extras": [
+      "brion"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-metodo-briones/9789877258516/p/69268321",
+    "image_url": "https://covers.openlibrary.org/b/id/1052008-L.jpg"
+  },
+  {
+    "id": "a95d7fc4-a4ac-4e20-8710-d510aca08354",
+    "name": "El perfume del rey (saga)",
+    "matched": "El perfume del rey. Saga rey I. (Edición de lujo)",
+    "extras": [
+      "lujo"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-perfume-del-rey-saga-rey-i-edicion-de-lujo/9786287779297/p/64206258",
+    "image_url": null
+  },
+  {
+    "id": "abca2dac-5d6d-4768-96e9-b17ab9e634df",
+    "name": "El poder de la ambición",
+    "matched": "El poder de la ambición. Despierta la fuerza poderosa dentro de ti",
+    "extras": [
+      "despierta",
+      "fuerza",
+      "poderosa",
+      "dentro",
+      "ti"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-poder-de-la-ambicion-despierta-la-fuerza-poderosa-dentro-de-ti/9786313130337/p/65301745",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/67/57/6757e8535034e895d17f7542bd6159de.jpg"
+  },
+  {
+    "id": "3a861bf0-c65c-46c4-a37c-ce5ad8ad11cb",
+    "name": "El poder del metabolismo",
+    "matched": "El poder del metabolismo - Recetas",
+    "extras": [
+      "receta"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-poder-del-metabolismo-recetas/9780988221895/p/49267168",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/53/47/5347dbdb10a31c28fb0f54fabb980eff.jpg"
+  },
+  {
+    "id": "4ab75281-f37e-44df-935f-7ae79df5afcb",
+    "name": "El principito",
+    "matched": "VIAJANDO CON EL PRINCIPITO",
+    "extras": [
+      "viajando"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-viajando-con-el-principito/9786313006793/p/69262266",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/52/e1/52e1a108f8e0ebc3e9883d5f183c6a97.jpg"
+  },
+  {
+    "id": "0467096e-b41e-49cf-8b8b-6b502dcca7f0",
+    "name": "El señor de los anillos (saga)",
+    "matched": "El Señor de los Anillos. Edición Ilustrada por el Autor",
+    "extras": [
+      "ilustrada",
+      "autor"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-senor-de-los-anillos-edicion-ilustrada-por-el-autor/9788445019580/p/63658558",
+    "image_url": null
+  },
+  {
+    "id": "dc20e818-abcd-4c36-94e3-b4e9f9a5c497",
+    "name": "El silencio",
+    "matched": "Biografía del Silencio",
+    "extras": [
+      "biografia"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-biografia-del-silencio/9788417971717/p/52348107",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/e0/f2/e0f29900522a469a6b4a31cf4bf57f68.jpg"
+  },
+  {
+    "id": "39dd099c-5e0b-4388-8ec2-f2dac607c156",
+    "name": "El trader disciplinado",
+    "matched": "El Trader Disciplinado: Cómo Desarrollar Actitudes Ganadoras",
+    "extras": [
+      "como",
+      "desarrollar",
+      "actitud",
+      "ganadora"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-trader-disciplinado-como-desarrollar-actitudes-ganadoras/9788494920349/p/52889827",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/67/29/6729b719011fb6ff4452e22496075e92.jpg"
+  },
+  {
+    "id": "624cd387-528b-47d9-b36d-22f3938678c2",
+    "name": "En llamas",
+    "matched": "El Dios en Llamas",
+    "extras": [
+      "dio"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-dios-en-llamas/9788419266927/p/62024164",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/5a/84/5a84540d1a0af71cf533dce00e6d2892.jpg"
+  },
+  {
+    "id": "a6c8a5e4-1212-421c-a3f4-ce5db1bf82f0",
+    "name": "Eres única",
+    "matched": "Soy Juana Pelicanos , y tu?  Completa Este Diario y Recuerda Siempre que Eres Unica De Catapulta Editores, ilustrado por Sol",
+    "extras": [
+      "soy",
+      "juana",
+      "pelicano",
+      "completa",
+      "este",
+      "diario",
+      "recuerda",
+      "siempre",
+      "catapulta",
+      "editor",
+      "ilustrado",
+      "sol"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-soy-juana-pelicanos-y-tu-completa-este-diario-y-recuerda-siempre-que-eres-unica/9789876379472/p/53791517",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/4f/fa/4ffaddd78c3cd116693c8708e7e86c6b.jpg"
+  },
+  {
+    "id": "212bf39a-e96a-43c4-a246-876456f2ecb0",
+    "name": "Eres único",
+    "matched": "Tu Eres lo Unico que Falta en tu Vida",
+    "extras": [
+      "falta",
+      "vida"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-tu-eres-lo-unico-que-falta-en-tu-vida/9789501532616/p/54641451",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/fd/3e/fd3ee43be35554324010c00578d5f0aa.jpg"
+  },
+  {
+    "id": "3763d9bd-bf1c-4343-ba33-84f1877431e2",
+    "name": "Eterno",
+    "matched": "ETERNOS SOLO LA MUERTE ES ETERNA",
+    "extras": [
+      "solo",
+      "muerte",
+      "es",
+      "eterna"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-eternos-solo-la-muerte-es-eterna/9786076369081/p/55198329",
+    "image_url": null
+  },
+  {
+    "id": "42e6d4ac-142d-4eb5-b2ce-7e2a50ab2960",
+    "name": "Frozen II",
+    "matched": "El Bosque Despierta - Frozen ii",
+    "extras": [
+      "bosque",
+      "despierta"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-bosque-despierta-frozen-ii/9789877979565/p/55527545",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/29/6b/296bf2944c1cb71bc04fa8c95f4ead53.jpg"
+  },
+  {
+    "id": "dcd3a19b-89eb-4249-adbe-f38d6a734351",
+    "name": "Guía de vagos",
+    "matched": "Nervio Vago: Una guía completa para entender y superar la ansiedad, la depresión, el trauma, la in",
+    "extras": [
+      "nervio",
+      "completa",
+      "entender",
+      "superar",
+      "ansiedad",
+      "depresion",
+      "trauma"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-nervio-vago-una-guia-completa-para-entender-y-superar-la-ansiedad-la-depresion-el-trauma-la-inflamacion-el-estres-emocional-y/9798201911393/p/55928748",
+    "image_url": null
+  },
+  {
+    "id": "a87518c6-4e04-4889-89a5-476d9cf0a388",
+    "name": "Harry Potter (saga)",
+    "matched": "Saga Completa Harry Potter 7 Tomos Estuche",
+    "extras": [
+      "completa",
+      "7",
+      "tomo",
+      "estuche"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-saga-completa-harry-potter-7-tomos-estuche/9789878000473/p/53078033",
+    "image_url": null
+  },
+  {
+    "id": "015e3884-646c-4ee4-b044-c854118d932a",
+    "name": "Hooked",
+    "matched": "Hooked (Nunca Jamás 1)",
+    "extras": [
+      "nunca",
+      "jama",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-hooked-nunca-jamas-1/9786073835398/p/55575700",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/31/d6/31d6d967b807a8346d345ab396d1e82e.jpg"
+  },
+  {
+    "id": "10d5bcb8-f95e-4a92-914d-a8e74284386c",
+    "name": "Imaginaria",
+    "matched": "Vida Imaginaria",
+    "extras": [
+      "vida"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-vida-imaginaria/9788426424372/p/54527579",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/15/3e/153e40a89c371f7be6344f253cfc6a36.jpg"
+  },
+  {
+    "id": "03542eb0-9889-445e-bd47-13d9328cbb6c",
+    "name": "Inteligencia artificial",
+    "matched": "Atlas de inteligencia artificial",
+    "extras": [
+      "atla"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-atlas-de-inteligencia-artificial/9789877193695/p/54355557",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/e4/58/e458f1b6c6bdff8bcc395319d35b80bd.jpg"
+  },
+  {
+    "id": "7d8d8034-39c5-4caa-82fe-4011ca566837",
+    "name": "Invisible",
+    "matched": "EMMIE ES INVISIBLE",
+    "extras": [
+      "emmie",
+      "es"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-emmie-es-invisible/9786313014026/p/69268136",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/a6/f8/a6f87235eed115bb47e48bdba8b02530.jpg"
+  },
+  {
+    "id": "e98db88f-1270-45da-9843-da8680746331",
+    "name": "Juego de tronos (saga)",
+    "matched": "Juego de Tronos (Ed. Rustica) (Saga Cancion de Hielo y Fuego 1)",
+    "extras": [
+      "ed",
+      "rustica",
+      "cancion",
+      "hielo",
+      "fuego",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-juego-de-tronos-ed-rustica-saga-cancion-de-hielo-y-fuego-1/9788496208964/p/4843590",
+    "image_url": null
+  },
+  {
+    "id": "3b0ef1e2-7541-4425-b365-c6df4c7de392",
+    "name": "La batalla cultural",
+    "matched": "La batalla cultural (Edición ampliada y actualizada)",
+    "extras": [
+      "ampliada",
+      "actualizada"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-la-batalla-cultural-edicion-ampliada-y-actualizada/9781400352524/p/65769055",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/4c/6b/4c6b7b340d1af0a773b2c0900a0b78cc.jpg"
+  },
+  {
+    "id": "0ea26d68-4072-4440-840e-af1cb027ed4f",
+    "name": "La Biblia del niño",
+    "matched": "La Biblia del niño: Selección de textos bíblicos",
+    "extras": [
+      "seleccion",
+      "texto",
+      "biblico"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-biblia-del-nino-seleccion-de-textos-biblicos/9788471510211/p/1248496",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/78/2d/782d0aae98fc6afa641d0a4d4a5f3d1c.jpg"
+  },
+  {
+    "id": "474e9fbb-663a-40f6-a11b-979fe58cac9f",
+    "name": "La felicidad",
+    "matched": "El castillo de la felicidad",
+    "extras": [
+      "castillo"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-castillo-de-la-felicidad/9789508524096/p/69276215",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/9d/07/9d07657fab38d70195e0deb1e557c86d.jpg"
+  },
+  {
+    "id": "b148c29f-8e4c-4705-a5d5-3749d0801607",
+    "name": "La ley de la atracción",
+    "matched": "La ley de Atraccion en Ejercicios",
+    "extras": [
+      "ejercicio"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-ley-de-atraccion-en-ejercicios/9789501773040/p/4840488",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/c3/96/c39649c56d229600c4d320a6293c9ebc.jpg"
+  },
+  {
+    "id": "1ac182a5-97e6-4233-a9bd-848a017ced29",
+    "name": "La llamada del coraje",
+    "matched": "La llamada del coraje (Las 4 virtudes estoicas 1)",
+    "extras": [
+      "4",
+      "virtud",
+      "estoica",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-llamada-del-coraje-las-4-virtudes-estoicas-1/9789871941766/p/54221072",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/26/50/2650d46efbebae63c0697e938342e4cf.jpg"
+  },
+  {
+    "id": "b4356338-3a28-470c-b6ec-76796e2980c3",
+    "name": "La magia de patrocinar",
+    "matched": "Mlm de big al la Magia de Patrocinar: Cómo Construir un Equipo de Redes de Mercadeo Rápidamente",
+    "extras": [
+      "mlm",
+      "big",
+      "como",
+      "construir",
+      "equipo",
+      "rede",
+      "mercadeo",
+      "rapidamente"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-mlm-de-big-al-la-magia-de-patrocinar-como-construir-un-equipo-de-redes-de-mercadeo-rapidamente/9781892366627/p/51518911",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/1f/85/1f85ec64d35a85a229e0dfd7b8cd2f73.jpg"
+  },
+  {
+    "id": "177003ab-a48f-4bb2-8be9-99439603df18",
+    "name": "La montaña eres tú",
+    "matched": "La Montaña Eres tú: Cómo Transformar el Autosabotaje en Empoderamiento",
+    "extras": [
+      "como",
+      "transformar",
+      "autosabotaje",
+      "empoderamiento"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-montana-eres-tu-como-transformar-el-autosabotaje-en-empoderamiento/9788408282822/p/55747523",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/ef/91/ef91e72609f0cbf8535f6109f8505f04.jpg"
+  },
+  {
+    "id": "e24019dc-4bbb-4b8d-9812-d33c4186e418",
+    "name": "La teoría de Kim, tomo I",
+    "matched": "La teoría de Kim II",
+    "extras": [
+      "ii"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-teoria-de-kim-ii/9786124414411/p/55894921",
+    "image_url": null
+  },
+  {
+    "id": "d8ef19ac-509f-4ead-bfc8-2eb4ec6d5dae",
+    "name": "La teoría de la relatividad",
+    "matched": "La Teoría de la Relatividad: Memorias & Margaritas",
+    "extras": [
+      "memoria",
+      "margarita"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-teoria-de-la-relatividad-memorias-margaritas/9798388798442/p/56164494",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/73/41/7341e2f129494927bf5edf47c6b5341f.jpg"
+  },
+  {
+    "id": "ef2ccf18-ab61-4239-a5b7-66b839a0c3da",
+    "name": "Las crónicas de Narnia (saga)",
+    "matched": "EL SOBRINO DEL MAGO - LAS CRÓNICAS DE NARNIA",
+    "extras": [
+      "sobrino",
+      "mago"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-sobrino-del-mago-las-cronicas-de-narnia/9781400351817/p/64517767",
+    "image_url": null
+  },
+  {
+    "id": "2f2c0709-6b52-432e-bab9-06b5a165dad0",
+    "name": "Las leyes del dinero",
+    "matched": "Las 32 Leyes Inquebrantables del Dinero y el Éxito",
+    "extras": [
+      "32",
+      "inquebrantabl",
+      "exito"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-las-32-leyes-inquebrantables-del-dinero-y-el-exito/9788410121164/p/62904179",
+    "image_url": null
+  },
+  {
+    "id": "bb1a3d8b-485f-4ee7-9403-d63ed0a047d3",
+    "name": "Las leyes del éxito",
+    "matched": "Las Siete leyes espirituales del exito",
+    "extras": [
+      "siete",
+      "espiritual"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-las-siete-leyes-espirituales-del-exito/9789584508430/p/1403281",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/ef/ae/efaebc4ac5c658abb9df7054823e20b0.jpg"
+  },
+  {
+    "id": "dcd77158-a381-45b4-b71c-7b1d10df5314",
+    "name": "Lazos de fuego",
+    "matched": "Lazos de fuego (Academia Bloodwing 2) Edicin especial con cantos tintados",
+    "extras": [
+      "academia",
+      "bloodwing",
+      "2",
+      "edicin",
+      "canto",
+      "tintado"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-lazos-de-fuego-academia-bloodwing-2-edicin-especial-con-cantos-tintados/9788408327271/p/68352352",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/8f/ec/8feccabbaa9d1422beb880cf49f1728c.jpg"
+  },
+  {
+    "id": "50dc7fe5-4ac7-48cf-9ce6-79dac7476ec8",
+    "name": "Libera tu mente",
+    "matched": "Libera tu mente, libera tu dinero",
+    "extras": [
+      "dinero"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-libera-tu-mente-libera-tu-dinero/9791370290863/p/64714511",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/bc/23/bc230d38a731e57c2d68980b8464cf65.jpg"
+  },
+  {
+    "id": "a167ca69-ea7b-4524-af1e-267fe920793b",
+    "name": "Los cuatro acuerdos",
+    "matched": "Los Cuatro Acuerdos: Un Libro de Sabiduría Tolteca (Crecimiento Personal)",
+    "extras": [
+      "sabiduria",
+      "tolteca",
+      "crecimiento",
+      "personal"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-los-cuatro-acuerdos-un-libro-de-sabiduria-tolteca-crecimiento-personal/9789507880223/p/1249919",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/8f/5b/8f5bfcb65f1c32778b201da8d6a5e3d9.jpg"
+  },
+  {
+    "id": "eaa051a6-6ed6-4989-9def-a65d3bfd4f74",
+    "name": "Los gatos guerreros (saga)",
+    "matched": "Saga Gatos Guerreros. Los Cuatro Clanes (Paquete 6 Vol. ) - Erin Hunter - Libro Físico",
+    "extras": [
+      "cuatro",
+      "clan",
+      "paquete",
+      "6",
+      "erin",
+      "hunter",
+      "fisico"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-saga-gatos-guerreros-los-cuatro-clanes-paquete-6-vol-erin-hunter-libro-fisico/9788498387049/p/46791907",
+    "image_url": null
+  },
+  {
+    "id": "b4a47064-2209-48c7-b4f3-c272ca81cf90",
+    "name": "Los hornos de Hitler",
+    "matched": "Los Hornos de Hitler / Five Chimneys",
+    "extras": [
+      "five",
+      "chimney"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-los-hornos-de-hitler-five-chimneys/9786070721786/p/42922824",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/b6/1d/b61d4c7f3fee5b54e0283c4ae17dac28.jpg"
+  },
+  {
+    "id": "c41688fd-1cf7-43c5-af6a-3a8a1785ce86",
+    "name": "Los juegos del hambre",
+    "matched": "Los juegos del hambre (Los Juegos del Hambre 1)",
+    "extras": [
+      "1"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-los-juegos-del-hambre-los-juegos-del-hambre-1/9789878120201/p/53670990",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/30/f8/30f8f558cdbedb0fe519306d6e0aae69.jpg"
+  },
+  {
+    "id": "7ee0e1c0-4dab-4f0f-9d53-fd902d0e7f47",
+    "name": "Los juegos del hambre (saga)",
+    "matched": "Los Juegos del Hambre (Saga Los juegos del hambre 1)",
+    "extras": [
+      "1"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-los-juegos-del-hambre-saga-los-juegos-del-hambre-1/9786287514188/p/53723976",
+    "image_url": null
+  },
+  {
+    "id": "36ae4adf-94d8-4b77-b18e-ec83edeb27a6",
+    "name": "Los nuevos profesionales",
+    "matched": "Hacia nuevos perfiles profesionales en discapacidad: de los dichos a los hechos",
+    "extras": [
+      "hacia",
+      "perfil",
+      "discapacidad",
+      "dicho",
+      "hecho"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-hacia-nuevos-perfiles-profesionales-en-discapacidad-de-los-dichos-a-los-hechos/9789876203067/p/64265763",
+    "image_url": "https://covers.openlibrary.org/b/id/5259956-L.jpg"
+  },
+  {
+    "id": "427dd834-066a-46e0-93fc-d708d08b8537",
+    "name": "Los secretos del Kybalion",
+    "matched": "Los Secretos Ocultos del Kybalion: Explicación fácil e ilustrada de los principios herméticos que",
+    "extras": [
+      "oculto",
+      "explicacion",
+      "facil",
+      "ilustrada",
+      "principio",
+      "hermetico"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-los-secretos-ocultos-del-kybalion-explicacion-facil-e-ilustrada-de-los-principios-hermeticos-que-no-quieren-que-conozcas-spanish-edition/9798289754790/p/69073192",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/7f/dd/7fdd502f4d35532313e2032b91ab6f08.jpg"
+  },
+  {
+    "id": "6456816b-3666-484f-b800-4b53b068c954",
+    "name": "Maestría",
+    "matched": "Maestría en liderazgo",
+    "extras": [
+      "liderazgo"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-maestria-en-liderazgo/9789877253160/p/50797461",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/f8/54/f8549d13499a6fff983e8da4808b2f17.jpg"
+  },
+  {
+    "id": "8b1ae0de-5697-4368-876b-a25d94210984",
+    "name": "Marketing digital",
+    "matched": "Marketing Digital Para Instituciones Educativas",
+    "extras": [
+      "institucion",
+      "educativa"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-marketing-digital-para-instituciones-educativas/9786316544117/p/55749085",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/da/ae/daae5c9e7a22741c3fa230206e7dee70.jpg"
+  },
+  {
+    "id": "10ba8b03-d39d-42df-9e73-0b92cb38fd3f",
+    "name": "Me elijo a mí",
+    "matched": "Me elijo a mí 111 lecciones para volver a ti después de perderte",
+    "extras": [
+      "111",
+      "leccion",
+      "volver",
+      "ti",
+      "despu",
+      "perderte"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-me-elijo-a-mi-111-lecciones-para-volver-a-ti-despues-de-perderte/9789801870470/p/64672261",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/ea/92/ea92d53b58f31534a5299dc64a5d003d.jpg"
+  },
+  {
+    "id": "a6ea5f6c-567a-46ce-ae01-780ee226d10d",
+    "name": "Memento mori",
+    "matched": "Memento mori. Recuerda tu muerte (Memento mori 1)",
+    "extras": [
+      "recuerda",
+      "muerte",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-memento-mori-recuerda-tu-muerte-memento-mori-1/9786124983795/p/64481569",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/34/dd/34dd057f933ec9a3ba0304d8cd1b2e18.jpg"
+  },
+  {
+    "id": "c512f737-9c94-46d2-8e8e-63b0e260d79e",
+    "name": "Mentalidad mamba",
+    "matched": "Mentalidad Mamba: Los Secretos de mi Éxito",
+    "extras": [
+      "secreto",
+      "exito"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-mentalidad-mamba-los-secretos-de-mi-exito/9788417568665/p/52023447",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/80/59/805909f9b21299cf5dcc7a6fc71dae44.jpg"
+  },
+  {
+    "id": "a7dcfd8c-b8cc-417f-9733-f8e65762057d",
+    "name": "Metas",
+    "matched": "Metas (en Español neutro)",
+    "extras": [
+      "espanol",
+      "neutro"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-metas/9786313131082/p/69277170",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/4d/e7/4de723f34d4d04265e9c11ab505e3793.jpg"
+  },
+  {
+    "id": "98c9d93e-8d5b-44ca-ae05-680957655b91",
+    "name": "Metodología Inbound",
+    "matched": "METODOLOGIA INBOUND SI NO HAS SIDO EL PRIMERO, AUN PUEDES S",
+    "extras": [
+      "si",
+      "no",
+      "has",
+      "sido",
+      "primero",
+      "aun",
+      "pued"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-metodologia-inbound-si-no-has-sido-el-primero-aun-puedes-s/9788441548039/p/54900234",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/3b/2e/3b2ef233e9cbcbd3a02aaeef9265e9cd.jpg"
+  },
+  {
+    "id": "7af7648c-056f-4462-988e-1d5b5a7475d1",
+    "name": "Michael Jackson",
+    "matched": "¿Dónde esta Michael Jackson?",
+    "extras": [
+      "donde",
+      "esta"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-donde-esta-michael-jackson/9789974894020/p/51794242",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/d4/75/d475b1480bedea646be549fce7ed7983.jpg"
+  },
+  {
+    "id": "40787020-eb26-4bc2-a795-bf31e2fedd90",
+    "name": "Molas mucho",
+    "matched": "Molas Mucho: Una Guía Para Surfear la Adolescencia",
+    "extras": [
+      "guia",
+      "surfear",
+      "adolescencia"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-molas-mucho-una-guia-para-surfear-la-adolescencia/9788410269798/p/63957865",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/54/cf/54cfebc1332acdd8627e028f9e146f23.jpg"
+  },
+  {
+    "id": "5810f442-68a5-4a98-b105-1fdc7985ce53",
+    "name": "Naciste para brillar",
+    "matched": "Eres Luciérnaga: Naciste Para Brillar",
+    "extras": [
+      "ere",
+      "luciernaga"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-eres-luciernaga-naciste-para-brillar/9789874426482/p/52314244",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/66/77/667763141ff62b7608257362a2bc5034.jpg"
+  },
+  {
+    "id": "b1ab5254-36f0-47a9-aaa5-7e7de5de7d10",
+    "name": "Nunca terminar",
+    "matched": "Nunca terminar: Desencadena tu mente y gana la guerra interior",
+    "extras": [
+      "desencadena",
+      "mente",
+      "gana",
+      "guerra",
+      "interior"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-nunca-terminar-desencadena-tu-mente-y-gana-la-guerra-interior/9781544534701/p/54557120",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/8d/7c/8d7c9db1a41ec972767a5aa1716fbe4d.jpg"
+  },
+  {
+    "id": "8b89ca8f-7612-4ed8-a8bb-3cbc5ccb32b3",
+    "name": "Para crecer",
+    "matched": "Cuentos Montessori Para Crecer Felices",
+    "extras": [
+      "cuento",
+      "montessori",
+      "felic"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-cuentos-montessori-para-crecer-felices/9789871997589/p/54310391",
+    "image_url": null
+  },
+  {
+    "id": "61fd5096-e239-492a-8437-e5817a652a13",
+    "name": "Perreo",
+    "matched": "CAZZU PERREO",
+    "extras": [
+      "cazzu"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-cazzu-perreo/9786316553201/p/64219156",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/f7/f1/f7f1feda3ea68dd900b88a21fdad0395.jpg"
+  },
+  {
+    "id": "1ca67a57-1ea6-4b43-b687-42004d470b94",
+    "name": "Phantasma",
+    "matched": "Phantasma (Edición Especial Limitada)",
+    "extras": [
+      "limitada"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-phantasma-edicion-especial-limitada/9788410163836/p/63560126",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/5d/f5/5df570bd413793984f30afb6496e92cd.jpg"
+  },
+  {
+    "id": "63f25571-27fb-4140-8c30-6c65ec651f5d",
+    "name": "Prospectos de 100M",
+    "matched": "Prospectos de $100M: Cómo Conseguir que los Desconocidos Quieran Comprar lo que Vendes",
+    "extras": [
+      "como",
+      "conseguir",
+      "desconocido",
+      "quieran",
+      "comprar",
+      "vend"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-prospectos-de-100m-como-conseguir-que-los-desconocidos-quieran-comprar-lo-que-vendes/9781963349054/p/56017296",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/b3/62/b362839f9a080aa7ab0a4b19c77bd1c1.jpg"
+  },
+  {
+    "id": "9b2e9f47-3313-41d5-88f5-5a8f2b12b1ff",
+    "name": "Psicología del dinero",
+    "matched": "La psicología del dinero Verano 2024-2025",
+    "extras": [
+      "verano",
+      "2024",
+      "2025"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-la-psicologia-del-dinero-verano-2024-2025/9789878221878/p/63296078",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/fc/91/fc913a19e895d0ee2b22f7fcc0fd7a89.jpg"
+  },
+  {
+    "id": "6c7139a0-f349-4cdb-a86f-56fc601f4752",
+    "name": "Psicología maquiavélica",
+    "matched": "Psicología Oscura: Lo que las Personas Maquiavélicas Poderosas Saben, y Usted no, Sobre Persuasió",
+    "extras": [
+      "oscura",
+      "persona",
+      "poderosa",
+      "saben",
+      "usted",
+      "no",
+      "sobre",
+      "persuasio"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-psicologia-oscura-lo-que-las-personas-maquiavelicas-poderosas-saben-y-usted-no-sobre-persuasion-control-mental-manipulacion-negociacion-engano-conducta-humana-y-guerra-psicologica/9781950922253/p/52471105",
+    "image_url": null
+  },
+  {
+    "id": "16129b29-3368-45f6-97cb-28b7f08ac614",
+    "name": "Psicología oscura",
+    "matched": "Psicologia Oscura & Manipulacion Mental",
+    "extras": [
+      "manipulacion",
+      "mental"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-psicologia-oscura-manipulacion-mental/9781088133774/p/54952299",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/27/35/27351377334a2337e710e8d2c08bdd30.jpg"
+  },
+  {
+    "id": "50d9de71-dc8e-4abb-b72d-1edf454bb538",
+    "name": "Puntos críticos",
+    "matched": "Quesos Tipicos de Latinoamerica: -Tecnologia y Puntos Críticos-",
+    "extras": [
+      "queso",
+      "tipico",
+      "latinoamerica",
+      "tecnologia"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-quesos-tipicos-de-latinoamerica-tecnologia-y-puntos-criticos/9783639530902/p/48885840",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/2e/8e/2e8ea0717fcaad69e7b8b94841d169cd.jpg"
+  },
+  {
+    "id": "dea35c63-a3e4-44a1-a9f9-554e6d08bc42",
+    "name": "Quedará el amor",
+    "matched": "Quedará el amor. Tapa flexible",
+    "extras": [
+      "tapa",
+      "flexible"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-quedara-el-amor-tapa-flexible/9789878224329/p/67597554",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/64/3e/643e67dbbbc8cab43db1e45b1f3d27eb.jpg"
+  },
+  {
+    "id": "c5c22ea1-09fd-43ca-bc96-a5df1fd296da",
+    "name": "Ragnarok",
+    "matched": "Shuumatsu no Valkyrie-Record of Ragnarök 08",
+    "extras": [
+      "shuumatsu",
+      "no",
+      "valkyrie",
+      "record",
+      "8"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-shuumatsu-no-valkyrie-record-of-ragnarok-08/9788418963773/p/54104706",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/e8/2f/e82f7a0789ecbfc58d7c176dc099dbb2.jpg"
+  },
+  {
+    "id": "61499da9-a5b7-4ec8-b729-fbefb07fa750",
+    "name": "Rayuela",
+    "matched": "Rayuela: Juicio a la Literatura",
+    "extras": [
+      "juicio",
+      "literatura"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-rayuela-juicio-a-la-literatura/9788437507217/p/46503526",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/bd/c0/bdc0ac2b9c5894fbfd244c84cb56c70a.jpg"
+  },
+  {
+    "id": "1e7dade2-ce5d-45bb-96d9-757e6a2f7dec",
+    "name": "Rebelión en la granja",
+    "matched": "Rebelión en la granja (en Español (O Castellano))",
+    "extras": [
+      "espanol",
+      "castellano"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-rebelion-en-la-granja/9789877189438/p/69248129",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/66/e4/66e40a2bc13b665f687bd9ece8df98e2.jpg"
+  },
+  {
+    "id": "04da956c-aa65-4b11-9db0-2354d6072629",
+    "name": "Reckless",
+    "matched": "Reckless. Sombras Vivientes",
+    "extras": [
+      "sombra",
+      "vivient"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-reckless-sombras-vivientes/9786071611093/p/17751893",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/07/44/074463e60cbbf5dd432b281c1d04001e.jpg"
+  },
+  {
+    "id": "a8268885-97d3-47eb-a6d5-96352144c854",
+    "name": "Redes",
+    "matched": "Redes Peligrosas",
+    "extras": [
+      "peligrosa"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-redes-peligrosas/9789875041073/p/46879286",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/8f/ad/8fad4c6101f22869dba50b07ccac16f4.jpg"
+  },
+  {
+    "id": "9d543869-039c-482e-985b-09db2daac02b",
+    "name": "Redes de mercadeo",
+    "matched": "Redes de Liderazgo: 14 Atributos Detrás del Éxito en Redes de Mercadeo",
+    "extras": [
+      "liderazgo",
+      "14",
+      "atributo",
+      "detra",
+      "exito"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-redes-de-liderazgo-14-atributos-detras-del-exito-en-redes-de-mercadeo/9781976761126/p/53116129",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/a9/a5/a9a57cfab944c8d60527f2868c920a73.jpg"
+  },
+  {
+    "id": "7e87fb74-b1fb-46eb-a4eb-5a0f2105360a",
+    "name": "Resetea tu mente",
+    "matched": "Resetea tu Mente. Descubre de lo que Eres Capaz",
+    "extras": [
+      "descubre",
+      "ere",
+      "capaz"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-resetea-tu-mente-descubre-de-lo-que-eres-capaz/9789508523464/p/54601301",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/7a/3b/7a3b6e76e5b667c8452aa0b69be78f66.jpg"
+  },
+  {
+    "id": "964b114f-fcaf-4e9c-94b6-9cb32445691d",
+    "name": "Rey de la codicia",
+    "matched": "Pecados 3. Rey de la codicia",
+    "extras": [
+      "pecado",
+      "3"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-pecados-3-rey-de-la-codicia/9789507326660/p/64568165",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/89/b6/89b64859c0179b3b0158562603e903a3.jpg"
+  },
+  {
+    "id": "5b224dda-f492-4dca-9e14-ea457f3654cf",
+    "name": "Rey de la desidia",
+    "matched": "Pecados 4. Rey de la desidia. Edición especial",
+    "extras": [
+      "pecado",
+      "4"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-pecados-4-rey-de-la-desidia-edicion-especial/9788408304029/p/64059562",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/ce/fd/cefd626c443bd95eb204458dedf48105.jpg"
+  },
+  {
+    "id": "7cb1f252-91a6-4236-9e9c-1926bb266b4b",
+    "name": "Rey de la envidia",
+    "matched": "Pecados 5. Rey de la envidia",
+    "extras": [
+      "pecado",
+      "5"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-pecados-5-rey-de-la-envidia/9789507326974/p/65854312",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/8c/35/8c352d27f74a8a29e8bde91edef0b24a.jpg"
+  },
+  {
+    "id": "3481b654-6320-4866-94f4-6c3e4bbbc362",
+    "name": "Rey de la ira",
+    "matched": "Pecados 1. Rey de la ira",
+    "extras": [
+      "pecado",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-pecados-1-rey-de-la-ira/9789507326295/p/63314048",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/33/26/3326f3d9de3dd5de86b9407f57a970fd.jpg"
+  },
+  {
+    "id": "de5e2e66-dbd6-4ac7-8930-7075a032b1f8",
+    "name": "Rey de la soberbia",
+    "matched": "Pecados 2. Rey de la Soberbia. Edición Especial",
+    "extras": [
+      "pecado",
+      "2"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-pecados-2-rey-de-la-soberbia-edicion-especial/9788408292661/p/62024407",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/cf/fc/cffc5cbf41ab3471cafab939600ca18a.jpg"
+  },
+  {
+    "id": "0b5f1334-3fd1-4524-afcb-8c09b80439b5",
+    "name": "Riqueza",
+    "matched": "Millonario discreto. Cómo generar una riqueza extraordinaria comprando negocios ordinarios",
+    "extras": [
+      "millonario",
+      "discreto",
+      "como",
+      "generar",
+      "extraordinaria",
+      "comprando",
+      "negocio",
+      "ordinario"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-millonario-discreto-como-generar-una-riqueza-extraordinaria-comprando-negocios-ordinarios/9791387936167/p/65871867",
+    "image_url": null
+  },
+  {
+    "id": "4e0ad42d-4e85-4a4c-8fa5-04a486087257",
+    "name": "Ruge",
+    "matched": "Ruge o Espera a ser Devorado",
+    "extras": [
+      "espera",
+      "ser",
+      "devorado"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-ruge-o-espera-a-ser-devorado/9789504980490/p/54515527",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/a4/c6/a4c67d3b3122abd2560410738cb0c5c0.jpg"
+  },
+  {
+    "id": "17b88d49-2639-4cae-93c6-c21a17cb56e6",
+    "name": "Se camina igual",
+    "matched": "Rota se Camina Igual",
+    "extras": [
+      "rota"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-rota-se-camina-igual/9789501532210/p/54221062",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/60/8e/608e5d59f63561de894804d0f8ae43be.jpg"
+  },
+  {
+    "id": "2bb58de1-bc2f-47af-899f-4683b5389380",
+    "name": "Segunda oportunidad",
+    "matched": "Reinventarse: Tu Segunda Oportunidad",
+    "extras": [
+      "reinventarse"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-reinventarse-tu-segunda-oportunidad/9788415577096/p/7378206",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/ef/88/ef8838e180242c47716f6f0ffa0137ad.jpg"
+  },
+  {
+    "id": "30bc3b3d-947d-4cee-8b8f-8464b7aacc16",
+    "name": "Sinsajo",
+    "matched": "Los Juegos del Hambre 3 - Sinsajo (edición especial)",
+    "extras": [
+      "juego",
+      "hambre",
+      "3"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-los-juegos-del-hambre-3-sinsajo-edicion-especial/9788427248489/p/63064838",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/08/28/0828f06dbf045ba0e96ff3981a22bd95.jpg"
+  },
+  {
+    "id": "d0da7a27-1ff0-45ef-91e7-86cf1bd64392",
+    "name": "The Secret",
+    "matched": "The blue cross;  The secret of father Brown / La cruz azul; El secreto del padre Brown",
+    "extras": [
+      "blue",
+      "cros",
+      "father",
+      "brown",
+      "cruz",
+      "azul",
+      "secreto",
+      "padre",
+      "brown"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-the-blue-cross-the-secret-of-father-brown-la-cruz-azul-el-secreto-del-padre-brown/9788494240980/p/50354787",
+    "image_url": "https://covers.openlibrary.org/b/id/845815-L.jpg"
+  },
+  {
+    "id": "de9dfce4-9488-4a78-b582-256cd71503c0",
+    "name": "Tierra de nadie",
+    "matched": "Batman: Tierra de Nadie O. C.  Batman: Tierra de Nadie Vol. 4: 3",
+    "extras": [
+      "batman",
+      "batman",
+      "4",
+      "3"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-batman-tierra-de-nadie-o-c-batman-tierra-de-nadie-vol-4-3/9788417063955/p/48404037",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/35/07/3507122bdb078aa42d3b494c69b46a6a.jpg"
+  },
+  {
+    "id": "315fdf56-ebda-44a4-bab7-a956e134a6c2",
+    "name": "Todo lo que una chica",
+    "matched": "El Perfecto Manual Para Chicas: ¡Todo lo que una chica necesita!",
+    "extras": [
+      "perfecto",
+      "manual",
+      "necesita"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-perfecto-manual-para-chicas-todo-lo-que-una-chica-necesita/9788428540766/p/19617235",
+    "image_url": null
+  },
+  {
+    "id": "4ae8f63c-d66d-4a1e-95a8-1206ce486e88",
+    "name": "Tú eres tu prioridad",
+    "matched": "Tú eres tu prioridad. 100 verdades esenciales para amarte",
+    "extras": [
+      "100",
+      "verdad",
+      "esencial",
+      "amarte"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-tu-eres-tu-prioridad-100-verdades-esenciales-para-amarte/9789801871101/p/64672375",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/7a/95/7a951ac4101e07d2cf86d90b04b364f1.jpg"
+  },
+  {
+    "id": "4dc1a745-b699-4aca-9f66-3405fb4c5e04",
+    "name": "Twisted Games",
+    "matched": "Twisted 2. Twisted Games",
+    "extras": [
+      "2"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-twisted-2-twisted-games/9789507325922/p/55679287",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/ac/c4/acc45ccdacedf8c8c6c17c609f90100f.jpg"
+  },
+  {
+    "id": "55ae1d5f-1dd1-4dfd-94cb-1fe6ed605759",
+    "name": "Twisted Hate",
+    "matched": "Twisted 3. Twisted Hate",
+    "extras": [
+      "3"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-twisted-3-twisted-hate/9789507326097/p/55984118",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/66/fa/66faa96bbc6b68cd34bdad71b4f92ea5.jpg"
+  },
+  {
+    "id": "3aaf8f95-6782-401e-a716-9c9c292ecf13",
+    "name": "Twisted Lies",
+    "matched": "Twisted 4. Twisted Lies",
+    "extras": [
+      "4"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-twisted-4-twisted-lies/9789507326257/p/62079031",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/8b/db/8bdbc4e0c872fa48a27009d8520b3061.jpg"
+  },
+  {
+    "id": "dc1aede7-0360-4106-b2a6-bbe430eaeedd",
+    "name": "Twisted Love",
+    "matched": "Twisted 1. Twisted Love",
+    "extras": [
+      "1"
+    ],
+    "decision": "aceptar_extra",
+    "url": "https://www.buscalibre.com.ar/libro-twisted-1-twisted-love/9789507325755/p/54906535",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/a4/07/a407036183d7c41cd864493a2502a1ff.jpg"
+  },
+  {
+    "id": "e848ac9c-ad8a-4728-878a-eafbe17dc80d",
+    "name": "Una corona de mentiras",
+    "matched": "Una Corona de Mentiras (Saga Dominios 1)",
+    "extras": [
+      "dominio",
+      "1"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-una-corona-de-mentiras-saga-dominios-1/9788419621207/p/55721179",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/00/73/0073b4397f7eb03195973d5e6a76757b.jpg"
+  },
+  {
+    "id": "de8f6706-d10b-4d75-a5c9-686dc7d19886",
+    "name": "Una vida extraordinaria",
+    "matched": "Dios es Felicidad: Convierte tu Vida en una Experiencia Extraordinaria",
+    "extras": [
+      "dio",
+      "es",
+      "felicidad",
+      "convierte",
+      "experiencia"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-dios-es-felicidad-convierte-tu-vida-en-una-experiencia-extraordinaria/9788484452522/p/2488230",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/fd/b0/fdb0265c74b9e4e6c53d6583cc0d2005.jpg"
+  },
+  {
+    "id": "f15780f9-e661-4b70-89e5-264ec7786c52",
+    "name": "Vendes o vendes",
+    "matched": "Vendes o vendes: Cómo salirte con la tuya en los negocios y en la vida",
+    "extras": [
+      "como",
+      "salirte",
+      "tuya",
+      "negocio",
+      "vida"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-vendes-o-vendes-como-salirte-con-la-tuya-en-los-negocios-y-en-la-vida/9789877257809/p/64710176",
+    "image_url": "https://images.cdn3.buscalibre.com/fit-in/500x500/9f/17/9f174abdabc5795499bc2847abac3184.jpg"
+  },
+  {
+    "id": "eecdb4e3-d2f8-4a14-bf2e-ad149f1f4dc0",
+    "name": "Verity",
+    "matched": "Verity. La sombra de un engaño TD",
+    "extras": [
+      "sombra",
+      "engano",
+      "td"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-verity-la-sombra-de-un-engano-td/9789878222813/p/64568173",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/ea/da/eadaaaeb3cb169be1670c22013399f36.jpg"
+  },
+  {
+    "id": "9f34aac3-33a4-41e2-908d-47f9c47552f7",
+    "name": "Vive ligeros",
+    "matched": "¿Cómo quitarme la mochila?. Libérate de tus cargas emocionales y vive más ligero",
+    "extras": [
+      "como",
+      "quitarme",
+      "mochila",
+      "liberate",
+      "carga",
+      "emocional",
+      "mas"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-como-quitarme-la-mochila-liberate-de-tus-cargas-emocionales-y-vive-mas-ligero/9798258487858/p/67383359",
+    "image_url": null
+  },
+  {
+    "id": "c612ba33-b675-4594-962f-371291cc219a",
+    "name": "Vivir del trading",
+    "matched": "Vivir del Trading: Psicología, Tácticas de Trading, Gestión del Dinero",
+    "extras": [
+      "psicologia",
+      "tactica",
+      "gestion",
+      "dinero"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-vivir-del-trading-psicologia-tacticas-de-trading-gestion-del-dinero/9788493622688/p/27396966",
+    "image_url": "https://images.cdn2.buscalibre.com/fit-in/500x500/b3/c8/b3c863e4dfde4b489fa4988cc88b54b2.jpg"
+  },
+  {
+    "id": "db6c7607-efde-4b8e-8a20-e3196254be16",
+    "name": "Vuélvete un lujo",
+    "matched": "EL ESTÁNDAR ERES TÚ: Vuélvete un lujo, no una opción: Cómo dejar de buscar aprobación, protege",
+    "extras": [
+      "estandar",
+      "ere",
+      "no",
+      "opcion",
+      "como",
+      "dejar",
+      "buscar",
+      "aprobacion",
+      "protege"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-el-estandar-eres-tu-vuelvete-un-lujo-no-una-opcion-como-dejar-de-buscar-aprobacion-proteger-tu-paz-y-elegir-desde-tu-propio-valor-spanish-edition/9798162308171/p/69241298",
+    "image_url": "https://images.cdn1.buscalibre.com/fit-in/500x500/4a/fc/4afc07c6c73e7231cf4465298d825eeb.jpg"
+  },
+  {
+    "id": "e911f030-88c3-41eb-9699-79a706480ade",
+    "name": "Yo puedes",
+    "matched": "Béla Bartók en el Exilio: Si no Puedes, yo Respiraré por ti",
+    "extras": [
+      "bela",
+      "bartok",
+      "exilio",
+      "si",
+      "no",
+      "respirare",
+      "ti"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-bela-bartok-en-el-exilio-si-no-puedes-yo-respirare-por-ti/9788410317130/p/63188015",
+    "image_url": null
+  },
+  {
+    "id": "33a4c5d0-38c1-4527-9a0a-a19ffdf721ff",
+    "name": "Zodiac Academy",
+    "matched": "Zodiac Academy 1. El despertar",
+    "extras": [
+      "1",
+      "despertar"
+    ],
+    "decision": "revisar",
+    "url": "https://www.buscalibre.com.ar/libro-zodiac-academy-1-el-despertar/9789507327247/p/68616738",
+    "image_url": null
+  }
+]

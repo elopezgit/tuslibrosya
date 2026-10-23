@@ -1,0 +1,203 @@
+[
+  {
+    "name": "100 citas con mi hijo",
+    "sinopsis": "Cuaderno de actividades pensado para compartir momentos entre padre e hijo, con citas, reflexiones y propuestas para conversar y crear recuerdos. Promueve el diálogo, la conexión afectiva y el fortalecimiento del vínculo familiar en la rutina diaria. Una propuesta para reservar tiempo de calidad lejos de las pantallas.",
+    "ficha": {
+      "Género": "Autoayuda familiar / Cuaderno de actividades"
+    },
+    "fuente": "https://100citas.shop/",
+    "confianza": "media"
+  },
+  {
+    "name": "Aprendiendo a escribir con Angry Birds",
+    "sinopsis": "Material didáctico que aprovecha el universo de Angry Birds para practicar la escritura paso a paso. Ofrece ejercicios adaptados a niños para iniciar en la grafomotricidad, formar palabras y redactar frases con un enfoque lúdico y motivador. Incluye actividades para reconocer letras, trazar palabras y componer oraciones.",
+    "ficha": {
+      "Género": "Didáctico / Infantil"
+    },
+    "fuente": "https://aprendescribir.fika.bar/",
+    "confianza": "media"
+  },
+  {
+    "name": "Boulevard",
+    "sinopsis": "Dos adolescentes con mundos opuestos se cruzan y crean un refugio propio para quererse a pesar de sus cicatrices, el dolor y las sombras que arrastran cada uno. Una historia de amor con matices melancólicos que explora la vulnerabilidad y la necesidad de sanar juntos. El primer encuentro de una trilogía sobre el amor adolescente y sus heridas.",
+    "ficha": {
+      "Autor": "Flor M. Salvador",
+      "Género": "Narrativa romántica contemporánea",
+      "Editorial": "Montena",
+      "Año": "2022",
+      "Páginas": "360",
+      "Encuadernación": "Tapa blanda",
+      "ISBN": "9789585155381",
+      "Idioma": "Español"
+    },
+    "fuente": "https://www.buscalibre.com.co/libro-boulevard-libro-1/9789585155381/p/53975588",
+    "confianza": "alta"
+  },
+  {
+    "name": "Cuentos para un amigo con gripe",
+    "sinopsis": "Colección de cuentos infantiles pensados para acompañar a un niño o niña cuando está enfermo. Las historias transmiten consuelo, fomentan los cuidados y ofrecen ternura para sobrellevar la gripe con calma, afecto y una perspectiva más amable del reposo. Ideal para leer en voz alta y acompañar la convalecencia con imaginación.",
+    "ficha": {
+      "Género": "Infantil"
+    },
+    "fuente": "https://blogsaverroes.juntadeandalucia.es/eielreal/cuentacuentos-felipe-tiene-gripe/",
+    "confianza": "media"
+  },
+  {
+    "name": "Deja contarte",
+    "sinopsis": "Reflexión sobre cómo los relatos que nos contamos pueden convertirse en barreras. Propone identificar esas narrativas limitantes, cuestionarlas y reemplazarlas por otras más libres, para recuperar la capacidad de actuar sin las cadenas del miedo o la autocrítica. Un recorrido para dejar de repetir la misma historia y abrir paso a una nueva.",
+    "ficha": {
+      "Género": "Desarrollo personal / Autoayuda"
+    },
+    "fuente": "https://quintanaroohoy.com/voces/deja-de-contarte-ese-viejo-cuento/",
+    "confianza": "media"
+  },
+  {
+    "name": "Diario para estoicos",
+    "sinopsis": "Guía diaria con 366 reflexiones basadas en las enseñanzas de Séneca, Epicteto y Marco Aurelio. Ofrece ejercicios prácticos para distinguir lo controlable de lo no controlable, cultivar la virtud y afrontar el día con mayor serenidad y claridad. Pensado para leer una página al día y llevar un registro personal.",
+    "ficha": {
+      "Autor": "Ryan Holiday",
+      "Género": "Filosofía / Autoayuda",
+      "Editorial": "Reverte Management",
+      "Año": "2020",
+      "Páginas": "416",
+      "Encuadernación": "Tapa dura",
+      "Idioma": "Español"
+    },
+    "fuente": "https://www.casadellibro.com/libro-diario-para-estoicos-366-reflexiones-sobre-la-sabiduria-la-perseverancia-y-el-arte-de-vivir/9788417963156/11854754",
+    "confianza": "alta"
+  },
+  {
+    "name": "El libro del estoico perfecto",
+    "sinopsis": "Propuesta teórica y práctica para aplicar el estoicismo al día a día. Se centra en cultivar la virtud, el autocontrol y la serenidad ante las dificultades, distinguiendo lo que depende de nosotros de lo que escapa a nuestro control sin caer en el pesimismo. Una introducción accesible para quien se acerca por primera vez a esta filosofía.",
+    "ficha": {
+      "Género": "Filosofía / Autoayuda"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "El principito",
+    "sinopsis": "Un aviador perdido en el desierto conoce a un niño de otro planeta que, con sencillez y sabiduría, le enseña a ver lo esencial. A través de encuentros con otros personajes, la historia invita a redescubrir la amistad, el amor y lo que realmente importa en la vida. Un clásico universal que sigue interpelando a lectores de todas las edades.",
+    "ficha": {
+      "Autor": "Antoine de Saint-Exupéry",
+      "Género": "Fábula / Literatura infantil y juvenil",
+      "Editorial": "Reynal & Hitchcock (edición original en inglés/francés)",
+      "Año": "1943",
+      "Idioma": "Español (múltiples ediciones)"
+    },
+    "fuente": "https://openlibrary.org/books/OL22007893M/El_Principito_The_Little_Prince",
+    "confianza": "alta"
+  },
+  {
+    "name": "Etéreo: crónicas de la oscuridad",
+    "sinopsis": "Relatos que exploran lo sobrenatural y los rincones oscuros de la realidad, jugando con atmósferas inquietantes y lo ambiguo. Sin centrarse en un solo personaje, propone una mirada al miedo y a lo inexplicable desde una óptica de terror y fantástico. Una colección para lectores que prefieren el horror sugerido y las preguntas abiertas.",
+    "ficha": {
+      "Género": "Terror / Fantástico"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Guía de vagos",
+    "sinopsis": "Guía humorística que ironiza sobre las obligaciones diarias y el arte de esquivarlas con ingenio. Más que fomentar la holgazanería, juega con el cinismo cómico para cuestionar la presión productivista y encontrar atajos con sentido del humor. Un libro ligero para reírse de la productividad y de uno mismo.",
+    "ficha": {
+      "Género": "Humor"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Iniciación al liderazgo",
+    "sinopsis": "Guía introductoria al liderazgo que combina lecciones prácticas con formato cómico para enseñar a jóvenes lectores conceptos como responsabilidad, comunicación, toma de decisiones y trabajo en equipo. Ofrece herramientas accesibles para desarrollar habilidades de liderazgo desde una edad temprana. Una lectura para acompañar los primeros pasos en el liderazgo.",
+    "ficha": {
+      "Autor": "Doris Walton",
+      "Género": "Autoayuda / Cómic educativo",
+      "Editorial": "Tikbooks",
+      "Año": "2025",
+      "Páginas": "96",
+      "Encuadernación": "Tapa blanda",
+      "Idioma": "Español"
+    },
+    "fuente": "https://www.mercadolibre.com.mx/libro-iniciacion-al-liderazgo-de-doris-walton-editorial-tikbooks-tapa-blanda-2025/p/MLM67129344",
+    "confianza": "alta"
+  },
+  {
+    "name": "La felicidad",
+    "sinopsis": "Reflexión filosófica sobre qué es la felicidad y por qué resulta esquiva. Analiza cómo las expectativas culturales, el consumismo y la comparación influyen en su búsqueda, y propone un enfoque más realista para cultivarla en lo cotidiano. Una invitación a pensar la felicidad como práctica y no como meta.",
+    "ficha": {
+      "Género": "Filosofía / Autoayuda"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Las 9 leyes esenciales para la libertad financiera en red de mercadeo",
+    "sinopsis": "Guía práctica centrada en el network marketing para quienes buscan generar ingresos residuales. Aborda principios para construir una red, desarrollar habilidades comerciales y trabajar hacia la libertad financiera con disciplina y mentalidad empresarial. Con ejemplos y pasos concretos para aplicar el modelo en el día a día.",
+    "ficha": {
+      "Género": "Finanzas / Negocios"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Lujuria, libro 2 (segunda parte)",
+    "sinopsis": "Tras años de separación, los sentimientos entre Rachel James y el coronel Morgan vuelven con fuerza mientras conspiraciones, celos y traiciones ponen en peligro sus vidas y sus deseos. La historia avanza con mayor tensión entre intriga, lealtades y una pasión que difícilmente podrán ignorar. Una entrega intensa para quienes siguen la saga desde el primer libro.",
+    "ficha": {
+      "Autor": "Eva Muñoz",
+      "Género": "Romántica erótica / Intriga",
+      "Editorial": "Montena",
+      "Año": "2023",
+      "Páginas": "1120",
+      "Encuadernación": "Tapa blanda",
+      "ISBN": "9789585155992",
+      "Idioma": "Español"
+    },
+    "fuente": "https://ellector.com.pa/products/libro-lujuria-libro-2-pecados-placenteros-2",
+    "confianza": "alta"
+  },
+  {
+    "name": "Para crecer",
+    "sinopsis": "Reflexiones y herramientas prácticas para el desarrollo personal orientadas a crecer emocionalmente, establecer metas realistas y superar obstáculos. Promueve la autoconciencia, la resiliencia y la construcción de una versión más sólida de uno mismo en la vida diaria. Un acompañamiento para convertir los propósitos en hábitos sostenibles.",
+    "ficha": {
+      "Género": "Desarrollo personal / Autoayuda"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Ragnarok",
+    "sinopsis": "Relato inspirado en la mitología nórdica sobre el fin de los dioses y la batalla apocalíptica que precede al renacimiento del mundo. Ofrece una mirada a temas como el destino, el caos y la renovación tras la destrucción, con un tono épico y simbólico. Una puerta de entrada a los mitos nórdicos y a su imaginario.",
+    "ficha": {
+      "Género": "Mitología / Fantástico"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "TDA y la ansiedad",
+    "sinopsis": "Guía orientada a entender la relación entre el Trastorno por Déficit de Atención e Hiperactividad y la ansiedad. Explica cómo ambos pueden interactuar, qué factores los alimentan y qué estrategias prácticas ayudan a manejarlos en la vida cotidiana. Un enfoque claro para quienes conviven con ambas condiciones o los acompañan.",
+    "ficha": {
+      "Género": "Psicología / Autoayuda"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Trucos de psicología oscura",
+    "sinopsis": "Análisis de técnicas de manipulación, persuasión y control menos éticas para aprender a reconocerlas en la vida diaria. Enfocado a la prevención, busca dar herramientas para identificar patrones manipuladores y protegerse frente a ellos. Una lectura para fortalecer el pensamiento crítico frente a la manipulación.",
+    "ficha": {
+      "Género": "Psicología / Autoayuda"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  },
+  {
+    "name": "Vive ligeros",
+    "sinopsis": "Propuesta para simplificar la vida soltando cargas emocionales, materiales e innecesarias. Promueve el desapego, la claridad de prioridades y hábitos más livianos para alcanzar mayor libertad, paz y ligereza en el día a día. Una guía para ordenar la vida y quedarse con lo que de verdad importa. Una invitación a soltar el exceso.",
+    "ficha": {
+      "Género": "Desarrollo personal / Autoayuda"
+    },
+    "fuente": "sin fuente verificable",
+    "confianza": "baja"
+  }
+]

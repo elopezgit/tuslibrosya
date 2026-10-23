@@ -1,0 +1,632 @@
+[
+  {
+    "name": "100 citas con mi hijo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Abraza tu destino",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Abundantia: Estoicismo para inversores",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Afirmaciones positivas",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Antes de ella",
+    "autor": "Flor M. Salvador",
+    "saga": "Boulevard",
+    "found": true
+  },
+  {
+    "name": "Apocalipsis",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Aprendiendo a escribir con Angry Birds",
+    "autor": "",
+    "saga": "Angry Birds",
+    "found": true
+  },
+  {
+    "name": "Aproveche sus cualidades",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Aquiles",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Asombrosamente",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Bése ese sapo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Boulevard",
+    "autor": "Flor M. Salvador",
+    "saga": "Boulevard",
+    "found": true
+  },
+  {
+    "name": "Cae la noche",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Caminando a través del hielo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Cara a cara",
+    "autor": "Gabriel Rolón",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Charlas de diván",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Código de guerrero",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Cuentos para un amigo con gripe",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "De Dios para mí",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "De mí para mí parte 1",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "De mí para mí parte 2",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "De rodillas y a oscuras",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Deja contarte",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Demon Slayer: Kimetsu no Yaiba, vol. 1",
+    "autor": "Koyoharu Gotouge",
+    "saga": "Demon Slayer",
+    "found": true
+  },
+  {
+    "name": "Demon Slayer: Kimetsu no Yaiba, vol. 2",
+    "autor": "Koyoharu Gotouge",
+    "saga": "Demon Slayer",
+    "found": true
+  },
+  {
+    "name": "Demon Slayer: Kimetsu no Yaiba, vol. 3",
+    "autor": "Koyoharu Gotouge",
+    "saga": "Demon Slayer",
+    "found": true
+  },
+  {
+    "name": "Después de él",
+    "autor": "Flor M. Salvador",
+    "saga": "Boulevard",
+    "found": true
+  },
+  {
+    "name": "Diálogos de medianoche",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Diario para estoicos",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El árbol del dinero",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El despertar de los dragones",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El día de la trilla",
+    "autor": "Rebecca Yarros",
+    "saga": "Empíreo",
+    "found": true
+  },
+  {
+    "name": "El enojo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El libro del estoico perfecto",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El método",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El niño pisa flores",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El poder del metabolismo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El príncipe maquiavélico",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El principito",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El silencio",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "El sutil arte de la guerra",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "En llamas",
+    "autor": "Suzanne Collins",
+    "saga": "Los juegos del hambre",
+    "found": true
+  },
+  {
+    "name": "Eres única",
+    "autor": "Isabella Miller",
+    "saga": "Libros de Isabella Miller",
+    "found": true
+  },
+  {
+    "name": "Eres único",
+    "autor": "Isabella Miller",
+    "saga": "Libros de Isabella Miller",
+    "found": true
+  },
+  {
+    "name": "Etéreo: crónicas de la oscuridad",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Eterno",
+    "autor": "Flor M. Salvador",
+    "saga": "Boulevard",
+    "found": true
+  },
+  {
+    "name": "Fábulas: comprensión de lectura",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Gravity Falls: Diario 1",
+    "autor": "Walt Disney",
+    "saga": "Gravity Falls",
+    "found": true
+  },
+  {
+    "name": "Gravity Falls: Diario 2",
+    "autor": "Walt Disney",
+    "saga": "Gravity Falls",
+    "found": true
+  },
+  {
+    "name": "Guía de vagos",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Hijo rico, padres mantenidos 1",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Hijo rico, padres mantenidos 2",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Hijo rico, padres mantenidos 3",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Imaginaria",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Iniciación al liderazgo",
+    "autor": "Doris Walton",
+    "saga": "Academia de líderes",
+    "found": true
+  },
+  {
+    "name": "Inteligencia artificial",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Invisible",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "La Biblia del e-commerce",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "La Biblia del empresario",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "La divina Biblia de los niños y de toda la familia",
+    "autor": "Luis A. Chirre Osorio (adaptación)",
+    "saga": "Colección Amiguitos",
+    "found": true
+  },
+  {
+    "name": "La felicidad",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "La huida del robot salvaje",
+    "autor": "Peter Brown",
+    "saga": "Robot salvaje",
+    "found": true
+  },
+  {
+    "name": "La ley de la atracción",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "La presentación de 45 segundos que cambiará su vida",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "La teoría de Kim, tomo I",
+    "autor": "Jay Sandoval",
+    "saga": "La teoría de Kim",
+    "found": true
+  },
+  {
+    "name": "La teoría de la relatividad",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Las 9 leyes esenciales para la libertad financiera en red de mercadeo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Las claves del dinero",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Las leyes del dinero",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Las leyes del éxito",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Libérate del caos mental",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Los nuevos profesionales",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Lujuria, libro 2 (segunda parte)",
+    "autor": "Eva Muñoz",
+    "saga": "Lujuria",
+    "found": true
+  },
+  {
+    "name": "Maestría",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Manual de funcionamiento ejecutivo para niños con TDAH",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Marketing digital",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Mi psicóloga y yo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Michael 2026",
+    "autor": "Jaafar Jackson",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Michael Jackson",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Para crecer",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Perreo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Primero la calma, luego el resto",
+    "autor": "Aurora S.",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Psicología maquiavélica",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Puntos críticos",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Ragnarok",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Rayuela",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Redes",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Redes de mercadeo",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Riqueza",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Segunda oportunidad",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Siempre serás una chica especial",
+    "autor": "Isabella Miller",
+    "saga": "Libros de Isabella Miller",
+    "found": true
+  },
+  {
+    "name": "TDA y la ansiedad",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "The Secret",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Tierra de nadie",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Todo lo que las mujeres desean saber de los hombres",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Todo lo que sea Rolón",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Todo lo que una chica",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Trucos de psicología oscura",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Un imbécil al año no hace daño",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Una vida extraordinaria",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Valentía II",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Vencer los pensamientos negativos",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Vive ligeros",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Yo después de mí",
+    "autor": "",
+    "saga": "",
+    "found": true
+  },
+  {
+    "name": "Yo puedes",
+    "autor": "",
+    "saga": "",
+    "found": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-22",
+  "target_empresa_id": "39d1961a-2bfb-49b6-82b6-cfb193a0a9ae",
+  "target_productos": 566,
+  "otras_empresas": [
+    { "empresa_id": "20087e44-b072-44ca-9136-32bc8f9ad94b", "n": 446, "fingerprint": "12d2022680b623abf7c0c6abb7349ae5" },
+    { "empresa_id": "22222222-2222-2222-2222-222222222222", "n": 49, "fingerprint": "0ca8105b24d2893cbfc607a40f9b6f03" },
+    { "empresa_id": "29689fc3-9d06-46fe-824c-7a3f73659aaf", "n": 403, "fingerprint": "d3cc1b55a0d3b10b4021a9025de2f836" },
+    { "empresa_id": "2d97f105-e91c-481d-9ec2-61166905f3c3", "n": 15, "fingerprint": "4aca5418e13275a5a41fab2bff611004" },
+    { "empresa_id": "d8a9e7f6-5c4b-3a2d-1e0f-9c8b7a6d5e4f", "n": 4, "fingerprint": "afcb9c5c01c999c7f254d1e02e1897e7" }
+  ]
+}

@@ -100,17 +100,17 @@ export default function AdminDashboard() {
 
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
-        <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl shadow-2xl w-full max-w-sm text-center relative overflow-hidden">
+      <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4 bg-mesh">
+        <div className="glass-dark p-8 rounded-2xl shadow-2xl w-full max-w-sm text-center relative overflow-hidden">
           {/* Decorative background glow */}
           <div className="absolute -top-20 -left-20 w-40 h-40 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
           <div className="absolute -bottom-20 -right-20 w-40 h-40 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
           
           <div className="relative z-10">
-            <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-blue-900/50">
+            <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary text-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-primary/40">
               <BookOpen size={40} />
             </div>
-            <h1 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-1">
+            <h1 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary mb-1">
               TusLibrosYa
             </h1>
             <h2 className="text-xl font-bold text-white mb-2">Panel de Control</h2>
@@ -123,7 +123,7 @@ export default function AdminDashboard() {
                 placeholder="Usuario" 
                 value={username}
                 onChange={e => setUsername(e.target.value)}
-                className="w-full bg-black border border-slate-800 text-white p-3 rounded-xl outline-none focus:border-primary"
+                className="w-full glass-dark text-white p-3 rounded-xl outline-none focus:border-primary"
               />
             </div>
             <div>
@@ -132,7 +132,7 @@ export default function AdminDashboard() {
                 placeholder="Contraseña" 
                 value={password}
                 onChange={e => setPassword(e.target.value)}
-                className="w-full bg-black border border-slate-800 text-white p-3 rounded-xl outline-none focus:border-primary"
+                className="w-full glass-dark text-white p-3 rounded-xl outline-none focus:border-primary"
               />
             </div>
             
@@ -154,9 +154,9 @@ export default function AdminDashboard() {
 
   return (
     <ErrorBoundary>
-      <div className="min-h-screen bg-slate-50 flex">
+      <div className="min-h-screen bg-mesh flex">
         {/* Sidebar */}
-      <aside className="w-64 bg-slate-900 text-slate-100 p-6 flex flex-col shadow-2xl z-50">
+      <aside className="w-64 glass-dark text-slate-100 p-6 flex flex-col shadow-2xl z-50">
         <h1 className="text-2xl font-bold mb-1 text-primary">{empresaSlug?.toUpperCase()}</h1>
         <p className="text-xs text-slate-400 mb-8 uppercase tracking-widest font-semibold flex items-center gap-1">
           <span className="w-2 h-2 rounded-full bg-green-500"></span>
@@ -246,7 +246,7 @@ export default function AdminDashboard() {
         {activeTab === 'config' && (
           <div className="p-8">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">Configuración</h2>
-            <p className="text-slate-500 bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <p className="text-slate-500 glass p-6 rounded-xl border border-white/50 shadow-sm">
               Aquí pondremos más adelante la configuración del logo, teléfono, redes sociales y links de mapas de {empresaSlug}.
             </p>
           </div>

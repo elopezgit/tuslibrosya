@@ -146,7 +146,7 @@ export default function KanbanBoard({ empresaSlug, role }: { empresaSlug: string
                                 ref={provided.innerRef}
                                 {...provided.draggableProps}
                                 {...provided.dragHandleProps}
-                                className={`group bg-white p-4 rounded-xl shadow-sm border cursor-pointer hover:shadow-md hover:border-primary transition-all ${snapshot.isDragging ? 'shadow-lg ring-2 ring-primary/20' : 'border-slate-200'}`}
+                                className={`group glass p-4 rounded-xl shadow-sm border cursor-pointer hover:shadow-md hover:border-primary transition-all ${snapshot.isDragging ? 'shadow-lg ring-2 ring-primary/20' : 'border-white/50'}`}
                                 onClick={() => setSelectedOrder(order)}
                               >
                                 <div className="flex justify-between items-start mb-2">

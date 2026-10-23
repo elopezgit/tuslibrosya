@@ -48,7 +48,7 @@ export default function ProductModal({ product, isOpen, onClose, onAddToCart }: 
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-white/80 z-[100] backdrop-blur-sm"
+            className="fixed inset-0 bg-slate-900/30 z-[100] backdrop-blur-md"
           />
 
           <motion.div
@@ -56,10 +56,10 @@ export default function ProductModal({ product, isOpen, onClose, onAddToCart }: 
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-            className="fixed bottom-0 left-0 right-0 z-[101] bg-surface rounded-t-3xl overflow-hidden flex flex-col max-h-[90vh] md:max-w-md md:mx-auto md:bottom-4 md:rounded-3xl shadow-2xl border border-amber-200"
+            className="fixed bottom-0 left-0 right-0 z-[101] glass-strong rounded-t-3xl overflow-hidden flex flex-col max-h-[90vh] md:max-w-md md:mx-auto md:bottom-4 md:rounded-3xl shadow-2xl border border-white/50"
           >
             <div className="relative h-64 bg-slate-900 shrink-0">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src={product.image_url || '/img/book-placeholder.svg'} 
                 alt={product.name}
                 className="w-full h-full object-cover"
@@ -88,7 +88,7 @@ export default function ProductModal({ product, isOpen, onClose, onAddToCart }: 
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
                   placeholder={getPlaceholder(product.name)}
-                  className="w-full bg-white border border-amber-300 rounded-xl p-3 text-sm text-slate-900 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none h-16"
+                  className="w-full glass rounded-xl p-3 text-sm text-slate-900 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none h-16"
                 />
               </div>
             </div>

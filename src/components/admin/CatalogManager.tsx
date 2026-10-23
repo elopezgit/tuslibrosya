@@ -188,7 +188,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
   // Error State
   if (errorMsg || !empresaId) {
     return (
-      <div className="p-8 max-w-lg mx-auto text-center mt-12 bg-white rounded-2xl shadow-sm border border-red-200">
+      <div className="p-8 max-w-lg mx-auto text-center mt-12 glass rounded-2xl shadow-sm border border-red-200">
         <div className="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">⚠️</div>
         <h3 className="text-xl font-bold text-slate-800 mb-2">No se pudo cargar el gestor</h3>
         <p className="text-slate-600 text-sm mb-6">{errorMsg || 'La empresa no fue encontrada.'}</p>
@@ -245,19 +245,19 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
 
       {/* KPI Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-        <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="glass p-4 rounded-2xl border border-white/50 shadow-sm">
           <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Total de Libros</span>
           <p className="text-2xl font-black text-slate-900 mt-1">{products.length}</p>
         </div>
-        <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="glass p-4 rounded-2xl border border-white/50 shadow-sm">
           <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Libros Activos</span>
           <p className="text-2xl font-black text-green-600 mt-1">{products.filter(p => p.is_active).length}</p>
         </div>
-        <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="glass p-4 rounded-2xl border border-white/50 shadow-sm">
           <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Categorías / Géneros</span>
           <p className="text-2xl font-black text-amber-600 mt-1">{categories.length}</p>
         </div>
-        <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="glass p-4 rounded-2xl border border-white/50 shadow-sm">
           <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Precio Unitario Base</span>
           <p className="text-2xl font-black text-slate-900 mt-1">
             ${products.length > 0 ? (products[0].price || 0).toLocaleString('es-AR') : '0'}
@@ -266,7 +266,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
       </div>
       
       {/* Filters Toolbar */}
-      <div className="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 mb-6 flex flex-col md:flex-row gap-4 items-center">
+      <div className="glass p-4 rounded-2xl shadow-sm border border-white/50 mb-6 flex flex-col md:flex-row gap-4 items-center">
         <div className="relative flex-1 w-full">
           <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
           <input 
@@ -274,7 +274,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
             placeholder="Buscar por título, autor, sinopsis o código..." 
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl text-slate-800 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-400 transition-all text-sm"
+            className="w-full pl-10 pr-4 py-2.5 border border-white/50 rounded-xl text-slate-800 focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all text-sm"
           />
         </div>
 
@@ -282,7 +282,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
           <select 
             value={filterCategory} 
             onChange={e => setFilterCategory(e.target.value)}
-            className="p-2.5 border border-slate-200 rounded-xl text-slate-800 bg-white min-w-[200px] text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-400"
+            className="p-2.5 border border-white/50 rounded-xl text-slate-800 glass min-w-[200px] text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary"
           >
             <option value="">Todos los Géneros ({categories.length})</option>
             {categories.map(c => <option key={c.id} value={c.id}>{c.icon || ''} {c.name}</option>)}
@@ -291,7 +291,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
           <select 
             value={sortBy} 
             onChange={e => setSortBy(e.target.value)}
-            className="p-2.5 border border-slate-200 rounded-xl text-slate-800 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-400"
+            className="p-2.5 border border-white/50 rounded-xl text-slate-800 glass text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary"
           >
             <option value="name_asc">Título (A-Z)</option>
             <option value="price_asc">Precio (Menor a Mayor)</option>
@@ -301,10 +301,10 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
       </div>
       
       {/* Products Table */}
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+      <div className="glass rounded-2xl shadow-sm border border-white/50 overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full text-left">
-            <thead className="bg-slate-50 border-b border-slate-200 text-slate-500 text-xs font-bold uppercase tracking-wider">
+            <thead className="bg-white/40 border-b border-white/50 text-slate-500 text-xs font-bold uppercase tracking-wider">
               <tr>
                 <th className="p-4">Portada & Libro</th>
                 <th className="p-4">Género / Categoría</th>
@@ -320,10 +320,10 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                   <tr key={product.id} className="hover:bg-amber-50/40 transition-colors">
                     <td className="p-4 flex items-center gap-3.5">
                       {product.image_url ? (
-                        <img 
+                        <img loading="lazy" decoding="async" 
                           src={product.image_url} 
                           alt={product.name} 
-                          className="w-12 h-14 rounded-lg object-cover bg-slate-100 shrink-0 border border-slate-200 shadow-sm" 
+                          className="w-12 h-14 rounded-lg object-cover bg-slate-100 shrink-0 border border-white/50 shadow-sm" 
                         />
                       ) : (
                         <div className="w-12 h-14 rounded-lg bg-slate-100 shrink-0 flex items-center justify-center text-slate-400 text-xs border border-dashed border-slate-300">
@@ -334,7 +334,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                         <div className="flex items-center gap-2">
                           <p className="font-bold text-slate-900 text-sm">{product.name}</p>
                           {product.code && (
-                            <span className="text-[10px] font-mono bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded border border-slate-200">
+                            <span className="text-[10px] font-mono bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded border border-white/50">
                               {product.code}
                             </span>
                           )}
@@ -346,7 +346,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                     </td>
 
                     <td className="p-4">
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium border border-slate-200">
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium border border-white/50">
                         {cat ? `${cat.icon || '📖'} ${cat.name}` : 'Sin categoría'}
                       </span>
                     </td>
@@ -409,7 +409,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
       {/* Edit / Create Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-lg p-6 max-h-[90vh] overflow-y-auto border border-slate-200">
+          <div className="glass rounded-3xl shadow-2xl w-full max-w-lg p-6 max-h-[90vh] overflow-y-auto border border-white/50">
             <h3 className="text-2xl font-black mb-4 text-slate-900">
               {formData.id ? 'Editar Libro' : 'Agregar Nuevo Libro'}
             </h3>
@@ -423,7 +423,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                     type="text" 
                     value={formData.name} 
                     onChange={e => setFormData({...formData, name: e.target.value})} 
-                    className="w-full p-2.5 border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400" 
+                    className="w-full p-2.5 border border-white/50 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" 
                     placeholder="Ej: El Principito"
                   />
                 </div>
@@ -433,7 +433,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                     type="text" 
                     value={formData.code} 
                     onChange={e => setFormData({...formData, code: e.target.value})} 
-                    className="w-full p-2.5 border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400" 
+                    className="w-full p-2.5 border border-white/50 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" 
                     placeholder="Ej: LBR-101" 
                   />
                 </div>
@@ -445,7 +445,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                   rows={4}
                   value={formData.description} 
                   onChange={e => setFormData({...formData, description: e.target.value})} 
-                  className="w-full p-2.5 border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 resize-y"
+                  className="w-full p-2.5 border border-white/50 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 resize-y"
                   placeholder="👤 Autor: ...&#10;🏷️ Género: ...&#10;&#10;📖 Sinopsis: ...&#10;&#10;🎯 Recomendado para: ..."
                 />
               </div>
@@ -462,7 +462,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                       step="100"
                       value={formData.price} 
                       onChange={e => setFormData({...formData, price: e.target.value})} 
-                      className="w-full pl-8 pr-3 py-2.5 border border-slate-200 rounded-xl text-slate-800 font-bold text-sm focus:outline-none focus:ring-2 focus:ring-amber-400" 
+                      className="w-full pl-8 pr-3 py-2.5 border border-white/50 rounded-xl text-slate-800 font-bold text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" 
                     />
                   </div>
                 </div>
@@ -473,7 +473,7 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                     required 
                     value={formData.category_id} 
                     onChange={e => setFormData({...formData, category_id: e.target.value})} 
-                    className="w-full p-2.5 border border-slate-200 rounded-xl bg-white text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
+                    className="w-full p-2.5 border border-white/50 rounded-xl glass text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40"
                   >
                     <option value="">Seleccionar categoría...</option>
                     {categories.map(c => <option key={c.id} value={c.id}>{c.icon || ''} {c.name}</option>)}
@@ -488,23 +488,23 @@ export default function CatalogManager({ empresaSlug }: { empresaSlug: string })
                   placeholder="https://th.bing.com/th?q=..." 
                   value={formData.image_url} 
                   onChange={e => setFormData({...formData, image_url: e.target.value})} 
-                  className="w-full p-2.5 border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400" 
+                  className="w-full p-2.5 border border-white/50 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" 
                 />
                 {formData.image_url && (
-                  <div className="mt-2 flex items-center gap-3 p-2 bg-slate-50 rounded-xl border border-slate-200">
-                    <img src={formData.image_url} alt="Vista previa de portada" className="h-16 w-12 rounded-md object-cover border border-slate-300" />
+                  <div className="mt-2 flex items-center gap-3 p-2 bg-white/40 rounded-xl border border-white/50">
+                    <img loading="lazy" decoding="async" src={formData.image_url} alt="Vista previa de portada" className="h-16 w-12 rounded-md object-cover border border-slate-300" />
                     <span className="text-xs text-slate-500">Vista previa de la portada</span>
                   </div>
                 )}
               </div>
               
-              <div className="flex items-center gap-2 mt-2 bg-slate-50 p-3 rounded-xl border border-slate-200">
+              <div className="flex items-center gap-2 mt-2 bg-white/40 p-3 rounded-xl border border-white/50">
                 <input 
                   type="checkbox" 
                   id="isActive" 
                   checked={formData.is_active} 
                   onChange={e => setFormData({...formData, is_active: e.target.checked})} 
-                  className="w-4 h-4 text-amber-500 rounded focus:ring-amber-400 accent-amber-500" 
+                  className="w-4 h-4 text-amber-500 rounded focus:ring-primary/40 accent-amber-500" 
                 />
                 <label htmlFor="isActive" className="text-sm font-medium text-slate-700 cursor-pointer">
                   Libro Activo (Visible para clientes en la tienda)

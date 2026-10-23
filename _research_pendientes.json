@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Abraza tu destino",
+    "motivo": "Identificado probablemente como «Abraza tu destino: Vive el presente», de Josh Achas, pero no se encontró una ficha bibliográfica fiable con ISBN y páginas. Se deja vacío para no inventar datos.",
+    "fuentes": [
+      "https://www.instagram.com/p/DbWcRQOPRqX/",
+      "https://pulga.cl/product/libro-abraza-tu-destino-vive-el-presente"
+    ]
+  },
+  {
+    "name": "Charlas de diván",
+    "motivo": "No es un libro: es el nombre de un ciclo de teatro y podcast de Gabriel Rolón. No hay una edición bibliográfica que corresponda al título.",
+    "fuentes": [
+      "https://www.youtube.com/playlist?list=PLMkppsJt0jJF625kl8nVuOvIN9nHjmmq5",
+      "https://dpinamar.com.ar/teatro-pinamar-cartelera-obras/gabriel-rolon-teatro-pinamar-espectaculo.html"
+    ]
+  },
+  {
+    "name": "De Dios para mí",
+    "motivo": "Sin coincidencia exacta. Los resultados corresponden a «La historia de Dios para mí» y «Los grandes planes de Dios para mí», obras distintas.",
+    "fuentes": [
+      "https://www.casadellibro.com/libro-la-historia-de-dios-para-mi/9788428538848/2086917"
+    ]
+  },
+  {
+    "name": "Eterno",
+    "motivo": "Título genérico con múltiples coincidencias de autores y obras distintas. No hay datos suficientes para identificar la edición del catálogo.",
+    "fuentes": []
+  },
+  {
+    "name": "Las claves del dinero",
+    "motivo": "Sin coincidencia exacta. La obra más cercana es «Las llaves del dinero», de Alexei Jiménez, pero el título difiere y no tiene sinopsis disponible.",
+    "fuentes": [
+      "https://www.buscalibre.com.ar/libro-las-llaves-del-dinero/9798199240024/p/68297192"
+    ]
+  },
+  {
+    "name": "Riqueza",
+    "motivo": "Título genérico con múltiples coincidencias (Adam Smith, Leo Huberman y otros). No hay datos suficientes para identificar la edición del catálogo.",
+    "fuentes": []
+  },
+  {
+    "name": "Todo lo que sea Rolón",
+    "motivo": "Sin resultados en búsquedas web ni en catálogos bibliográficos. No se pudo identificar autor, edición ni sinopsis.",
+    "fuentes": []
+  }
+]

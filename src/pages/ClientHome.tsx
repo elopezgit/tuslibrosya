@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { ShoppingCart, Search, Info, MapPin, Plus, Star, ChevronRight, Phone } from 'lucide-react';
@@ -163,9 +163,11 @@ export default function ClientHome() {
         <motion.div 
           exit={{ opacity: 0, y: -50 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="min-h-screen bg-white flex flex-col items-center justify-center relative overflow-hidden"
+          className="min-h-screen bg-mesh flex flex-col items-center justify-center relative overflow-hidden"
         >
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-yellow-200/30 via-amber-50 to-white"></div>
+          <div className="absolute inset-0 bg-mesh"></div>
+          <div className="absolute -top-32 -left-32 w-96 h-96 bg-primary/15 rounded-full blur-3xl pointer-events-none"></div>
+          <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
           
           <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
             {/* Logo Animator */}
@@ -173,9 +175,9 @@ export default function ClientHome() {
               initial={{ scale: 0.5, opacity: 0, rotate: -10 }}
               animate={{ scale: 1, opacity: 1, rotate: 0 }}
               transition={{ duration: 0.8, type: "spring", bounce: 0.5 }}
-              className="w-56 h-56 rounded-full shadow-[0_0_80px_rgba(255,184,0,0.4)] flex items-center justify-center p-2 mb-6 bg-white border border-yellow-500/20"
+              className="w-56 h-56 rounded-full shadow-[0_0_80px_rgba(236,1,0,0.25)] flex items-center justify-center p-3 mb-6 glass-strong animate-float"
             >
-               <img src={empresa?.logo_url || "/img/logo/logo/logoNuevo.png"} alt="Tus Libros Ya Logo" className="w-full h-full object-contain rounded-full" onError={(e) => {
+               <img loading="eager" decoding="async" src={empresa?.logo_url || "/img/logo/logo/logoNuevo.png"} alt="Tus Libros Ya Logo" className="w-full h-full object-contain rounded-full" onError={(e) => {
                  e.currentTarget.style.display = 'none';
                  if (e.currentTarget.nextElementSibling) {
                    (e.currentTarget.nextElementSibling as HTMLElement).style.display = 'block';
@@ -189,7 +191,7 @@ export default function ClientHome() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.5 }}
-              className="text-2xl font-bold text-slate-900 mb-2"
+              className="text-2xl font-bold text-slate-900 mb-2 animate-fade-up stagger-2"
             >
               ¡Encontrá tu próximo libro!
             </motion.h2>
@@ -204,7 +206,7 @@ export default function ClientHome() {
   if (error || !empresa) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background p-4">
-        <div className="bg-surface p-8 rounded-3xl shadow-2xl text-center max-w-sm border border-amber-200">
+        <div className="glass-strong p-8 rounded-3xl shadow-2xl text-center max-w-sm border border-white/50">
           <Info size={48} className="mx-auto text-primary mb-4" />
           <h1 className="text-xl font-bold text-slate-900 mb-2">Ops! Algo salió mal</h1>
           <p className="text-slate-600">{error}</p>
@@ -255,13 +257,13 @@ export default function ClientHome() {
   const displayBanners = [fixedBanner, ...banners];
 
   return (
-    <div className="min-h-screen bg-background pb-24 font-sans text-slate-800">
+    <div className="min-h-screen bg-[#F7F4F1] pb-24 font-sans text-slate-800">
       {/* 1. HERO HEADER */}
-      <header className="bg-surface pt-8 pb-4 px-4 sticky top-0 z-40 border-b border-slate-200/50 backdrop-blur-xl bg-surface/80">
+      <header className="glass-strong pt-6 pb-3 px-4 sticky top-0 z-40 border-b border-white/40 shadow-[0_8px_30px_-12px_rgba(15,23,42,0.12)]">
          <div className="flex justify-between items-center mb-4">
           <div className="flex items-center gap-3">
-             <div className="w-14 h-14 bg-white rounded-full border border-primary/30 flex items-center justify-center shadow-lg shadow-primary/20 overflow-hidden">
-                <img src={empresa?.logo_url || "/img/logo/logo/logoNuevo.png"} alt="Logo" className="w-full h-full object-cover" onError={(e) => {
+             <div className="w-14 h-14 rounded-full border border-white/60 flex items-center justify-center shadow-lg shadow-primary/20 overflow-hidden glass">
+                <img loading="eager" decoding="async" src={empresa?.logo_url || "/img/logo/logo/logoNuevo.png"} alt="Logo" className="w-full h-full object-cover" onError={(e) => {
                   e.currentTarget.style.display = 'none';
                   if (e.currentTarget.nextElementSibling) {
                     (e.currentTarget.nextElementSibling as HTMLElement).style.display = 'block';
@@ -314,7 +316,7 @@ export default function ClientHome() {
             placeholder="¿Qué libro estás buscando?" 
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-white/50 border border-amber-300 text-slate-900 rounded-2xl py-3 pl-12 pr-4 shadow-inner outline-none focus:border-primary transition-all text-sm placeholder:text-slate-500"
+            className="w-full glass rounded-2xl py-3 pl-12 pr-4 outline-none focus:border-primary transition-all text-sm placeholder:text-slate-500 focus:ring-2 focus:ring-primary/30"
           />
         </div>
 
@@ -324,7 +326,7 @@ export default function ClientHome() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             onClick={() => setIsTrackerOpen(true)}
-            className="w-full mt-4 bg-primary/20 border border-primary text-primary py-3 px-4 rounded-xl flex items-center justify-between font-bold text-sm shadow-[0_0_15px_rgba(255,184,0,0.2)] animate-pulse"
+            className="w-full mt-4 glass border border-primary/40 text-primary py-3 px-4 rounded-xl flex items-center justify-between font-bold text-sm shadow-[0_0_20px_rgba(236,1,0,0.15)] animate-pulse-glow"
           >
             <div className="flex items-center gap-2">
               <span className="relative flex h-3 w-3 mr-1">
@@ -346,7 +348,7 @@ export default function ClientHome() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="relative rounded-3xl overflow-hidden shadow-xl border border-amber-500/20 bg-slate-950 text-white min-h-[260px] md:min-h-[280px] flex flex-col justify-between p-6 sm:p-8"
+              className="relative rounded-3xl overflow-hidden shadow-xl border border-white/10 bg-slate-950 text-white min-h-[260px] md:min-h-[280px] flex flex-col justify-between p-6 sm:p-8 glass-dark"
             >
               {/* Background Ambient Video */}
               <div className="absolute inset-0 z-0 overflow-hidden">
@@ -355,6 +357,7 @@ export default function ClientHome() {
                   loop 
                   muted 
                   playsInline 
+                  preload="metadata"
                   poster="/img/Banner/bannertupedido.png"
                   className="w-full h-full object-cover opacity-40 scale-105 filter brightness-75 contrast-125"
                 >
@@ -454,9 +457,9 @@ export default function ClientHome() {
                     href={banner.link || '#'} 
                     target="_blank"
                     rel="noreferrer"
-                    className="shrink-0 w-[85vw] max-w-[320px] md:w-80 h-40 rounded-3xl overflow-hidden relative border border-amber-200 shadow-xl block bg-white snap-center"
+                    className="shrink-0 w-[85vw] max-w-[320px] md:w-80 h-40 rounded-3xl overflow-hidden relative border border-white/50 shadow-xl block bg-white snap-center glass"
                   >
-                    <img 
+                    <img loading="lazy" decoding="async" 
                       src={banner.image_url} 
                       alt="Promo" 
                       className={`w-full h-full ${isFixed ? 'object-contain' : 'object-cover opacity-80'}`} 
@@ -503,7 +506,7 @@ export default function ClientHome() {
                   }`}
                 >
                   <div className="w-full h-full rounded-full overflow-hidden bg-slate-100 relative">
-                    <img 
+                    <img loading="lazy" decoding="async" 
                       src={getCategoryImageUrl('todas')} 
                       alt="Todas las categorías" 
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
@@ -545,7 +548,7 @@ export default function ClientHome() {
                       }`}
                     >
                       <div className="w-full h-full rounded-full overflow-hidden bg-slate-100 relative">
-                        <img 
+                        <img loading="lazy" decoding="async" 
                           src={imgUrl} 
                           alt={cat.name} 
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
@@ -601,7 +604,7 @@ export default function ClientHome() {
               <div key={category.id} className="mb-10">
                 <h2 className="text-2xl font-black text-slate-900 mb-4 flex items-center gap-3">
                   <div className="w-9 h-9 rounded-full overflow-hidden shrink-0 border-2 border-primary/30 shadow-sm">
-                    <img 
+                    <img loading="lazy" decoding="async" 
                       src={getCategoryImageUrl(category.name, (category as any).image_url)} 
                       alt={category.name} 
                       className="w-full h-full object-cover" 
@@ -623,7 +626,7 @@ export default function ClientHome() {
                         transition={{ delay: idx * 0.05 }}
                         key={product.id} 
                         onClick={() => setSelectedProduct(product)}
-                        className="bg-surface rounded-2xl border border-slate-200/80 p-3 flex gap-4 relative cursor-pointer active:scale-[0.98] transition-transform"
+                        className="glass rounded-2xl border border-white/50 p-3 flex gap-4 relative cursor-pointer active:scale-[0.98] transition-transform hover:shadow-[0_12px_40px_-12px_rgba(236,1,0,0.18)] transition-shadow"
                       >
                         {/* Text Content Area (Left) */}
                         <div className="flex-1 flex flex-col justify-between">
@@ -644,7 +647,7 @@ export default function ClientHome() {
 
                         {/* Image & Add Button Area (Right) */}
                         <div className="w-28 h-28 shrink-0 bg-white rounded-xl relative overflow-hidden shadow-inner border border-amber-200">
-                           <img 
+                           <img loading="lazy" decoding="async" 
                              src={product.image_url || '/img/book-placeholder.svg'} 
                              alt={product.name}
                              className="w-full h-full object-cover"
@@ -669,7 +672,7 @@ export default function ClientHome() {
           })}
 
           {filteredProducts.length === 0 && (
-            <div className="text-center py-16 bg-surface rounded-3xl border border-amber-200">
+            <div className="text-center py-16 glass rounded-3xl border border-white/50">
               <Search size={48} className="mx-auto text-slate-600 mb-4" />
               <p className="text-lg font-bold text-slate-700">No encontramos nada</p>
               <p className="text-slate-500 text-sm">Prueba buscando con otras palabras.</p>
@@ -689,7 +692,7 @@ export default function ClientHome() {
           >
             <button 
               onClick={() => setIsCartOpen(true)}
-              className="w-full bg-primary text-black p-4 rounded-2xl shadow-[0_10px_30px_-10px_rgba(255,184,0,0.6)] flex items-center justify-between transition-transform active:scale-95 border border-primary/50"
+              className="w-full bg-primary text-black p-4 rounded-2xl shadow-[0_10px_30px_-10px_rgba(236,1,0,0.5)] flex items-center justify-between transition-transform active:scale-95 border border-primary/50"
             >
               <div className="flex items-center gap-3">
                 <div className="bg-white text-primary w-10 h-10 rounded-full flex items-center justify-center font-black text-lg shadow-inner">
