@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
-import { ShoppingCart, Search, Info, MapPin, Plus, Star, ChevronRight, RotateCcw, Phone } from 'lucide-react';
+import { ShoppingCart, Search, Info, MapPin, Plus, Star, ChevronRight, Phone } from 'lucide-react';
 import { useCart } from '../lib/CartContext';
 import CartModal from '../components/client/CartModal';
 import ProductModal from '../components/client/ProductModal';
@@ -50,7 +50,6 @@ export default function ClientHome() {
   const [error, setError] = useState<string | null>(null);
   const [showSplash, setShowSplash] = useState(true);
   
-  const [lastOrder, setLastOrder] = useState<any[]>([]);
   const [activeOrderId, setActiveOrderId] = useState<string | null>(null);
   const [isTrackerOpen, setIsTrackerOpen] = useState(false);
 
@@ -125,14 +124,6 @@ export default function ClientHome() {
         if (!empData) throw new Error('La librería no existe o la base de datos no tiene datos cargados.');
         
         setEmpresa(empData);
-
-        // Check for last order in localStorage
-        const savedOrder = localStorage.getItem(`lastOrder_${empData.id}`);
-        if (savedOrder) {
-          try {
-            setLastOrder(JSON.parse(savedOrder));
-          } catch(e) {}
-        }
 
         // Check for active order tracking
         const activeOrder = localStorage.getItem(`activeOrder_${empData.id}`);
@@ -222,7 +213,26 @@ export default function ClientHome() {
     );
   }
 
-  const normalizeText = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const normalizeText = (text?: string | null) => (text || '').normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  
+  const getCategoryImageUrl = (categoryName: string, customImage?: string) => {
+    if (customImage && (customImage.startsWith('http') || customImage.startsWith('/'))) {
+      return customImage;
+    }
+    const norm = normalizeText(categoryName);
+    if (norm.includes('todo')) return '/img/categorias/todas.jpg';
+    if (norm.includes('literatura') || norm.includes('ficcion') || norm.includes('novela')) return '/img/categorias/literatura-ficcion.jpg';
+    if (norm.includes('romance') || norm.includes('amor') || norm.includes('pasion')) return '/img/categorias/romance.jpg';
+    if (norm.includes('policial') || norm.includes('thriller') || norm.includes('crimen') || norm.includes('misterio') || norm.includes('detective')) return '/img/categorias/policial-thriller.jpg';
+    if (norm.includes('infantil') || norm.includes('juvenil') || norm.includes('nino') || norm.includes('cuento') || norm.includes('chicos')) return '/img/categorias/infantil-juvenil.jpg';
+    if (norm.includes('negocio') || norm.includes('finanza') || norm.includes('empresa') || norm.includes('economia') || norm.includes('inversion')) return '/img/categorias/negocios-finanzas.jpg';
+    if (norm.includes('biografia') || norm.includes('memoria') || norm.includes('historia')) return '/img/categorias/biografias-memorias.jpg';
+    if (norm.includes('desarrollo') || norm.includes('autoayuda') || norm.includes('personal') || norm.includes('crecimiento') || norm.includes('habito')) return '/img/categorias/desarrollo-personal.jpg';
+    if (norm.includes('ciencia ficcion') || norm.includes('fantasia') || norm.includes('sci-fi') || norm.includes('magia')) return '/img/categorias/ciencia-ficcion-fantasia.jpg';
+    if (norm.includes('psicologia') || norm.includes('mente') || norm.includes('filosofia') || norm.includes('salud mental')) return '/img/categorias/psicologia-mente.jpg';
+    if (norm.includes('terror') || norm.includes('suspenso') || norm.includes('miedo') || norm.includes('horror') || norm.includes('oscuro')) return '/img/categorias/terror-suspenso.jpg';
+    return '/img/categorias/todas.jpg';
+  };
   
   const filteredProducts = products.filter(p => {
     const normSearch = normalizeText(searchQuery);
@@ -239,15 +249,6 @@ export default function ClientHome() {
 
   const getProductQuantity = (productId: string) => {
     return items.filter(i => i.id === productId).reduce((acc, curr) => acc + curr.quantity, 0);
-  };
-
-  const handleReorder = () => {
-    clearCart();
-    lastOrder.forEach(item => {
-      // Recreamos el producto simulando que se agregó
-      addToCart({ id: item.id, name: item.name, price: item.price }, item.quantity, item.notes);
-    });
-    setIsCartOpen(true);
   };
 
   const fixedBanner: any = { id: 'fixed-1', image_url: '/img/Banner/bannertupedido.png', link: null };
@@ -338,59 +339,98 @@ export default function ClientHome() {
       </header>
 
       <main className="mt-2">
-        {/* HERO INFO STORE */}
+        {/* HERO INFO STORE - MODERN WITH AMBIENT VIDEO */}
         {!searchQuery && (
-          <section className="px-4 pt-4 pb-2">
+          <section className="px-4 pt-3 pb-2">
             <motion.div 
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-5 shadow-sm border border-amber-200 flex flex-col relative overflow-hidden"
+              transition={{ duration: 0.6 }}
+              className="relative rounded-3xl overflow-hidden shadow-xl border border-amber-500/20 bg-slate-950 text-white min-h-[260px] md:min-h-[280px] flex flex-col justify-between p-6 sm:p-8"
             >
-              <div className="absolute -top-10 -right-10 w-32 h-32 bg-primary/20 rounded-full blur-2xl"></div>
-              
-              <h2 className="text-lg font-black text-slate-900 mb-4 z-10 font-display flex items-center gap-2">
-                <Star size={18} className="text-primary fill-primary" /> Tu librería ideal
-              </h2>
-              
-              <div className="text-xs text-slate-700 font-medium z-10 flex flex-col gap-2.5">
-                <motion.div initial={{x:-10, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:0.1}} className="flex items-center gap-3">
-                  <span className="text-lg">📚</span> <span>Compra y venta de libros</span>
-                </motion.div>
-                <motion.div initial={{x:-10, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:0.2}} className="flex items-center gap-3">
-                  <span className="text-lg">✨</span> <span>Nuevos / usados / consignación</span>
-                </motion.div>
-                <motion.div initial={{x:-10, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:0.3}} className="flex items-center gap-3">
-                  <span className="text-lg">🏪</span> <span className="font-black uppercase tracking-wider">Mayor y Menor</span>
-                </motion.div>
-                <motion.div initial={{x:-10, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:0.4}} className="flex items-center gap-3">
-                  <span className="text-lg">📦</span> <span>Envíos a todo el país 🇦🇷</span>
-                </motion.div>
-                <motion.div initial={{x:-10, opacity:0}} animate={{x:0, opacity:1}} transition={{delay:0.5}} className="flex items-center gap-3">
-                  <span className="text-lg">📍</span> <span>Tucumán | Showroom</span>
-                </motion.div>
+              {/* Background Ambient Video */}
+              <div className="absolute inset-0 z-0 overflow-hidden">
+                <video 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline 
+                  poster="/img/Banner/bannertupedido.png"
+                  className="w-full h-full object-cover opacity-40 scale-105 filter brightness-75 contrast-125"
+                >
+                  <source src="/video/books-ambient.webm" type="video/webm" />
+                </video>
+                {/* Rich Cinematic Gradients */}
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-slate-950/40" />
+                <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/60 to-transparent" />
+                <div className="absolute top-0 right-0 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+              </div>
+
+              {/* Top Badge & Header */}
+              <div className="relative z-10 flex flex-wrap items-center justify-between gap-2">
+                <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/15 text-xs font-semibold text-amber-300 shadow-sm">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  Showroom Abierto · Tucumán
+                </div>
+                <div className="flex items-center gap-1.5 text-xs text-amber-200/90 font-medium bg-amber-950/40 backdrop-blur-md px-3 py-1 rounded-full border border-amber-500/30">
+                  <Star size={14} className="text-amber-400 fill-amber-400" />
+                  <span>Tu librería ideal</span>
+                </div>
+              </div>
+
+              {/* Main Headline */}
+              <div className="relative z-10 my-4 max-w-xl">
+                <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight leading-tight font-display mb-2 drop-shadow-md">
+                  El universo de tus <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-400">próximas lecturas</span>
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-lg">
+                  Libros nuevos, clásicos, usados y en consignación con asesoramiento personalizado y envíos a todo el país.
+                </p>
+              </div>
+
+              {/* Highlights Chips Grid */}
+              <div className="relative z-10 grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2 border-t border-white/10">
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-2.5 border border-white/10 flex items-center gap-2.5 hover:bg-white/10 transition-colors">
+                  <div className="w-8 h-8 rounded-lg bg-amber-500/20 flex items-center justify-center text-base shrink-0">
+                    📚
+                  </div>
+                  <div className="text-left">
+                    <p className="text-[10px] text-slate-400 font-medium">Catálogo</p>
+                    <p className="text-xs font-bold text-white leading-tight">+500 Títulos</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-2.5 border border-white/10 flex items-center gap-2.5 hover:bg-white/10 transition-colors">
+                  <div className="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center text-base shrink-0">
+                    🏪
+                  </div>
+                  <div className="text-left">
+                    <p className="text-[10px] text-slate-400 font-medium">Modalidad</p>
+                    <p className="text-xs font-bold text-white leading-tight">Mayor y Menor</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-2.5 border border-white/10 flex items-center gap-2.5 hover:bg-white/10 transition-colors">
+                  <div className="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center text-base shrink-0">
+                    📦
+                  </div>
+                  <div className="text-left">
+                    <p className="text-[10px] text-slate-400 font-medium">Despachos</p>
+                    <p className="text-xs font-bold text-white leading-tight">Todo el país 🇦🇷</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-2.5 border border-white/10 flex items-center gap-2.5 hover:bg-white/10 transition-colors">
+                  <div className="w-8 h-8 rounded-lg bg-emerald-500/20 flex items-center justify-center text-base shrink-0">
+                    📍
+                  </div>
+                  <div className="text-left">
+                    <p className="text-[10px] text-slate-400 font-medium">Showroom</p>
+                    <p className="text-xs font-bold text-white leading-tight">Galería Pezza L.42</p>
+                  </div>
+                </div>
               </div>
             </motion.div>
-          </section>
-        )}
-
-        {/* REORDER BUTTON (If last order exists) */}
-        {lastOrder.length > 0 && !searchQuery && (
-          <section className="px-4 py-2 mt-2">
-            <button 
-              onClick={handleReorder}
-              className="w-full bg-gradient-to-r from-amber-100 to-white border border-primary/50 p-4 rounded-2xl flex items-center justify-between shadow-lg"
-            >
-              <div className="flex items-center gap-3 text-left">
-                <div className="bg-primary/20 p-2 rounded-full text-primary">
-                  <RotateCcw size={20} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Pedir lo mismo de nuevo</h3>
-                  <p className="text-xs text-slate-600">Tu último pedido fue increíble.</p>
-                </div>
-              </div>
-              <ChevronRight size={20} className="text-primary" />
-            </button>
           </section>
         )}
 
@@ -434,50 +474,111 @@ export default function ClientHome() {
           </section>
         )}
 
-        {/* 3. CATEGORY SELECTOR (App Style Layout) */}
+        {/* 3. CATEGORY SELECTOR (Circular Story Style) */}
         {!searchQuery && (
-           <section className="pl-4 mb-8">
-              <h2 className="text-lg font-bold text-slate-900 mb-3 pr-4">Categorías</h2>
-              
-              <div className="flex overflow-x-auto hide-scrollbar gap-3 pr-4 pb-2">
-                <button
+          <section className="px-4 mb-8">
+            <div className="flex items-center justify-between mb-3.5">
+              <h2 className="text-lg font-black text-slate-900 tracking-tight">Categorías</h2>
+              {activeCategory !== 'todas' && (
+                <button 
                   onClick={() => setActiveCategory('todas')}
-                  className={`shrink-0 w-24 h-28 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all ${activeCategory === 'todas' ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'bg-surface border border-amber-200 text-slate-700 hover:bg-amber-100'}`}
+                  className="text-xs font-bold text-primary hover:underline"
                 >
-                  <Star size={24} className={activeCategory === 'todas' ? 'text-black' : 'text-primary'} />
-                  <span className="text-xs font-bold">Todas</span>
+                  Ver todas
                 </button>
+              )}
+            </div>
+            
+            <div className="flex overflow-x-auto hide-scrollbar gap-4 pb-2 pt-1 -mx-4 px-4 scroll-smooth">
+              {/* Botón Circular: TODAS */}
+              <button
+                onClick={() => setActiveCategory('todas')}
+                className="group flex flex-col items-center gap-2 shrink-0 cursor-pointer focus:outline-none transition-transform active:scale-95 w-[76px] sm:w-[84px] text-center select-none"
+              >
+                <div 
+                  className={`w-[72px] h-[72px] sm:w-[80px] sm:h-[80px] rounded-full p-[3px] transition-all duration-300 relative ${
+                    activeCategory === 'todas'
+                      ? 'bg-gradient-to-tr from-primary via-amber-500 to-yellow-400 shadow-[0_4px_16px_rgba(211,47,47,0.35)] scale-105'
+                      : 'bg-slate-200/90 hover:bg-amber-300 shadow-sm'
+                  }`}
+                >
+                  <div className="w-full h-full rounded-full overflow-hidden bg-slate-100 relative">
+                    <img 
+                      src={getCategoryImageUrl('todas')} 
+                      alt="Todas las categorías" 
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    {activeCategory === 'todas' && (
+                      <span className="absolute inset-0 bg-primary/20 backdrop-blur-[1px]" />
+                    )}
+                  </div>
+                </div>
+                <span 
+                  className={`text-[11px] sm:text-xs leading-tight transition-colors line-clamp-2 max-w-[76px] sm:max-w-[84px] ${
+                    activeCategory === 'todas' 
+                      ? 'font-extrabold text-primary scale-105' 
+                      : 'font-semibold text-slate-700 group-hover:text-slate-900'
+                  }`}
+                >
+                  Todas
+                </span>
+              </button>
 
-                {/* Tarjeta grande y animada para Promociones */}
-                {promosCategory && (
-                  <motion.button
-                    animate={{ scale: [1, 1.02, 1] }}
-                    transition={{ repeat: Infinity, duration: 2 }}
-                    onClick={() => setActiveCategory(promosCategory.id)}
-                    className={`shrink-0 w-48 h-28 rounded-2xl p-4 flex flex-col justify-end relative overflow-hidden transition-all ${activeCategory === promosCategory.id ? 'border-2 border-primary' : 'border border-primary/50'}`}
-                  >
-                    <div className="absolute inset-0 bg-gradient-to-br from-yellow-600/40 to-red-900/40 z-0"></div>
-                    <div className="absolute -right-4 -top-4 opacity-20 text-[80px] z-0">🔥</div>
-                    <div className="relative z-10 text-left">
-                      <span className="text-3xl mb-1 block">{promosCategory.icon}</span>
-                      <span className="text-sm font-black uppercase tracking-wider text-slate-900 drop-shadow-md">Promociones</span>
-                    </div>
-                  </motion.button>
-                )}
+              {/* Botones Circulares para cada Categoría */}
+              {categories.map((cat) => {
+                const isActive = activeCategory === cat.id;
+                const imgUrl = getCategoryImageUrl(cat.name, (cat as any).image_url || (cat.icon && cat.icon.startsWith('/') ? cat.icon : undefined));
+                const isPromo = cat.name.toLowerCase().includes('promo');
 
-                {/* Tarjetas normales para el resto */}
-                {regularCategories.map(cat => (
+                return (
                   <button
                     key={cat.id}
                     onClick={() => setActiveCategory(cat.id)}
-                    className={`shrink-0 w-24 h-28 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all ${activeCategory === cat.id ? 'bg-primary text-black shadow-lg shadow-primary/20' : 'bg-surface border border-amber-200 text-slate-700 hover:bg-amber-100'}`}
+                    className="group flex flex-col items-center gap-2 shrink-0 cursor-pointer focus:outline-none transition-transform active:scale-95 w-[76px] sm:w-[84px] text-center select-none"
                   >
-                    <span className="text-3xl drop-shadow-sm">{cat.icon}</span>
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-center px-1 truncate w-full">{cat.name}</span>
+                    <div 
+                      className={`w-[72px] h-[72px] sm:w-[80px] sm:h-[80px] rounded-full p-[3px] transition-all duration-300 relative ${
+                        isActive
+                          ? 'bg-gradient-to-tr from-primary via-amber-500 to-yellow-400 shadow-[0_4px_16px_rgba(211,47,47,0.35)] scale-105'
+                          : 'bg-slate-200/90 hover:bg-amber-300 shadow-sm'
+                      }`}
+                    >
+                      <div className="w-full h-full rounded-full overflow-hidden bg-slate-100 relative">
+                        <img 
+                          src={imgUrl} 
+                          alt={cat.name} 
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                          onError={(e) => {
+                            (e.currentTarget as HTMLImageElement).src = '/img/categorias/todas.jpg';
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
+                        {isActive && (
+                          <span className="absolute inset-0 bg-primary/20 backdrop-blur-[1px]" />
+                        )}
+                        {isPromo && (
+                          <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[9px] font-black px-1.5 py-0.5 rounded-full shadow-md animate-pulse">
+                            🔥
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                    <span 
+                      className={`text-[11px] sm:text-xs leading-tight transition-colors line-clamp-2 max-w-[76px] sm:max-w-[84px] ${
+                        isActive 
+                          ? 'font-extrabold text-primary scale-105' 
+                          : 'font-semibold text-slate-700 group-hover:text-slate-900'
+                      }`}
+                      title={cat.name}
+                    >
+                      {cat.name}
+                    </span>
                   </button>
-                ))}
-              </div>
-           </section>
+                );
+              })}
+            </div>
+          </section>
         )}
 
         {/* 4. PRODUCT LIST */}
@@ -498,8 +599,16 @@ export default function ClientHome() {
 
             return (
               <div key={category.id} className="mb-10">
-                <h2 className="text-2xl font-black text-slate-900 mb-4 flex items-center gap-2">
-                  <span>{category.icon}</span> {category.name}
+                <h2 className="text-2xl font-black text-slate-900 mb-4 flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-full overflow-hidden shrink-0 border-2 border-primary/30 shadow-sm">
+                    <img 
+                      src={getCategoryImageUrl(category.name, (category as any).image_url)} 
+                      alt={category.name} 
+                      className="w-full h-full object-cover" 
+                      onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/img/categorias/todas.jpg'; }}
+                    />
+                  </div>
+                  <span>{category.name}</span>
                   {isPromo && <span className="bg-primary text-black text-[10px] px-2 py-0.5 rounded-sm font-black uppercase tracking-widest ml-2">Especial</span>}
                 </h2>
                 
@@ -524,7 +633,7 @@ export default function ClientHome() {
                           </div>
                           
                           <div className="flex items-center gap-3 mt-1">
-                            <span className="font-black text-slate-900 text-base tracking-tight">${product.price.toLocaleString('es-AR')}</span>
+                            <span className="font-black text-slate-900 text-base tracking-tight">${(product.price ?? 0).toLocaleString('es-AR')}</span>
                             {qty > 0 && (
                               <span className="bg-primary/20 text-primary font-bold text-[10px] px-2 py-0.5 rounded-md border border-primary/30 uppercase tracking-wider">
                                 {qty} en pedido
@@ -536,9 +645,12 @@ export default function ClientHome() {
                         {/* Image & Add Button Area (Right) */}
                         <div className="w-28 h-28 shrink-0 bg-white rounded-xl relative overflow-hidden shadow-inner border border-amber-200">
                            <img 
-                             src={product.image_url || `https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&q=80`} 
+                             src={product.image_url || '/img/book-placeholder.svg'} 
                              alt={product.name}
-                             className="w-full h-full object-cover opacity-90"
+                             className="w-full h-full object-cover"
+                             onError={(e) => {
+                               (e.currentTarget as HTMLImageElement).src = '/img/book-placeholder.svg';
+                             }}
                            />
                            
                            {/* Small Add Button inside image corner */}

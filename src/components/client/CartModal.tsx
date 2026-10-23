@@ -71,8 +71,6 @@ export default function CartModal({ empresaId, empresaName, empresaPhone, onOrde
       const wpUrl = `https://wa.me/${empresaPhone.replace(/\D/g, '')}?text=${encodeURIComponent(wpMessage)}`;
       window.open(wpUrl, '_blank');
 
-      // Save order to localStorage for the "Reorder" feature
-      localStorage.setItem(`lastOrder_${empresaId}`, JSON.stringify(items));
       // Save order id for Tracking feature
       localStorage.setItem(`activeOrder_${empresaId}`, orderData.id);
       

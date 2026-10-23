@@ -71,7 +71,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
   }, [empresaSlug]);
 
   const filteredProducts = products.filter(p => {
-    const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = (p.name || '').toLowerCase().includes(searchQuery.toLowerCase());
     const matchesCategory = activeCategory === 'todas' || p.category_id === activeCategory;
     return matchesSearch && matchesCategory;
   });
@@ -203,7 +203,7 @@ export default function POSHome({ empresaSlug }: { empresaSlug: string }) {
                     )}
                   </div>
                   <h3 className="font-bold text-slate-800 text-sm leading-tight mb-1 line-clamp-2 flex-1">{product.name}</h3>
-                  <p className="font-black text-slate-800">${product.price.toLocaleString('es-AR')}</p>
+                  <p className="font-black text-slate-800">${(product.price ?? 0).toLocaleString('es-AR')}</p>
                 </div>
               );
             })}

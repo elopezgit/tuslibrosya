@@ -60,9 +60,12 @@ export default function ProductModal({ product, isOpen, onClose, onAddToCart }: 
           >
             <div className="relative h-64 bg-slate-900 shrink-0">
               <img 
-                src={product.image_url || `https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=80`} 
+                src={product.image_url || '/img/book-placeholder.svg'} 
                 alt={product.name}
-                className="w-full h-full object-cover opacity-80"
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = '/img/book-placeholder.svg';
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
               <button 
